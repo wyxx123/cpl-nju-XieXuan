@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int char_printf(int n, char output)
+{
+	for (int i = 0; i < n; i++)
+	{
+		printf("%c", output);
+	}
+}
+
+void function(int* loc, int delta_x, int delta_y)
+{
+
+	if (loc[4] == loc[0] || loc[5] == loc[3])  // xa 0  ya 1  xb 2  yb 3  xc 4  yc 5
+	{
+		char_printf(delta_x, (loc[0] > loc[2]) ? 'L' : 'R');
+		char_printf(delta_y, (loc[1] > loc[3]) ? 'D' : 'U');
+	}
+	else
+	{
+		char_printf(delta_y, (loc[1] > loc[3]) ? 'D' : 'U');
+		char_printf(delta_x, (loc[0] > loc[2]) ? 'L' : 'R');
+	}
+}
+
+int main(void)
+{
+	int location[6] = { 0 };
+
+	for (int i = 0; i < 6; i++)
+	{
+		scanf("%d", location + i);
+	}
+
+	int delta_x = abs(location[0] - location[2]);
+	int delta_y = abs(location[1] - location[3]);
+
+	if ((location[0] == location[2]) && (location[0] == location[4])// xa 0  ya 1  xb 2  yb 3  xc 4  yc 5
+		&& ((location[1] - location[5]) * (location[3] - location[5]) < 0))
+	{
+		printf("%d\n", delta_y + delta_x + 2);
+		printf("R");
+		location[0]++;
+		function(location, delta_x+1, delta_y);
+	}
+	else if ((location[1] == location[3]) && (location[3] == location[5])
+		&& ((location[0] - location[4]) * (location[2] - location[4]) < 0))
+	{
+		printf("%d\n", delta_y + delta_x + 2);
+		printf("U");
+		location[1]++;
+		function(location, delta_x, delta_y+1);
+	}
+	else
+	{
+		printf("%d\n", delta_y + delta_x);
+		function(location, delta_x, delta_y);
+	}
+}
