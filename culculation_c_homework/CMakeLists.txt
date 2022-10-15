@@ -1,0 +1,1 @@
+add_executable(homework_6_20 homework_6_20.c)
