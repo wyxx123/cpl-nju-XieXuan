@@ -1,0 +1,1 @@
+add_executable(cantor_c cantor_c.c)
