@@ -47,5 +47,6 @@ int main() {
 }
 
 bool IsEqual(double x, double y) {
-	return fabs(x - y) <= DBL_EPSILON; //能容忍的最小误差。。。
+
+	return fabs(x - y) <= DBL_EPSILON; //能容忍的最小误差。。。:
 }
