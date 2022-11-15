@@ -38,7 +38,8 @@
 
 bool IsEqual(double x, double y);
 
-int main() {
+int main()
+{
 	printf("%d\n", IsEqual(DBL_MAX, DBL_MAX - 100));
 
 	printf("%.50f\n", DBL_MAX - (DBL_MAX - 100));
@@ -46,6 +47,7 @@ int main() {
 	return 0;
 }
 
-bool IsEqual(double x, double y) {
+bool IsEqual(double x, double y)
+{
 	return fabs(x - y) <= DBL_EPSILON; //能容忍的最小误差。。。:
 }
