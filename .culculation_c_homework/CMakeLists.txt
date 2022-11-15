@@ -1,0 +1,6 @@
+add_executable(homework_6_20 homework_6_20.c)
+add_executable(homework_6_16 homework_6_16.c)
+add_executable(homework_6_other homework_6_other.c)
+add_executable(homework_6_18 homework_6_18.c)
+add_executable(homework_6_19 homework_6_19.c)
+add_executable(homework_7_17 homework_7_17.c)

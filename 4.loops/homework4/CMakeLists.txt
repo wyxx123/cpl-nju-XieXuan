@@ -1,0 +1,7 @@
+add_executable(sudoku sudoku.c)
+add_executable(test_for_homework4 test_for_homework4.c)
+add_executable(mines mines.c)
+add_executable(trace trace.c)
+add_executable(life life.c)
+add_executable(matrix matrix.c)
+add_executable(mine_test mine_test.c)

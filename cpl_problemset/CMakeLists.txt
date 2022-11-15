@@ -1,0 +1,8 @@
+add_executable(cantor_c cantor_c.c)
+add_executable(angry_d angry_d.c)
+add_executable(defense_e defense_e.c)
+add_executable(instructional_nine_baka instructional_nine_baka.c)
+add_executable(bauklotze bauklotze.c)
+add_executable(toy toy.c)
+add_executable(stack stack.c)
+add_executable(test_problemset test_problemset.c)

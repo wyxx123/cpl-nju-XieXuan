@@ -1,0 +1,6 @@
+add_executable(class2 class2.c)
+add_executable(class2_homework class2_homework.c)
+add_executable(get_third_number get_third_number.c)
+add_executable(test_float test_float.c)
+add_executable(secret_two_add secret_two_add.c)
+add_executable(class_2 class_2.c)

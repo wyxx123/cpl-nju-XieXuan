@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.23)
+project(cpl_nju_XieXuan C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_subdirectory(0)
+add_subdirectory(1.intro)
+add_subdirectory(2.if)
+add_subdirectory(3.swich)
+add_subdirectory(.culculation_c_homework)
+add_subdirectory(4.loops)
+add_subdirectory(5.function)
+add_subdirectory(lsa_competition)
+add_subdirectory(cpl_problemset)
+add_subdirectory(6.recursion)
+add_subdirectory(7.data-types)
+add_subdirectory(c_net_selflearning)

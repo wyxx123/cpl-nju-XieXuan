@@ -1,0 +1,8 @@
+add_executable(flip flip.c)
+add_executable(statistic statistic.c)
+add_executable(josephus josephus.c)
+add_executable(decimal decimal.c)
+add_executable(palindrome palindrome.c)
+add_executable(quick_sort quick_sort.c)
+add_executable(test_qsort test_qsort.c)
+add_executable(lhy_last lhy_last.c)

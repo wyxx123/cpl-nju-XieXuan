@@ -1,0 +1,7 @@
+add_executable(class class.c)
+add_executable(2homework 2homework.c)
+add_executable(test_2 test_2.c)
+add_executable(single_noarr single_noarr.c)
+add_executable(factorial2 factorial2.c)
+add_executable(e_gaojy e_gaojy.c)
+add_executable(obstacle_test obstacle_test.c)
