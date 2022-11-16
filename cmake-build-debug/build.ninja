@@ -3194,6 +3194,39 @@ build 7.data-types/homework7/brackets.exe: C_EXECUTABLE_LINKER__brackets_Debug 7
   TARGET_IMPLIB = 7.data-types\homework7\libbrackets.dll.a
   TARGET_PDB = brackets.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pour_help
+
+
+#############################################
+# Order-only phony target for pour_help
+
+build cmake_object_order_depends_target_pour_help: phony || 7.data-types/homework7/CMakeFiles/pour_help.dir
+
+build 7.data-types/homework7/CMakeFiles/pour_help.dir/pour_help.c.obj: C_COMPILER__pour_help_Debug D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/pour_help.c || cmake_object_order_depends_target_pour_help
+  DEP_FILE = 7.data-types\homework7\CMakeFiles\pour_help.dir\pour_help.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = 7.data-types\homework7\CMakeFiles\pour_help.dir
+  OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\pour_help.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pour_help
+
+
+#############################################
+# Link the executable 7.data-types\homework7\pour_help.exe
+
+build 7.data-types/homework7/pour_help.exe: C_EXECUTABLE_LINKER__pour_help_Debug 7.data-types/homework7/CMakeFiles/pour_help.dir/pour_help.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7.data-types\homework7\CMakeFiles\pour_help.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7.data-types\homework7\pour_help.exe
+  TARGET_IMPLIB = 7.data-types\homework7\libpour_help.dll.a
+  TARGET_PDB = pour_help.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3533,6 +3566,10 @@ build pour: phony 7.data-types/homework7/pour.exe
 
 build pour.exe: phony 7.data-types/homework7/pour.exe
 
+build pour_help: phony 7.data-types/homework7/pour_help.exe
+
+build pour_help.exe: phony 7.data-types/homework7/pour_help.exe
+
 build quick_sort: phony 3.swich/homework3/quick_sort.exe
 
 build quick_sort.exe: phony 3.swich/homework3/quick_sort.exe
@@ -3747,7 +3784,7 @@ build 7.data-types/all: phony 7.data-types/7class.exe 7.data-types/homework7/all
 #############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7
 
-build 7.data-types/homework7/all: phony 7.data-types/homework7/wine.exe 7.data-types/homework7/cuboid.exe 7.data-types/homework7/pour.exe 7.data-types/homework7/buddy.exe 7.data-types/homework7/test7.exe 7.data-types/homework7/rotate.exe 7.data-types/homework7/brackets.exe
+build 7.data-types/homework7/all: phony 7.data-types/homework7/wine.exe 7.data-types/homework7/cuboid.exe 7.data-types/homework7/pour.exe 7.data-types/homework7/buddy.exe 7.data-types/homework7/test7.exe 7.data-types/homework7/rotate.exe 7.data-types/homework7/brackets.exe 7.data-types/homework7/pour_help.exe
 
 # =============================================================================
 

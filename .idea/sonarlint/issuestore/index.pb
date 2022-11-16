@@ -139,3 +139,7 @@ Q
 !7.data-types/homework7/brackets.c,8\d\8d929f526b811eb79ef26e217a634f6170ba2473
 N
 7.data-types/homework7/buddy.c,f\0\f0dd13c94586f4362f082bd0bde0570c5b6fdd87
+D
+cpl_problemset/toy.c,0\e\0e8e7208194e296fe91b9db11f90637290a9bfcd
+N
+7.data-types/homework7/test7.c,7\a\7ae745aa5dd7d208fe2e79677b14d4f3ce228106

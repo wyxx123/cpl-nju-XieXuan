@@ -112,6 +112,7 @@ D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7/CMakeFiles/b
 D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7/CMakeFiles/test7.dir
 D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7/CMakeFiles/rotate.dir
 D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7/CMakeFiles/brackets.dir
+D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7/CMakeFiles/pour_help.dir
 D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7/CMakeFiles/edit_cache.dir
 D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/homework7/CMakeFiles/rebuild_cache.dir
 D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/c_net_selflearning/CMakeFiles/edit_cache.dir

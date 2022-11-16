@@ -28,7 +28,7 @@
 229	546	6868327981994789	1.intro/test_float.exe	e55dbddddac1bb49
 1	167	6871832611996341	2.if/CMakeFiles/single_noarr.dir/single_noarr.c.obj	c3d8502d76f4c6de
 3	165	6864902522687990	1.intro/CMakeFiles/secret_two_add.dir/secret_two_add.c.obj	d556b1835d496d96
-0	284	6903127535603768	build.ninja	fe5836b31738e7bb
+0	284	6903158310009199	build.ninja	fe5836b31738e7bb
 2	68	6874650341697354	3.swich/homework3/CMakeFiles/decimal.dir/decimal.c.obj	cf89de378309d596
 195	303	6868332605461473	2.if/class.exe	e05e47176ab4eeb4
 200	536	6897878218348288	0/GetThreeNumber.exe	ba0ffd50454531cd
@@ -156,3 +156,5 @@
 0	180	6900094884253341	cpl_problemset/CMakeFiles/stack.dir/stack.c.obj	396c681ad9634ed3
 181	457	6900094886991584	cpl_problemset/stack.exe	f9e75badddeae867
 200	482	6901440898866984	cpl_problemset/toy.exe	e38a76e38f08a6cf
+0	241	6903163581386834	others/CMakeFiles/other_test.dir/other_test.c.obj	7412c56c81ff3576
+242	562	6903163584562045	others/other_test.exe	21804e45cd3cff27
