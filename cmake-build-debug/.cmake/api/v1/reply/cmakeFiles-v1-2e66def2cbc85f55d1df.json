@@ -151,6 +151,9 @@
 		},
 		{
 			"path" : "c_net_selflearning/CMakeLists.txt"
+		},
+		{
+			"path" : "others/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

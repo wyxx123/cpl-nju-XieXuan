@@ -3246,6 +3246,67 @@ build c_net_selflearning/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build c_net_selflearning/rebuild_cache: phony c_net_selflearning/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target other_test
+
+
+#############################################
+# Order-only phony target for other_test
+
+build cmake_object_order_depends_target_other_test: phony || others/CMakeFiles/other_test.dir
+
+build others/CMakeFiles/other_test.dir/other_test.c.obj: C_COMPILER__other_test_Debug D$:/codes/c/cpl-nju-XieXuan/others/other_test.c || cmake_object_order_depends_target_other_test
+  DEP_FILE = others\CMakeFiles\other_test.dir\other_test.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = others\CMakeFiles\other_test.dir
+  OBJECT_FILE_DIR = others\CMakeFiles\other_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target other_test
+
+
+#############################################
+# Link the executable others\other_test.exe
+
+build others/other_test.exe: C_EXECUTABLE_LINKER__other_test_Debug others/CMakeFiles/other_test.dir/other_test.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = others\CMakeFiles\other_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = others\other_test.exe
+  TARGET_IMPLIB = others\libother_test.dll.a
+  TARGET_PDB = other_test.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build others/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\others && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build others/edit_cache: phony others/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build others/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\others && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build others/rebuild_cache: phony others/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 2homework: phony 2.if/2homework.exe
@@ -3448,6 +3509,10 @@ build obstacle_test: phony 2.if/obstacle_test.exe
 
 build obstacle_test.exe: phony 2.if/obstacle_test.exe
 
+build other_test: phony others/other_test.exe
+
+build other_test.exe: phony others/other_test.exe
+
 build palindrome: phony 3.swich/homework3/palindrome.exe
 
 build palindrome.exe: phony 3.swich/homework3/palindrome.exe
@@ -3584,7 +3649,7 @@ build wine.exe: phony 7.data-types/homework7/wine.exe
 #############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug
 
-build all: phony 0/all 1.intro/all 2.if/all 3.swich/all .culculation_c_homework/all 4.loops/all 5.function/all lsa_competition/all cpl_problemset/all 6.recursion/all 7.data-types/all c_net_selflearning/all
+build all: phony 0/all 1.intro/all 2.if/all 3.swich/all .culculation_c_homework/all 4.loops/all 5.function/all lsa_competition/all cpl_problemset/all 6.recursion/all 7.data-types/all c_net_selflearning/all others/all
 
 # =============================================================================
 
@@ -3706,20 +3771,27 @@ build cpl_problemset/all: phony cpl_problemset/cantor_c.exe cpl_problemset/angry
 build lsa_competition/all: phony lsa_competition/lsa_mistery.exe lsa_competition/test_lsh.exe lsa_competition/v_50.exe lsa_competition/cake.exe lsa_competition/loop_competition.exe lsa_competition/floor.exe lsa_competition/lamp.exe lsa_competition/branch.exe lsa_competition/way.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/others
+
+build others/all: phony others/other_test.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt ../others/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake: phony
+build ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt ../others/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
