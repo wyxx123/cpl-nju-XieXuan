@@ -158,3 +158,5 @@
 200	482	6901440898866984	cpl_problemset/toy.exe	e38a76e38f08a6cf
 0	241	6903163581386834	others/CMakeFiles/other_test.dir/other_test.c.obj	7412c56c81ff3576
 242	562	6903163584562045	others/other_test.exe	21804e45cd3cff27
+0	217	6903730952849919	5.function/CMakeFiles/test5.dir/test5.c.obj	aea19cdda1307750
+218	517	6903730955815840	5.function/test5.exe	16d7a36ef8347a6c

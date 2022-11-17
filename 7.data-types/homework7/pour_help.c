@@ -56,6 +56,8 @@ int Pour(int a, int V, int b)
 	return b;
 }
 
+
+//err
 int Min(int a, int b, int c, int d, int e, int f)
 {
 	int arr[6] = { a, b, c, d, e, f };
