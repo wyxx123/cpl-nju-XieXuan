@@ -20,7 +20,11 @@
 						13,
 						15,
 						17,
-						18
+						18,
+						19,
+						21,
+						22,
+						23
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -42,10 +46,10 @@
 					"source" : "0",
 					"targetIndexes" : 
 					[
-						3,
 						4,
-						53,
-						66
+						5,
+						58,
+						75
 					]
 				},
 				{
@@ -60,12 +64,12 @@
 					"source" : "1.intro",
 					"targetIndexes" : 
 					[
-						15,
 						16,
-						20,
-						28,
-						60,
-						72
+						17,
+						21,
+						30,
+						67,
+						82
 					]
 				},
 				{
@@ -81,12 +85,12 @@
 					"targetIndexes" : 
 					[
 						0,
-						14,
-						24,
+						15,
 						25,
-						49,
-						61,
-						71
+						26,
+						54,
+						68,
+						81
 					]
 				},
 				{
@@ -105,8 +109,8 @@
 					"source" : "3.swich",
 					"targetIndexes" : 
 					[
-						17,
-						67
+						18,
+						76
 					]
 				},
 				{
@@ -121,14 +125,14 @@
 					"source" : "3.swich/homework3",
 					"targetIndexes" : 
 					[
-						22,
-						26,
-						37,
-						39,
-						51,
-						57,
-						63,
-						76
+						23,
+						27,
+						40,
+						42,
+						56,
+						62,
+						71,
+						87
 					]
 				},
 				{
@@ -143,12 +147,12 @@
 					"source" : ".culculation_c_homework",
 					"targetIndexes" : 
 					[
-						29,
-						30,
 						31,
 						32,
 						33,
-						34
+						34,
+						35,
+						36
 					]
 				},
 				{
@@ -167,8 +171,8 @@
 					"source" : "4.loops",
 					"targetIndexes" : 
 					[
-						18,
-						68
+						19,
+						77
 					]
 				},
 				{
@@ -183,13 +187,14 @@
 					"source" : "4.loops/homework4",
 					"targetIndexes" : 
 					[
-						40,
-						44,
-						46,
-						47,
-						64,
+						43,
+						48,
+						50,
+						51,
+						52,
 						73,
-						79
+						83,
+						91
 					]
 				},
 				{
@@ -208,8 +213,8 @@
 					"source" : "5.function",
 					"targetIndexes" : 
 					[
-						19,
-						69
+						20,
+						78
 					]
 				},
 				{
@@ -224,12 +229,12 @@
 					"source" : "5.function/homework5",
 					"targetIndexes" : 
 					[
-						5,
-						8,
-						43,
-						48,
-						58,
-						65
+						6,
+						9,
+						47,
+						53,
+						63,
+						74
 					]
 				},
 				{
@@ -244,15 +249,15 @@
 					"source" : "lsa_competition",
 					"targetIndexes" : 
 					[
-						10,
-						12,
-						27,
-						38,
+						11,
+						13,
+						28,
 						41,
-						42,
-						74,
-						81,
-						82
+						44,
+						45,
+						84,
+						93,
+						94
 					]
 				},
 				{
@@ -267,14 +272,15 @@
 					"source" : "cpl_problemset",
 					"targetIndexes" : 
 					[
-						6,
 						7,
-						13,
-						23,
-						35,
-						62,
-						75,
-						78
+						8,
+						14,
+						24,
+						37,
+						69,
+						70,
+						86,
+						90
 					]
 				},
 				{
@@ -308,12 +314,12 @@
 					"source" : "6.recursion/6homework",
 					"targetIndexes" : 
 					[
-						36,
-						45,
-						52,
-						54,
-						77,
-						80
+						38,
+						49,
+						57,
+						59,
+						88,
+						92
 					]
 				},
 				{
@@ -347,14 +353,14 @@
 					"source" : "7.data-types/homework7",
 					"targetIndexes" : 
 					[
-						9,
-						11,
-						21,
-						55,
-						56,
-						59,
-						70,
-						83
+						10,
+						12,
+						22,
+						60,
+						61,
+						65,
+						79,
+						95
 					]
 				},
 				{
@@ -380,7 +386,121 @@
 					"source" : "others",
 					"targetIndexes" : 
 					[
-						50
+						55
+					]
+				},
+				{
+					"build" : "8.pointer-1",
+					"childIndexes" : 
+					[
+						20
+					],
+					"jsonFile" : "directory-8.pointer-1-Debug-db64b0d245957ce1bbdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "8.pointer-1",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "8.pointer-1/8homework",
+					"jsonFile" : "directory-8.pointer-1.8homework-Debug-0e97f53254b87bb1f47f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "8.pointer-1/8homework",
+					"targetIndexes" : 
+					[
+						39,
+						72,
+						80,
+						89
+					]
+				},
+				{
+					"build" : "mlg_question",
+					"jsonFile" : "directory-mlg_question-Debug-6f621165430f0aa35765.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mlg_question",
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"build" : "cpl_plus_problems",
+					"jsonFile" : "directory-cpl_plus_problems-Debug-efab0a315fee2cf7b424.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpl_plus_problems",
+					"targetIndexes" : 
+					[
+						46,
+						66
+					]
+				},
+				{
+					"build" : "ruangong_competition",
+					"childIndexes" : 
+					[
+						24,
+						25
+					],
+					"jsonFile" : "directory-ruangong_competition-Debug-5db590a1fce7b9148b28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ruangong_competition"
+				},
+				{
+					"build" : "ruangong_competition/duikang",
+					"jsonFile" : "directory-ruangong_competition.duikang-Debug-fb7eee146523cf1c1638.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "ruangong_competition/duikang",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "ruangong_competition/jingsai",
+					"jsonFile" : "directory-ruangong_competition.jingsai-Debug-ae9741cbd5346a83c2f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "ruangong_competition/jingsai",
+					"targetIndexes" : 
+					[
+						85
 					]
 				}
 			],
@@ -408,7 +528,14 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
 					],
 					"name" : "cpl_nju_XieXuan",
 					"targetIndexes" : 
@@ -496,7 +623,19 @@
 						80,
 						81,
 						82,
-						83
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95
 					]
 				}
 			],
@@ -521,6 +660,13 @@
 					"id" : "7class::@63b4b07007f8ef352746",
 					"jsonFile" : "target-7class-Debug-3aadec5cb080626c9281.json",
 					"name" : "7class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "8class::@c6cb8870d6d84715926c",
+					"jsonFile" : "target-8class-Debug-8b57883198d4f77c2f17.json",
+					"name" : "8class",
 					"projectIndex" : 0
 				},
 				{
@@ -699,6 +845,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 24,
+					"id" : "four_zi_competition::@76b5feeb4f8beb58968c",
+					"jsonFile" : "target-four_zi_competition-Debug-5204a158535e7af813bb.json",
+					"name" : "four_zi_competition",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "get_third_number::@7572afd61218cbe2ef05",
 					"jsonFile" : "target-get_third_number-Debug-d90714030fbc05bafbca.json",
@@ -762,6 +915,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 20,
+					"id" : "interpreter::@6d80846a35c1b61a4013",
+					"jsonFile" : "target-interpreter-Debug-e8435e13eec4c91ebc88.json",
+					"name" : "interpreter",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 5,
 					"id" : "josephus::@15d5e59358171e1c2614",
 					"jsonFile" : "target-josephus-Debug-192a86195c60c179123b.json",
@@ -804,6 +964,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 22,
+					"id" : "magic_cubic::@b2213eaf401982e65a1c",
+					"jsonFile" : "target-magic_cubic-Debug-0fb4ca5911bbb2207494.json",
+					"name" : "magic_cubic",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 10,
 					"id" : "magic_square::@82a5e4e09a0b8df6c59d",
 					"jsonFile" : "target-magic_square-Debug-d4bd7a95ab0750690beb.json",
@@ -822,6 +989,13 @@
 					"id" : "max::@2c63abb7c1d5e3ee7a53",
 					"jsonFile" : "target-max-Debug-90a52b60ed2e1f130281.json",
 					"name" : "max",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "mine_no_array::@7c7f0c92f535a3a64cc6",
+					"jsonFile" : "target-mine_no_array-Debug-bac843ac8c163344c792.json",
+					"name" : "mine_no_array",
 					"projectIndex" : 0
 				},
 				{
@@ -916,10 +1090,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 21,
+					"id" : "railroad::@d0bb1621ee7490035f12",
+					"jsonFile" : "target-railroad-Debug-9f719f1c9a0e225dc1f2.json",
+					"name" : "railroad",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 16,
 					"id" : "rotate::@db9332b3163a5b05657c",
 					"jsonFile" : "target-rotate-Debug-be6607e02197251dc223.json",
 					"name" : "rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "sa_er_hao::@b2213eaf401982e65a1c",
+					"jsonFile" : "target-sa_er_hao-Debug-e80634a22b281caa1ccb.json",
+					"name" : "sa_er_hao",
 					"projectIndex" : 0
 				},
 				{
@@ -938,6 +1126,13 @@
 				},
 				{
 					"directoryIndex" : 12,
+					"id" : "split-sort::@6b4384a4db0f2dff08c7",
+					"jsonFile" : "target-split-sort-Debug-783d1d0aeba453e646dd.json",
+					"name" : "split-sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
 					"id" : "stack::@6b4384a4db0f2dff08c7",
 					"jsonFile" : "target-stack-Debug-b7454b87a90c1c520bad.json",
 					"name" : "stack",
@@ -948,6 +1143,13 @@
 					"id" : "statistic::@15d5e59358171e1c2614",
 					"jsonFile" : "target-statistic-Debug-3f5315157361cfde0033.json",
 					"name" : "statistic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "substr::@6d80846a35c1b61a4013",
+					"jsonFile" : "target-substr-Debug-77c11234d0131f36092a.json",
+					"name" : "substr",
 					"projectIndex" : 0
 				},
 				{
@@ -1000,6 +1202,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 20,
+					"id" : "test8::@6d80846a35c1b61a4013",
+					"jsonFile" : "target-test8-Debug-1e40ee56eedf60eef508.json",
+					"name" : "test8",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "test_2::@a60f54cbbfbd15b4f38b",
 					"jsonFile" : "target-test_2-Debug-b4e42cd726c4ec0512ee.json",
@@ -1028,6 +1237,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 25,
+					"id" : "test_none::@5986f9cc19e10f1edf1e",
+					"jsonFile" : "target-test_none-Debug-02da5a6720670fc143b8.json",
+					"name" : "test_none",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 12,
 					"id" : "test_problemset::@6b4384a4db0f2dff08c7",
 					"jsonFile" : "target-test_problemset-Debug-c802505d4bbb816e83c0.json",
@@ -1046,6 +1262,13 @@
 					"id" : "tiles::@2c63abb7c1d5e3ee7a53",
 					"jsonFile" : "target-tiles-Debug-adfe2d9a2d51cf6ccb80.json",
 					"name" : "tiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "title::@6d80846a35c1b61a4013",
+					"jsonFile" : "target-title-Debug-a7e02849428182a4174d.json",
+					"name" : "title",
 					"projectIndex" : 0
 				},
 				{

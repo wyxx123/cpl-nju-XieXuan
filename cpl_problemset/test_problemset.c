@@ -6,9 +6,15 @@
 
 int main(void)
 {
-	char array1[6] = "123";
-	char array2[4] = "123";
-	printf("%d\n", strcmp(array1, "123"));
+	for (int i = 0; i < 100; i++)
+	{
+		printf("%d",i);
+		printf("#");
+	}
 
+//	for (int i = 0; i < 10000; i++)
+//	{
+//		printf("1");
+//	}
 	return 0;
 }

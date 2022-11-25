@@ -1650,6 +1650,39 @@ build 4.loops/homework4/mine_test.exe: C_EXECUTABLE_LINKER__mine_test_Debug 4.lo
   TARGET_IMPLIB = 4.loops\homework4\libmine_test.dll.a
   TARGET_PDB = mine_test.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target mine_no_array
+
+
+#############################################
+# Order-only phony target for mine_no_array
+
+build cmake_object_order_depends_target_mine_no_array: phony || 4.loops/homework4/CMakeFiles/mine_no_array.dir
+
+build 4.loops/homework4/CMakeFiles/mine_no_array.dir/mine_no_array.c.obj: C_COMPILER__mine_no_array_Debug D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/mine_no_array.c || cmake_object_order_depends_target_mine_no_array
+  DEP_FILE = 4.loops\homework4\CMakeFiles\mine_no_array.dir\mine_no_array.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = 4.loops\homework4\CMakeFiles\mine_no_array.dir
+  OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\mine_no_array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mine_no_array
+
+
+#############################################
+# Link the executable 4.loops\homework4\mine_no_array.exe
+
+build 4.loops/homework4/mine_no_array.exe: C_EXECUTABLE_LINKER__mine_no_array_Debug 4.loops/homework4/CMakeFiles/mine_no_array.dir/mine_no_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4.loops\homework4\CMakeFiles\mine_no_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4.loops\homework4\mine_no_array.exe
+  TARGET_IMPLIB = 4.loops\homework4\libmine_no_array.dll.a
+  TARGET_PDB = mine_no_array.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2587,6 +2620,39 @@ build cpl_problemset/test_problemset.exe: C_EXECUTABLE_LINKER__test_problemset_D
   TARGET_IMPLIB = cpl_problemset\libtest_problemset.dll.a
   TARGET_PDB = test_problemset.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target split-sort
+
+
+#############################################
+# Order-only phony target for split-sort
+
+build cmake_object_order_depends_target_split-sort: phony || cpl_problemset/CMakeFiles/split-sort.dir
+
+build cpl_problemset/CMakeFiles/split-sort.dir/split-sort.c.obj: C_COMPILER__split-sort_Debug D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/split-sort.c || cmake_object_order_depends_target_split-sort
+  DEP_FILE = cpl_problemset\CMakeFiles\split-sort.dir\split-sort.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = cpl_problemset\CMakeFiles\split-sort.dir
+  OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\split-sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target split-sort
+
+
+#############################################
+# Link the executable cpl_problemset\split-sort.exe
+
+build cpl_problemset/split-sort.exe: C_EXECUTABLE_LINKER__split-sort_Debug cpl_problemset/CMakeFiles/split-sort.dir/split-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_problemset\CMakeFiles\split-sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_problemset\split-sort.exe
+  TARGET_IMPLIB = cpl_problemset\libsplit-sort.dll.a
+  TARGET_PDB = split-sort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3340,6 +3406,532 @@ build others/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build others/rebuild_cache: phony others/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8class
+
+
+#############################################
+# Order-only phony target for 8class
+
+build cmake_object_order_depends_target_8class: phony || 8.pointer-1/CMakeFiles/8class.dir
+
+build 8.pointer-1/CMakeFiles/8class.dir/8class.c.obj: C_COMPILER__8class_Debug D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8class.c || cmake_object_order_depends_target_8class
+  DEP_FILE = 8.pointer-1\CMakeFiles\8class.dir\8class.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = 8.pointer-1\CMakeFiles\8class.dir
+  OBJECT_FILE_DIR = 8.pointer-1\CMakeFiles\8class.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8class
+
+
+#############################################
+# Link the executable 8.pointer-1\8class.exe
+
+build 8.pointer-1/8class.exe: C_EXECUTABLE_LINKER__8class_Debug 8.pointer-1/CMakeFiles/8class.dir/8class.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 8.pointer-1\CMakeFiles\8class.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8.pointer-1\8class.exe
+  TARGET_IMPLIB = 8.pointer-1\lib8class.dll.a
+  TARGET_PDB = 8class.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 8.pointer-1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\8.pointer-1 && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 8.pointer-1/edit_cache: phony 8.pointer-1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 8.pointer-1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\8.pointer-1 && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 8.pointer-1/rebuild_cache: phony 8.pointer-1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target interpreter
+
+
+#############################################
+# Order-only phony target for interpreter
+
+build cmake_object_order_depends_target_interpreter: phony || 8.pointer-1/8homework/CMakeFiles/interpreter.dir
+
+build 8.pointer-1/8homework/CMakeFiles/interpreter.dir/interpreter.c.obj: C_COMPILER__interpreter_Debug D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/interpreter.c || cmake_object_order_depends_target_interpreter
+  DEP_FILE = 8.pointer-1\8homework\CMakeFiles\interpreter.dir\interpreter.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\interpreter.dir
+  OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\interpreter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target interpreter
+
+
+#############################################
+# Link the executable 8.pointer-1\8homework\interpreter.exe
+
+build 8.pointer-1/8homework/interpreter.exe: C_EXECUTABLE_LINKER__interpreter_Debug 8.pointer-1/8homework/CMakeFiles/interpreter.dir/interpreter.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\interpreter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8.pointer-1\8homework\interpreter.exe
+  TARGET_IMPLIB = 8.pointer-1\8homework\libinterpreter.dll.a
+  TARGET_PDB = interpreter.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test8
+
+
+#############################################
+# Order-only phony target for test8
+
+build cmake_object_order_depends_target_test8: phony || 8.pointer-1/8homework/CMakeFiles/test8.dir
+
+build 8.pointer-1/8homework/CMakeFiles/test8.dir/test8.c.obj: C_COMPILER__test8_Debug D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/test8.c || cmake_object_order_depends_target_test8
+  DEP_FILE = 8.pointer-1\8homework\CMakeFiles\test8.dir\test8.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\test8.dir
+  OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\test8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test8
+
+
+#############################################
+# Link the executable 8.pointer-1\8homework\test8.exe
+
+build 8.pointer-1/8homework/test8.exe: C_EXECUTABLE_LINKER__test8_Debug 8.pointer-1/8homework/CMakeFiles/test8.dir/test8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\test8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8.pointer-1\8homework\test8.exe
+  TARGET_IMPLIB = 8.pointer-1\8homework\libtest8.dll.a
+  TARGET_PDB = test8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target substr
+
+
+#############################################
+# Order-only phony target for substr
+
+build cmake_object_order_depends_target_substr: phony || 8.pointer-1/8homework/CMakeFiles/substr.dir
+
+build 8.pointer-1/8homework/CMakeFiles/substr.dir/substr.c.obj: C_COMPILER__substr_Debug D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/substr.c || cmake_object_order_depends_target_substr
+  DEP_FILE = 8.pointer-1\8homework\CMakeFiles\substr.dir\substr.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\substr.dir
+  OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\substr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target substr
+
+
+#############################################
+# Link the executable 8.pointer-1\8homework\substr.exe
+
+build 8.pointer-1/8homework/substr.exe: C_EXECUTABLE_LINKER__substr_Debug 8.pointer-1/8homework/CMakeFiles/substr.dir/substr.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\substr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8.pointer-1\8homework\substr.exe
+  TARGET_IMPLIB = 8.pointer-1\8homework\libsubstr.dll.a
+  TARGET_PDB = substr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target title
+
+
+#############################################
+# Order-only phony target for title
+
+build cmake_object_order_depends_target_title: phony || 8.pointer-1/8homework/CMakeFiles/title.dir
+
+build 8.pointer-1/8homework/CMakeFiles/title.dir/title.c.obj: C_COMPILER__title_Debug D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/title.c || cmake_object_order_depends_target_title
+  DEP_FILE = 8.pointer-1\8homework\CMakeFiles\title.dir\title.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\title.dir
+  OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\title.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target title
+
+
+#############################################
+# Link the executable 8.pointer-1\8homework\title.exe
+
+build 8.pointer-1/8homework/title.exe: C_EXECUTABLE_LINKER__title_Debug 8.pointer-1/8homework/CMakeFiles/title.dir/title.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\title.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8.pointer-1\8homework\title.exe
+  TARGET_IMPLIB = 8.pointer-1\8homework\libtitle.dll.a
+  TARGET_PDB = title.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 8.pointer-1/8homework/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\8.pointer-1\8homework && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 8.pointer-1/8homework/edit_cache: phony 8.pointer-1/8homework/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 8.pointer-1/8homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\8.pointer-1\8homework && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 8.pointer-1/8homework/rebuild_cache: phony 8.pointer-1/8homework/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target railroad
+
+
+#############################################
+# Order-only phony target for railroad
+
+build cmake_object_order_depends_target_railroad: phony || mlg_question/CMakeFiles/railroad.dir
+
+build mlg_question/CMakeFiles/railroad.dir/railroad.c.obj: C_COMPILER__railroad_Debug D$:/codes/c/cpl-nju-XieXuan/mlg_question/railroad.c || cmake_object_order_depends_target_railroad
+  DEP_FILE = mlg_question\CMakeFiles\railroad.dir\railroad.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = mlg_question\CMakeFiles\railroad.dir
+  OBJECT_FILE_DIR = mlg_question\CMakeFiles\railroad.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target railroad
+
+
+#############################################
+# Link the executable mlg_question\railroad.exe
+
+build mlg_question/railroad.exe: C_EXECUTABLE_LINKER__railroad_Debug mlg_question/CMakeFiles/railroad.dir/railroad.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = mlg_question\CMakeFiles\railroad.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mlg_question\railroad.exe
+  TARGET_IMPLIB = mlg_question\librailroad.dll.a
+  TARGET_PDB = railroad.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build mlg_question/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\mlg_question && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build mlg_question/edit_cache: phony mlg_question/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mlg_question/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\mlg_question && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build mlg_question/rebuild_cache: phony mlg_question/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target magic_cubic
+
+
+#############################################
+# Order-only phony target for magic_cubic
+
+build cmake_object_order_depends_target_magic_cubic: phony || cpl_plus_problems/CMakeFiles/magic_cubic.dir
+
+build cpl_plus_problems/CMakeFiles/magic_cubic.dir/magic_cubic.c.obj: C_COMPILER__magic_cubic_Debug D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/magic_cubic.c || cmake_object_order_depends_target_magic_cubic
+  DEP_FILE = cpl_plus_problems\CMakeFiles\magic_cubic.dir\magic_cubic.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = cpl_plus_problems\CMakeFiles\magic_cubic.dir
+  OBJECT_FILE_DIR = cpl_plus_problems\CMakeFiles\magic_cubic.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target magic_cubic
+
+
+#############################################
+# Link the executable cpl_plus_problems\magic_cubic.exe
+
+build cpl_plus_problems/magic_cubic.exe: C_EXECUTABLE_LINKER__magic_cubic_Debug cpl_plus_problems/CMakeFiles/magic_cubic.dir/magic_cubic.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_plus_problems\CMakeFiles\magic_cubic.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_plus_problems\magic_cubic.exe
+  TARGET_IMPLIB = cpl_plus_problems\libmagic_cubic.dll.a
+  TARGET_PDB = magic_cubic.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sa_er_hao
+
+
+#############################################
+# Order-only phony target for sa_er_hao
+
+build cmake_object_order_depends_target_sa_er_hao: phony || cpl_plus_problems/CMakeFiles/sa_er_hao.dir
+
+build cpl_plus_problems/CMakeFiles/sa_er_hao.dir/sa_er_hao.c.obj: C_COMPILER__sa_er_hao_Debug D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/sa_er_hao.c || cmake_object_order_depends_target_sa_er_hao
+  DEP_FILE = cpl_plus_problems\CMakeFiles\sa_er_hao.dir\sa_er_hao.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = cpl_plus_problems\CMakeFiles\sa_er_hao.dir
+  OBJECT_FILE_DIR = cpl_plus_problems\CMakeFiles\sa_er_hao.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sa_er_hao
+
+
+#############################################
+# Link the executable cpl_plus_problems\sa_er_hao.exe
+
+build cpl_plus_problems/sa_er_hao.exe: C_EXECUTABLE_LINKER__sa_er_hao_Debug cpl_plus_problems/CMakeFiles/sa_er_hao.dir/sa_er_hao.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_plus_problems\CMakeFiles\sa_er_hao.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_plus_problems\sa_er_hao.exe
+  TARGET_IMPLIB = cpl_plus_problems\libsa_er_hao.dll.a
+  TARGET_PDB = sa_er_hao.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build cpl_plus_problems/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\cpl_plus_problems && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build cpl_plus_problems/edit_cache: phony cpl_plus_problems/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build cpl_plus_problems/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\cpl_plus_problems && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build cpl_plus_problems/rebuild_cache: phony cpl_plus_problems/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build ruangong_competition/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\ruangong_competition && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ruangong_competition/edit_cache: phony ruangong_competition/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ruangong_competition/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\ruangong_competition && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ruangong_competition/rebuild_cache: phony ruangong_competition/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target four_zi_competition
+
+
+#############################################
+# Order-only phony target for four_zi_competition
+
+build cmake_object_order_depends_target_four_zi_competition: phony || ruangong_competition/duikang/CMakeFiles/four_zi_competition.dir
+
+build ruangong_competition/duikang/CMakeFiles/four_zi_competition.dir/four_zi_competition.c.obj: C_COMPILER__four_zi_competition_Debug D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/four_zi_competition.c || cmake_object_order_depends_target_four_zi_competition
+  DEP_FILE = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir\four_zi_competition.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir
+  OBJECT_FILE_DIR = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target four_zi_competition
+
+
+#############################################
+# Link the executable ruangong_competition\duikang\four_zi_competition.exe
+
+build ruangong_competition/duikang/four_zi_competition.exe: C_EXECUTABLE_LINKER__four_zi_competition_Debug ruangong_competition/duikang/CMakeFiles/four_zi_competition.dir/four_zi_competition.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ruangong_competition\duikang\four_zi_competition.exe
+  TARGET_IMPLIB = ruangong_competition\duikang\libfour_zi_competition.dll.a
+  TARGET_PDB = four_zi_competition.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ruangong_competition/duikang/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\ruangong_competition\duikang && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ruangong_competition/duikang/edit_cache: phony ruangong_competition/duikang/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ruangong_competition/duikang/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\ruangong_competition\duikang && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ruangong_competition/duikang/rebuild_cache: phony ruangong_competition/duikang/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_none
+
+
+#############################################
+# Order-only phony target for test_none
+
+build cmake_object_order_depends_target_test_none: phony || ruangong_competition/jingsai/CMakeFiles/test_none.dir
+
+build ruangong_competition/jingsai/CMakeFiles/test_none.dir/test_none.c.obj: C_COMPILER__test_none_Debug D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/test_none.c || cmake_object_order_depends_target_test_none
+  DEP_FILE = ruangong_competition\jingsai\CMakeFiles\test_none.dir\test_none.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = ruangong_competition\jingsai\CMakeFiles\test_none.dir
+  OBJECT_FILE_DIR = ruangong_competition\jingsai\CMakeFiles\test_none.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_none
+
+
+#############################################
+# Link the executable ruangong_competition\jingsai\test_none.exe
+
+build ruangong_competition/jingsai/test_none.exe: C_EXECUTABLE_LINKER__test_none_Debug ruangong_competition/jingsai/CMakeFiles/test_none.dir/test_none.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ruangong_competition\jingsai\CMakeFiles\test_none.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ruangong_competition\jingsai\test_none.exe
+  TARGET_IMPLIB = ruangong_competition\jingsai\libtest_none.dll.a
+  TARGET_PDB = test_none.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ruangong_competition/jingsai/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\ruangong_competition\jingsai && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ruangong_competition/jingsai/edit_cache: phony ruangong_competition/jingsai/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ruangong_competition/jingsai/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\ruangong_competition\jingsai && "D:\clion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ruangong_competition/jingsai/rebuild_cache: phony ruangong_competition/jingsai/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 2homework: phony 2.if/2homework.exe
@@ -3353,6 +3945,10 @@ build 6test.exe: phony 6.recursion/6test.exe
 build 7class: phony 7.data-types/7class.exe
 
 build 7class.exe: phony 7.data-types/7class.exe
+
+build 8class: phony 8.pointer-1/8class.exe
+
+build 8class.exe: phony 8.pointer-1/8class.exe
 
 build GetThreeNumber: phony 0/GetThreeNumber.exe
 
@@ -3454,6 +4050,10 @@ build floor: phony lsa_competition/floor.exe
 
 build floor.exe: phony lsa_competition/floor.exe
 
+build four_zi_competition: phony ruangong_competition/duikang/four_zi_competition.exe
+
+build four_zi_competition.exe: phony ruangong_competition/duikang/four_zi_competition.exe
+
 build get_third_number: phony 1.intro/get_third_number.exe
 
 build get_third_number.exe: phony 1.intro/get_third_number.exe
@@ -3490,6 +4090,10 @@ build integration: phony 6.recursion/6homework/integration.exe
 
 build integration.exe: phony 6.recursion/6homework/integration.exe
 
+build interpreter: phony 8.pointer-1/8homework/interpreter.exe
+
+build interpreter.exe: phony 8.pointer-1/8homework/interpreter.exe
+
 build josephus: phony 3.swich/homework3/josephus.exe
 
 build josephus.exe: phony 3.swich/homework3/josephus.exe
@@ -3514,6 +4118,10 @@ build lsa_mistery: phony lsa_competition/lsa_mistery.exe
 
 build lsa_mistery.exe: phony lsa_competition/lsa_mistery.exe
 
+build magic_cubic: phony cpl_plus_problems/magic_cubic.exe
+
+build magic_cubic.exe: phony cpl_plus_problems/magic_cubic.exe
+
 build magic_square: phony 5.function/homework5/magic_square.exe
 
 build magic_square.exe: phony 5.function/homework5/magic_square.exe
@@ -3525,6 +4133,10 @@ build matrix.exe: phony 4.loops/homework4/matrix.exe
 build max: phony 6.recursion/6homework/max.exe
 
 build max.exe: phony 6.recursion/6homework/max.exe
+
+build mine_no_array: phony 4.loops/homework4/mine_no_array.exe
+
+build mine_no_array.exe: phony 4.loops/homework4/mine_no_array.exe
 
 build mine_test: phony 4.loops/homework4/mine_test.exe
 
@@ -3578,9 +4190,17 @@ build radix: phony 5.function/homework5/radix.exe
 
 build radix.exe: phony 5.function/homework5/radix.exe
 
+build railroad: phony mlg_question/railroad.exe
+
+build railroad.exe: phony mlg_question/railroad.exe
+
 build rotate: phony 7.data-types/homework7/rotate.exe
 
 build rotate.exe: phony 7.data-types/homework7/rotate.exe
+
+build sa_er_hao: phony cpl_plus_problems/sa_er_hao.exe
+
+build sa_er_hao.exe: phony cpl_plus_problems/sa_er_hao.exe
 
 build secret_two_add: phony 1.intro/secret_two_add.exe
 
@@ -3590,6 +4210,10 @@ build single_noarr: phony 2.if/single_noarr.exe
 
 build single_noarr.exe: phony 2.if/single_noarr.exe
 
+build split-sort: phony cpl_problemset/split-sort.exe
+
+build split-sort.exe: phony cpl_problemset/split-sort.exe
+
 build stack: phony cpl_problemset/stack.exe
 
 build stack.exe: phony cpl_problemset/stack.exe
@@ -3597,6 +4221,10 @@ build stack.exe: phony cpl_problemset/stack.exe
 build statistic: phony 3.swich/homework3/statistic.exe
 
 build statistic.exe: phony 3.swich/homework3/statistic.exe
+
+build substr: phony 8.pointer-1/8homework/substr.exe
+
+build substr.exe: phony 8.pointer-1/8homework/substr.exe
 
 build sudoku: phony 4.loops/homework4/sudoku.exe
 
@@ -3626,6 +4254,10 @@ build test7: phony 7.data-types/homework7/test7.exe
 
 build test7.exe: phony 7.data-types/homework7/test7.exe
 
+build test8: phony 8.pointer-1/8homework/test8.exe
+
+build test8.exe: phony 8.pointer-1/8homework/test8.exe
+
 build test_2: phony 2.if/test_2.exe
 
 build test_2.exe: phony 2.if/test_2.exe
@@ -3642,6 +4274,10 @@ build test_lsh: phony lsa_competition/test_lsh.exe
 
 build test_lsh.exe: phony lsa_competition/test_lsh.exe
 
+build test_none: phony ruangong_competition/jingsai/test_none.exe
+
+build test_none.exe: phony ruangong_competition/jingsai/test_none.exe
+
 build test_problemset: phony cpl_problemset/test_problemset.exe
 
 build test_problemset.exe: phony cpl_problemset/test_problemset.exe
@@ -3653,6 +4289,10 @@ build test_qsort.exe: phony 3.swich/homework3/test_qsort.exe
 build tiles: phony 6.recursion/6homework/tiles.exe
 
 build tiles.exe: phony 6.recursion/6homework/tiles.exe
+
+build title: phony 8.pointer-1/8homework/title.exe
+
+build title.exe: phony 8.pointer-1/8homework/title.exe
 
 build toy: phony cpl_problemset/toy.exe
 
@@ -3686,7 +4326,7 @@ build wine.exe: phony 7.data-types/homework7/wine.exe
 #############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug
 
-build all: phony 0/all 1.intro/all 2.if/all 3.swich/all .culculation_c_homework/all 4.loops/all 5.function/all lsa_competition/all cpl_problemset/all 6.recursion/all 7.data-types/all c_net_selflearning/all others/all
+build all: phony 0/all 1.intro/all 2.if/all 3.swich/all .culculation_c_homework/all 4.loops/all 5.function/all lsa_competition/all cpl_problemset/all 6.recursion/all 7.data-types/all c_net_selflearning/all others/all 8.pointer-1/all mlg_question/all cpl_plus_problems/all ruangong_competition/all
 
 # =============================================================================
 
@@ -3742,7 +4382,7 @@ build 4.loops/all: phony 4.loops/class4.exe 4.loops/test4.exe 4.loops/homework4/
 #############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/4.loops/homework4
 
-build 4.loops/homework4/all: phony 4.loops/homework4/sudoku.exe 4.loops/homework4/test_for_homework4.exe 4.loops/homework4/mines.exe 4.loops/homework4/trace.exe 4.loops/homework4/life.exe 4.loops/homework4/matrix.exe 4.loops/homework4/mine_test.exe
+build 4.loops/homework4/all: phony 4.loops/homework4/sudoku.exe 4.loops/homework4/test_for_homework4.exe 4.loops/homework4/mines.exe 4.loops/homework4/trace.exe 4.loops/homework4/life.exe 4.loops/homework4/matrix.exe 4.loops/homework4/mine_test.exe 4.loops/homework4/mine_no_array.exe
 
 # =============================================================================
 
@@ -3789,6 +4429,20 @@ build 7.data-types/homework7/all: phony 7.data-types/homework7/wine.exe 7.data-t
 # =============================================================================
 
 #############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/8.pointer-1
+
+build 8.pointer-1/all: phony 8.pointer-1/8class.exe 8.pointer-1/8homework/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/8.pointer-1/8homework
+
+build 8.pointer-1/8homework/all: phony 8.pointer-1/8homework/interpreter.exe 8.pointer-1/8homework/test8.exe 8.pointer-1/8homework/substr.exe 8.pointer-1/8homework/title.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/c_net_selflearning
 
 build c_net_selflearning/all: phony
@@ -3796,9 +4450,16 @@ build c_net_selflearning/all: phony
 # =============================================================================
 
 #############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/cpl_plus_problems
+
+build cpl_plus_problems/all: phony cpl_plus_problems/magic_cubic.exe cpl_plus_problems/sa_er_hao.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/cpl_problemset
 
-build cpl_problemset/all: phony cpl_problemset/cantor_c.exe cpl_problemset/angry_d.exe cpl_problemset/defense_e.exe cpl_problemset/instructional_nine_baka.exe cpl_problemset/bauklotze.exe cpl_problemset/toy.exe cpl_problemset/stack.exe cpl_problemset/test_problemset.exe
+build cpl_problemset/all: phony cpl_problemset/cantor_c.exe cpl_problemset/angry_d.exe cpl_problemset/defense_e.exe cpl_problemset/instructional_nine_baka.exe cpl_problemset/bauklotze.exe cpl_problemset/toy.exe cpl_problemset/stack.exe cpl_problemset/test_problemset.exe cpl_problemset/split-sort.exe
 
 # =============================================================================
 
@@ -3810,9 +4471,37 @@ build lsa_competition/all: phony lsa_competition/lsa_mistery.exe lsa_competition
 # =============================================================================
 
 #############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/mlg_question
+
+build mlg_question/all: phony mlg_question/railroad.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/others
 
 build others/all: phony others/other_test.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/ruangong_competition
+
+build ruangong_competition/all: phony ruangong_competition/duikang/all ruangong_competition/jingsai/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/ruangong_competition/duikang
+
+build ruangong_competition/duikang/all: phony ruangong_competition/duikang/four_zi_competition.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/ruangong_competition/jingsai
+
+build ruangong_competition/jingsai/all: phony ruangong_competition/jingsai/test_none.exe
 
 # =============================================================================
 # Built-in targets
@@ -3821,14 +4510,14 @@ build others/all: phony others/other_test.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt ../others/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../8.pointer-1/8homework/CMakeLists.txt ../8.pointer-1/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_plus_problems/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt ../mlg_question/CMakeLists.txt ../others/CMakeLists.txt ../ruangong_competition/CMakeLists.txt ../ruangong_competition/duikang/CMakeLists.txt ../ruangong_competition/jingsai/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt ../others/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake: phony
+build ../.culculation_c_homework/CMakeLists.txt ../0/CMakeLists.txt ../1.intro/CMakeLists.txt ../2.if/CMakeLists.txt ../3.swich/CMakeLists.txt ../3.swich/homework3/CMakeLists.txt ../4.loops/CMakeLists.txt ../4.loops/homework4/CMakeLists.txt ../5.function/CMakeLists.txt ../5.function/homework5/CMakeLists.txt ../6.recursion/6homework/CMakeLists.txt ../6.recursion/CMakeLists.txt ../7.data-types/CMakeLists.txt ../7.data-types/homework7/CMakeLists.txt ../8.pointer-1/8homework/CMakeLists.txt ../8.pointer-1/CMakeLists.txt ../CMakeLists.txt ../c_net_selflearning/CMakeLists.txt ../cpl_plus_problems/CMakeLists.txt ../cpl_problemset/CMakeLists.txt ../lsa_competition/CMakeLists.txt ../mlg_question/CMakeLists.txt ../others/CMakeLists.txt ../ruangong_competition/CMakeLists.txt ../ruangong_competition/duikang/CMakeLists.txt ../ruangong_competition/jingsai/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/clion/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

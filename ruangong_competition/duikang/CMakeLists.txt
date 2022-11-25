@@ -1,0 +1,1 @@
+add_executable(four_zi_competition four_zi_competition.c)
