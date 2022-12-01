@@ -24,7 +24,9 @@
 						19,
 						21,
 						22,
-						23
+						23,
+						26,
+						28
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -46,10 +48,10 @@
 					"source" : "0",
 					"targetIndexes" : 
 					[
-						4,
 						5,
-						58,
-						75
+						6,
+						62,
+						81
 					]
 				},
 				{
@@ -64,12 +66,12 @@
 					"source" : "1.intro",
 					"targetIndexes" : 
 					[
-						16,
-						17,
-						21,
-						30,
-						67,
-						82
+						18,
+						19,
+						24,
+						33,
+						72,
+						89
 					]
 				},
 				{
@@ -85,12 +87,12 @@
 					"targetIndexes" : 
 					[
 						0,
-						15,
-						25,
-						26,
-						54,
-						68,
-						81
+						17,
+						28,
+						29,
+						57,
+						73,
+						87
 					]
 				},
 				{
@@ -109,8 +111,8 @@
 					"source" : "3.swich",
 					"targetIndexes" : 
 					[
-						18,
-						76
+						20,
+						82
 					]
 				},
 				{
@@ -125,14 +127,14 @@
 					"source" : "3.swich/homework3",
 					"targetIndexes" : 
 					[
-						23,
-						27,
-						40,
-						42,
-						56,
-						62,
-						71,
-						87
+						26,
+						30,
+						43,
+						45,
+						59,
+						67,
+						76,
+						94
 					]
 				},
 				{
@@ -147,12 +149,12 @@
 					"source" : ".culculation_c_homework",
 					"targetIndexes" : 
 					[
-						31,
-						32,
-						33,
 						34,
 						35,
-						36
+						36,
+						37,
+						38,
+						39
 					]
 				},
 				{
@@ -171,8 +173,8 @@
 					"source" : "4.loops",
 					"targetIndexes" : 
 					[
-						19,
-						77
+						21,
+						83
 					]
 				},
 				{
@@ -187,14 +189,14 @@
 					"source" : "4.loops/homework4",
 					"targetIndexes" : 
 					[
-						43,
-						48,
-						50,
+						46,
 						51,
-						52,
-						73,
-						83,
-						91
+						53,
+						54,
+						55,
+						79,
+						90,
+						99
 					]
 				},
 				{
@@ -213,8 +215,8 @@
 					"source" : "5.function",
 					"targetIndexes" : 
 					[
-						20,
-						78
+						22,
+						84
 					]
 				},
 				{
@@ -229,12 +231,12 @@
 					"source" : "5.function/homework5",
 					"targetIndexes" : 
 					[
-						6,
-						9,
-						47,
-						53,
-						63,
-						74
+						7,
+						10,
+						50,
+						56,
+						68,
+						80
 					]
 				},
 				{
@@ -249,15 +251,15 @@
 					"source" : "lsa_competition",
 					"targetIndexes" : 
 					[
-						11,
-						13,
-						28,
-						41,
+						12,
+						14,
+						31,
 						44,
-						45,
-						84,
-						93,
-						94
+						47,
+						48,
+						91,
+						101,
+						102
 					]
 				},
 				{
@@ -272,15 +274,15 @@
 					"source" : "cpl_problemset",
 					"targetIndexes" : 
 					[
-						7,
 						8,
-						14,
-						24,
-						37,
-						69,
-						70,
-						86,
-						90
+						9,
+						16,
+						27,
+						40,
+						74,
+						75,
+						93,
+						98
 					]
 				},
 				{
@@ -314,12 +316,12 @@
 					"source" : "6.recursion/6homework",
 					"targetIndexes" : 
 					[
-						38,
-						49,
-						57,
-						59,
-						88,
-						92
+						41,
+						52,
+						61,
+						63,
+						95,
+						100
 					]
 				},
 				{
@@ -353,14 +355,14 @@
 					"source" : "7.data-types/homework7",
 					"targetIndexes" : 
 					[
-						10,
-						12,
-						22,
-						60,
-						61,
+						11,
+						13,
+						25,
+						64,
 						65,
-						79,
-						95
+						70,
+						85,
+						103
 					]
 				},
 				{
@@ -386,7 +388,7 @@
 					"source" : "others",
 					"targetIndexes" : 
 					[
-						55
+						58
 					]
 				},
 				{
@@ -420,10 +422,10 @@
 					"source" : "8.pointer-1/8homework",
 					"targetIndexes" : 
 					[
-						39,
-						72,
-						80,
-						89
+						42,
+						78,
+						86,
+						96
 					]
 				},
 				{
@@ -438,7 +440,7 @@
 					"source" : "mlg_question",
 					"targetIndexes" : 
 					[
-						64
+						69
 					]
 				},
 				{
@@ -453,8 +455,8 @@
 					"source" : "cpl_plus_problems",
 					"targetIndexes" : 
 					[
-						46,
-						66
+						49,
+						71
 					]
 				},
 				{
@@ -485,7 +487,7 @@
 					"source" : "ruangong_competition/duikang",
 					"targetIndexes" : 
 					[
-						29
+						32
 					]
 				},
 				{
@@ -500,7 +502,79 @@
 					"source" : "ruangong_competition/jingsai",
 					"targetIndexes" : 
 					[
-						85
+						92
+					]
+				},
+				{
+					"build" : "9-more-pointers",
+					"childIndexes" : 
+					[
+						27
+					],
+					"jsonFile" : "directory-9-more-pointers-Debug-3afecb4654e0293f4a94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "9-more-pointers",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "9-more-pointers/9homework",
+					"jsonFile" : "directory-9-more-pointers.9homework-Debug-74b6ecaa44338d7e9efb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 26,
+					"projectIndex" : 0,
+					"source" : "9-more-pointers/9homework",
+					"targetIndexes" : 
+					[
+						4,
+						60,
+						77,
+						97
+					]
+				},
+				{
+					"build" : "cpl_midterms",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-cpl_midterms-Debug-9bf6095cc3a71f514a2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpl_midterms",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "cpl_midterms/calculator",
+					"jsonFile" : "directory-cpl_midterms.calculator-Debug-73059ee99f85f241f6dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 0,
+					"source" : "cpl_midterms/calculator",
+					"targetIndexes" : 
+					[
+						15,
+						88
 					]
 				}
 			],
@@ -535,7 +609,11 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26,
+						27,
+						28,
+						29
 					],
 					"name" : "cpl_nju_XieXuan",
 					"targetIndexes" : 
@@ -635,7 +713,15 @@
 						92,
 						93,
 						94,
-						95
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103
 					]
 				}
 			],
@@ -667,6 +753,13 @@
 					"id" : "8class::@c6cb8870d6d84715926c",
 					"jsonFile" : "target-8class-Debug-8b57883198d4f77c2f17.json",
 					"name" : "8class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "9test::@f6f3459687f0f1f03cc9",
+					"jsonFile" : "target-9test-Debug-4539bfe6be21576bd6bd.json",
+					"name" : "9test",
 					"projectIndex" : 0
 				},
 				{
@@ -740,6 +833,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 29,
+					"id" : "calculator::@8c1faf69cdb1ef04f584",
+					"jsonFile" : "target-calculator-Debug-97eeea9728913344cb14.json",
+					"name" : "calculator",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 12,
 					"id" : "cantor_c::@6b4384a4db0f2dff08c7",
 					"jsonFile" : "target-cantor_c-Debug-c46b9a6102e8a550c216.json",
@@ -786,6 +886,13 @@
 					"id" : "class5::@79afbca727760b01c327",
 					"jsonFile" : "target-class5-Debug-3aa76432b7eac5b1ff16.json",
 					"name" : "class5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "class9::@42f8ebc6c8c2ffd5bd3c",
+					"jsonFile" : "target-class9-Debug-3ec3cf8f9b47ec49d36b.json",
+					"name" : "class9",
 					"projectIndex" : 0
 				},
 				{
@@ -1041,6 +1148,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 27,
+					"id" : "parse::@f6f3459687f0f1f03cc9",
+					"jsonFile" : "target-parse-Debug-45104cad9359f6d80d58.json",
+					"name" : "parse",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 14,
 					"id" : "pascal::@2c63abb7c1d5e3ee7a53",
 					"jsonFile" : "target-pascal-Debug-0dceda9dd7fbadbaef6a.json",
@@ -1073,6 +1187,13 @@
 					"id" : "pour_help::@db9332b3163a5b05657c",
 					"jsonFile" : "target-pour_help-Debug-2ea9b30470807ad01c8d.json",
 					"name" : "pour_help",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "pre_testing::@bb5009295c5ff56a84c9",
+					"jsonFile" : "target-pre_testing-Debug-b22c446fdf9090074ba7.json",
+					"name" : "pre_testing",
 					"projectIndex" : 0
 				},
 				{
@@ -1146,6 +1267,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 27,
+					"id" : "stringcat::@f6f3459687f0f1f03cc9",
+					"jsonFile" : "target-stringcat-Debug-e22e2eeae3529db18cc0.json",
+					"name" : "stringcat",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 20,
 					"id" : "substr::@6d80846a35c1b61a4013",
 					"jsonFile" : "target-substr-Debug-77c11234d0131f36092a.json",
@@ -1216,6 +1344,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 29,
+					"id" : "test_calculator::@8c1faf69cdb1ef04f584",
+					"jsonFile" : "target-test_calculator-Debug-e465f083d3b49718bbe9.json",
+					"name" : "test_calculator",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "test_float::@7572afd61218cbe2ef05",
 					"jsonFile" : "target-test_float-Debug-c77b79db3eb2d97e4c06.json",
@@ -1269,6 +1404,13 @@
 					"id" : "title::@6d80846a35c1b61a4013",
 					"jsonFile" : "target-title-Debug-a7e02849428182a4174d.json",
 					"name" : "title",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "tokenizer::@f6f3459687f0f1f03cc9",
+					"jsonFile" : "target-tokenizer-Debug-bc3a94612c3e865c56e9.json",
+					"name" : "tokenizer",
 					"projectIndex" : 0
 				},
 				{

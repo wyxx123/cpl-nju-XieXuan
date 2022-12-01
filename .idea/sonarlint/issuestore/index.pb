@@ -147,9 +147,33 @@ N
 8.pointer-1/8homework/substr.c,9\1\9154e338cbb605eb75c6fa9a9eafd02a47f2d722
 M
 8.pointer-1/8homework/test8.c,0\6\06fb103850be27f57c2cef1b238908a73760bd56
-C
-others/other_test.c,7\9\79a4827aa78116de08fff168ea827181af81a1d7
 O
 cpl_plus_problems/magic_cubic.c,f\b\fb1fe5afd786eeeb6184c01f28127407644aaec7
 M
 cpl_plus_problems/sa_er_hao.c,7\e\7ec3c2db88ea9587662870d0927aeb93859104c6
+G
+mlg_question/railroad.c,7\7\7735879131a46cbd9c8139872bed222e52eb03f3
+M
+7.data-types/homework7/pour.c,1\5\15b20f26a7ae17e5a3c55a60db210f3630eafe07
+N
+7.data-types/homework7/test7.c,7\a\7ae745aa5dd7d208fe2e79677b14d4f3ce228106
+O
+7.data-types/homework7/rotate.c,4\1\4137e8cd13cf45d93ca4e74b6bbdaec71e1b1ecc
+O
+7.data-types/homework7/cuboid.c,b\2\b266fc046c690cae69f6bc8474d5e7188d4a09cb
+N
+7.data-types/homework7/buddy.c,f\0\f0dd13c94586f4362f082bd0bde0570c5b6fdd87
+b
+2ruangong_competition/duikang/four_zi_competition.c,d\3\d39c0553dfe0aca5c0c37a5aae164066b404d65a
+K
+cpl_problemset/split-sort.c,4\c\4ca1ab89ff0e987d5397bc051124475d006c39fa
+Q
+!4.loops/homework4/mine_no_array.c,4\0\40b401ca7b92b2bea916d3ea1126d0b7c162748d
+M
+8.pointer-1/8homework/title.c,8\b\8bfe80caaedc98ccf88c1d05504777cab8906b2c
+P
+ cpl_problemset/test_problemset.c,f\f\ff8044741267a662e018829b9c7166dcf3b787d1
+H
+9-more-pointers/class9.c,2\a\2a9450af5f92603eeec306edbe282fccaf3c4db3
+C
+others/other_test.c,7\9\79a4827aa78116de08fff168ea827181af81a1d7

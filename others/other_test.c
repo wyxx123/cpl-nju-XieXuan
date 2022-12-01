@@ -13,13 +13,20 @@
 //}
 
 
-
 #include <stdio.h>
 
 int main(void)
 {
+	char ch1 = 0;
+	char ch2 = 0;
+	printf("char1\n");
+	ch1 = getchar();
+	getchar();
 
-	scanf("%*d\n");
+	printf("ch2\n");
+	ch2 = getchar();
+
+	printf("ch1 = %c\nch2 = %c", ch1, ch2);
 
 	return 0;
 }

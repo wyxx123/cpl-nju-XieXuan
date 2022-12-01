@@ -175,6 +175,18 @@
 		},
 		{
 			"path" : "ruangong_competition/jingsai/CMakeLists.txt"
+		},
+		{
+			"path" : "9-more-pointers/CMakeLists.txt"
+		},
+		{
+			"path" : "9-more-pointers/9homework/CMakeLists.txt"
+		},
+		{
+			"path" : "cpl_midterms/CMakeLists.txt"
+		},
+		{
+			"path" : "cpl_midterms/calculator/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
