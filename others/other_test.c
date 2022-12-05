@@ -4,7 +4,6 @@
 //
 // Created by ⑨ on 9999/99/99.
 //
-#include <stdio.h>
 //
 //int main(⑨)
 //{
@@ -12,25 +11,36 @@
 //	return 一只最强的9;
 //}
 
-
+#include <SDL2/SDL.h>
 #include <stdio.h>
 
-int main(void)
+int SDL_main(int argc, char** argv)
 {
-	char ch1 = 0;
-	char ch2 = 0;
-	printf("char1\n");
-	ch1 = getchar();
-	getchar();
+	if (SDL_Init(SDL_INIT_VIDEO))
+		return -1;
 
-	printf("ch2\n");
-	ch2 = getchar();
+	SDL_Window* window = SDL_CreateWindow("testing", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+		400, 300, SDL_WINDOW_SHOWN);
 
-	printf("ch1 = %c\nch2 = %c", ch1, ch2);
+	if (window != NULL)
+	{
+		SDL_ShowWindow(window);
+	}
 
-	return 0;
+	SDL_Delay(3000);
+
+	SDL_DestroyWindow(window);
+
+	SDL_Quit();
 }
 
+//int SDL_main(int argc, char** argv) {
+//	if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
+//		return -1;
+//	}
+//
+//	return 0;
+//}
 
 
 

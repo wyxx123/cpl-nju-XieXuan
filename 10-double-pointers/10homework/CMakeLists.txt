@@ -1,0 +1,1 @@
+add_executable(10homework_test 10homework_test.c)

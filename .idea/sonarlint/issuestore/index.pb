@@ -175,5 +175,3 @@ P
  cpl_problemset/test_problemset.c,f\f\ff8044741267a662e018829b9c7166dcf3b787d1
 H
 9-more-pointers/class9.c,2\a\2a9450af5f92603eeec306edbe282fccaf3c4db3
-C
-others/other_test.c,7\9\79a4827aa78116de08fff168ea827181af81a1d7

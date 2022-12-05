@@ -187,6 +187,12 @@
 		},
 		{
 			"path" : "cpl_midterms/calculator/CMakeLists.txt"
+		},
+		{
+			"path" : "10-double-pointers/CMakeLists.txt"
+		},
+		{
+			"path" : "10-double-pointers/10homework/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
