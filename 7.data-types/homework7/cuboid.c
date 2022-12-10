@@ -70,6 +70,7 @@ int main(void)
 	return 0;
 }
 
+//6 2 4
 void set_board(int length, int width, int height)
 {
 	for (int i = 0; i < 2 * width + 1; i += 2)

@@ -11,36 +11,31 @@
 //	return 一只最强的9;
 //}
 
-#include <SDL2/SDL.h>
+
+
+
 #include <stdio.h>
+#include <stdlib.h>
 
-int SDL_main(int argc, char** argv)
+#define ROW 10
+#define COL 10
+
+int main(void)
 {
-	if (SDL_Init(SDL_INIT_VIDEO))
-		return -1;
+	int* array1 = malloc(ROW * COL * sizeof(*array1));
+	int(* array2)[COL] = malloc(ROW * COL * sizeof(**array2));
+	int(* array3)[COL] = malloc(ROW * sizeof(*array3));
 
-	SDL_Window* window = SDL_CreateWindow("testing", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-		400, 300, SDL_WINDOW_SHOWN);
+	array3[10][10] = 0;
+	printf("%d\n", array3[10][10]);
 
-	if (window != NULL)
-	{
-		SDL_ShowWindow(window);
-	}
-
-	SDL_Delay(3000);
-
-	SDL_DestroyWindow(window);
-
-	SDL_Quit();
+	free(array1);
+	free(array2);
+	free(array3);
+	return 0;
 }
 
-//int SDL_main(int argc, char** argv) {
-//	if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
-//		return -1;
-//	}
-//
-//	return 0;
-//}
+
 
 
 

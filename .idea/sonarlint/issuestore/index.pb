@@ -51,8 +51,6 @@ D
 4.loops/test4.c,5\e\5e7d7dc09ff987a08c66a9f9ed9b9ed1022ac861
 L
 5.function/homework5/radix.c,3\6\365ef4db55bbdef13f63c383f823d96572da0be3
-@
-2.if/2homework.c,c\6\c618e14e4a5d179b81c3e813179aeba4bafddd84
 S
 #5.function/homework5/magic_square.c,f\e\fe6f3551b6b5faffe6eceb8755b1e34e77ac7260
 W
@@ -135,12 +133,8 @@ R
 "7.data-types/homework7/pour_help.c,2\9\29e2bbf44ac5cfecabf6e1777e4ab36ccd27c30b
 B
 5.function/test5.c,c\e\ced8199eec1894efd702e7c400cf204ef3d7d9b9
-I
-1.intro/class2_homework.c,6\4\649c169dcea1a314ab6247f4abfc595ff0acdb32
 S
 #8.pointer-1/8homework/interpreter.c,e\b\ebf93ef1cab169873bd55e24f6af35896e4ca3c7
-Q
-!7.data-types/homework7/brackets.c,8\d\8d929f526b811eb79ef26e217a634f6170ba2473
 M
 7.data-types/homework7/wine.c,b\a\baf8197133092f57955f3932b2d5107fc2f49c0e
 N
@@ -151,20 +145,12 @@ O
 cpl_plus_problems/magic_cubic.c,f\b\fb1fe5afd786eeeb6184c01f28127407644aaec7
 M
 cpl_plus_problems/sa_er_hao.c,7\e\7ec3c2db88ea9587662870d0927aeb93859104c6
-G
-mlg_question/railroad.c,7\7\7735879131a46cbd9c8139872bed222e52eb03f3
 M
 7.data-types/homework7/pour.c,1\5\15b20f26a7ae17e5a3c55a60db210f3630eafe07
 N
 7.data-types/homework7/test7.c,7\a\7ae745aa5dd7d208fe2e79677b14d4f3ce228106
 O
 7.data-types/homework7/rotate.c,4\1\4137e8cd13cf45d93ca4e74b6bbdaec71e1b1ecc
-O
-7.data-types/homework7/cuboid.c,b\2\b266fc046c690cae69f6bc8474d5e7188d4a09cb
-N
-7.data-types/homework7/buddy.c,f\0\f0dd13c94586f4362f082bd0bde0570c5b6fdd87
-b
-2ruangong_competition/duikang/four_zi_competition.c,d\3\d39c0553dfe0aca5c0c37a5aae164066b404d65a
 K
 cpl_problemset/split-sort.c,4\c\4ca1ab89ff0e987d5397bc051124475d006c39fa
 Q
@@ -175,3 +161,47 @@ P
  cpl_problemset/test_problemset.c,f\f\ff8044741267a662e018829b9c7166dcf3b787d1
 H
 9-more-pointers/class9.c,2\a\2a9450af5f92603eeec306edbe282fccaf3c4db3
+L
+10-double-pointers/class10.c,7\6\76e0dba621448153dd5f2d36a1a72fb56469867f
+_
+/10-double-pointers/10homework/10homework_test.c,e\9\e917d2e87dec2e1096a304baf81ad14042a3bf01
+Z
+*.culculation_c_homework/test_culculation.c,1\5\15cfa8872de51589c09f09c17bfe3e9796594af8
+T
+$ruangong_competition/jingsai/sheet.c,9\9\99ffb42cd47cb797af2814368248e8605f32983e
+X
+(ruangong_competition/jingsai/other_ant.c,6\e\6e0af84fb3490553b25ac201be50517205542c06
+b
+2ruangong_competition/duikang/four_zi_competition.c,d\3\d39c0553dfe0aca5c0c37a5aae164066b404d65a
+X
+(ruangong_competition/jingsai/test_none.c,3\7\371f9ba4edb8c293ca1a38af9f7cde625fe10ca0
+S
+#ruangong_competition/jingsai/team.c,a\b\ab0bea911f2dbdbde36d28ae01cd5d0d86c8eef2
+S
+#ruangong_competition/jingsai/jump.c,f\1\f14f997d3ff74a366c90b2a3aa24d9f5d55f6a1d
+\
+,ruangong_competition/jingsai/standard_jump.c,5\2\52965146c256352efbe9c789a93b142736435f44
+I
+1.intro/class2_homework.c,6\4\649c169dcea1a314ab6247f4abfc595ff0acdb32
+@
+2.if/2homework.c,c\6\c618e14e4a5d179b81c3e813179aeba4bafddd84
+O
+7.data-types/homework7/cuboid.c,b\2\b266fc046c690cae69f6bc8474d5e7188d4a09cb
+X
+(cpl_midterms/calculator/mlg_calculator.c,3\7\3733dd95df6c316e61dc93b053556796243afd3f
+R
+"ruangong_competition/jingsai/ant.c,8\6\86a68b7a2d457b5bd9619d63b9059e3e2806bfd0
+T
+$cpl_midterms/calculator/calculator.c,0\c\0c79d0d9f219cd67d7179d620819cd285f431f78
+G
+mlg_question/railroad.c,7\7\7735879131a46cbd9c8139872bed222e52eb03f3
+N
+7.data-types/homework7/buddy.c,f\0\f0dd13c94586f4362f082bd0bde0570c5b6fdd87
+Q
+!7.data-types/homework7/brackets.c,8\d\8d929f526b811eb79ef26e217a634f6170ba2473
+C
+others/other_test.c,7\9\79a4827aa78116de08fff168ea827181af81a1d7
+C
+11-struct/11class.c,5\f\5ff4022f13c63acac73c11c1b4bdf63b0b8c5bc7
+K
+11-struct/11homework/fifa.c,3\6\36c154b8fd029d6d6479d988639091b26d76b01b

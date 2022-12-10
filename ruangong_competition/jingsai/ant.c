@@ -751,3 +751,4 @@ bool CMoveType(int i, int j, char type, char moved_board[5][9])
 
 
 
+
