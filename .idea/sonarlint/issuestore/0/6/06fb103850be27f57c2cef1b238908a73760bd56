@@ -1,17 +1,0 @@
-
-7c:S125	"Remove the commented out code.(õ“±é8Ûš›÷È0
-7c:S125"Remove the commented out code.(¤’þù8Ýš›÷È0
-<c:S125"Remove the commented out code.(áÜÙÁÿÿÿÿÿ8ßš›÷È0
-<c:S125"Remove the commented out code.(ÿÉ±‹ùÿÿÿÿ8áš›÷È0
-<c:S125"Remove the commented out code.(€“ªµýÿÿÿÿ8âš›÷È0
-<c:S125("Remove the commented out code.(º–±àþÿÿÿÿ8äš›÷È0
-7c:S125+"Remove the commented out code.(¤’þù8æš›÷È0
-<c:S1251"Remove the commented out code.(áÜÙÁÿÿÿÿÿ8çš›÷È0
-<c:S1255"Remove the commented out code.(ÿÉ±‹ùÿÿÿÿ8éš›÷È0
-<c:S1258"Remove the commented out code.(€“ªµýÿÿÿÿ8êš›÷È0
-Bc:S1481@"#unused variable 'int_input_address'(°žÈŽÿÿÿÿÿ8òš›÷È0
-Dc:S1481A"%unused variable 'float_input_address'(ŒÀ£´ùÿÿÿÿ8ôš›÷È0
-…c:S5350@"fMake the type of this variable a pointer-to-const. The current type of "int_input_address" is "int *".(°žÈŽÿÿÿÿÿ8õš›÷È0
-‰c:S5350A"jMake the type of this variable a pointer-to-const. The current type of "float_input_address" is "float *".(ŒÀ£´ùÿÿÿÿ8öš›÷È0
-jc:S1854@"KValue stored to 'int_input_address' during its initialization is never read(°žÈŽÿÿÿÿÿ8øš›÷È0
-lc:S1854A"MValue stored to 'float_input_address' during its initialization is never read(ŒÀ£´ùÿÿÿÿ8ùš›÷È0

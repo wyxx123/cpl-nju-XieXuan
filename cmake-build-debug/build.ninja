@@ -82,8 +82,6 @@ build 0/CMakeFiles/test.dir/test.c.obj: C_COMPILER__test_Debug D$:/codes/c/cpl-n
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 0\CMakeFiles\test.dir
   OBJECT_FILE_DIR = 0\CMakeFiles\test.dir
-  TARGET_COMPILE_PDB = 0\CMakeFiles\test.dir\
-  TARGET_PDB = 0\test.pdb
 
 
 # =============================================================================
@@ -99,10 +97,9 @@ build 0/test.exe: C_EXECUTABLE_LINKER__test_Debug 0/CMakeFiles/test.dir/test.c.o
   OBJECT_DIR = 0\CMakeFiles\test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 0\CMakeFiles\test.dir\
   TARGET_FILE = 0\test.exe
   TARGET_IMPLIB = 0\libtest.dll.a
-  TARGET_PDB = 0\test.pdb
+  TARGET_PDB = test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target plus
@@ -118,8 +115,6 @@ build 0/CMakeFiles/plus.dir/plus.c.obj: C_COMPILER__plus_Debug D$:/codes/c/cpl-n
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 0\CMakeFiles\plus.dir
   OBJECT_FILE_DIR = 0\CMakeFiles\plus.dir
-  TARGET_COMPILE_PDB = 0\CMakeFiles\plus.dir\
-  TARGET_PDB = 0\plus.pdb
 
 
 # =============================================================================
@@ -135,10 +130,9 @@ build 0/plus.exe: C_EXECUTABLE_LINKER__plus_Debug 0/CMakeFiles/plus.dir/plus.c.o
   OBJECT_DIR = 0\CMakeFiles\plus.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 0\CMakeFiles\plus.dir\
   TARGET_FILE = 0\plus.exe
   TARGET_IMPLIB = 0\libplus.dll.a
-  TARGET_PDB = 0\plus.pdb
+  TARGET_PDB = plus.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GuessTheNumber
@@ -154,8 +148,6 @@ build 0/CMakeFiles/GuessTheNumber.dir/GuessTheNumber.c.obj: C_COMPILER__GuessThe
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 0\CMakeFiles\GuessTheNumber.dir
   OBJECT_FILE_DIR = 0\CMakeFiles\GuessTheNumber.dir
-  TARGET_COMPILE_PDB = 0\CMakeFiles\GuessTheNumber.dir\
-  TARGET_PDB = 0\GuessTheNumber.pdb
 
 
 # =============================================================================
@@ -171,10 +163,9 @@ build 0/GuessTheNumber.exe: C_EXECUTABLE_LINKER__GuessTheNumber_Debug 0/CMakeFil
   OBJECT_DIR = 0\CMakeFiles\GuessTheNumber.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 0\CMakeFiles\GuessTheNumber.dir\
   TARGET_FILE = 0\GuessTheNumber.exe
   TARGET_IMPLIB = 0\libGuessTheNumber.dll.a
-  TARGET_PDB = 0\GuessTheNumber.pdb
+  TARGET_PDB = GuessTheNumber.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GetThreeNumber
@@ -190,8 +181,6 @@ build 0/CMakeFiles/GetThreeNumber.dir/GetThreeNumber.c.obj: C_COMPILER__GetThree
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 0\CMakeFiles\GetThreeNumber.dir
   OBJECT_FILE_DIR = 0\CMakeFiles\GetThreeNumber.dir
-  TARGET_COMPILE_PDB = 0\CMakeFiles\GetThreeNumber.dir\
-  TARGET_PDB = 0\GetThreeNumber.pdb
 
 
 # =============================================================================
@@ -207,10 +196,9 @@ build 0/GetThreeNumber.exe: C_EXECUTABLE_LINKER__GetThreeNumber_Debug 0/CMakeFil
   OBJECT_DIR = 0\CMakeFiles\GetThreeNumber.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 0\CMakeFiles\GetThreeNumber.dir\
   TARGET_FILE = 0\GetThreeNumber.exe
   TARGET_IMPLIB = 0\libGetThreeNumber.dll.a
-  TARGET_PDB = 0\GetThreeNumber.pdb
+  TARGET_PDB = GetThreeNumber.exe.dbg
 
 
 #############################################
@@ -254,8 +242,6 @@ build 1.intro/CMakeFiles/class2.dir/class2.c.obj: C_COMPILER__class2_Debug D$:/c
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 1.intro\CMakeFiles\class2.dir
   OBJECT_FILE_DIR = 1.intro\CMakeFiles\class2.dir
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\class2.dir\
-  TARGET_PDB = 1.intro\class2.pdb
 
 
 # =============================================================================
@@ -271,10 +257,9 @@ build 1.intro/class2.exe: C_EXECUTABLE_LINKER__class2_Debug 1.intro/CMakeFiles/c
   OBJECT_DIR = 1.intro\CMakeFiles\class2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\class2.dir\
   TARGET_FILE = 1.intro\class2.exe
   TARGET_IMPLIB = 1.intro\libclass2.dll.a
-  TARGET_PDB = 1.intro\class2.pdb
+  TARGET_PDB = class2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target class2_homework
@@ -290,8 +275,6 @@ build 1.intro/CMakeFiles/class2_homework.dir/class2_homework.c.obj: C_COMPILER__
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 1.intro\CMakeFiles\class2_homework.dir
   OBJECT_FILE_DIR = 1.intro\CMakeFiles\class2_homework.dir
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\class2_homework.dir\
-  TARGET_PDB = 1.intro\class2_homework.pdb
 
 
 # =============================================================================
@@ -307,10 +290,9 @@ build 1.intro/class2_homework.exe: C_EXECUTABLE_LINKER__class2_homework_Debug 1.
   OBJECT_DIR = 1.intro\CMakeFiles\class2_homework.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\class2_homework.dir\
   TARGET_FILE = 1.intro\class2_homework.exe
   TARGET_IMPLIB = 1.intro\libclass2_homework.dll.a
-  TARGET_PDB = 1.intro\class2_homework.pdb
+  TARGET_PDB = class2_homework.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target get_third_number
@@ -326,8 +308,6 @@ build 1.intro/CMakeFiles/get_third_number.dir/get_third_number.c.obj: C_COMPILER
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 1.intro\CMakeFiles\get_third_number.dir
   OBJECT_FILE_DIR = 1.intro\CMakeFiles\get_third_number.dir
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\get_third_number.dir\
-  TARGET_PDB = 1.intro\get_third_number.pdb
 
 
 # =============================================================================
@@ -343,10 +323,9 @@ build 1.intro/get_third_number.exe: C_EXECUTABLE_LINKER__get_third_number_Debug 
   OBJECT_DIR = 1.intro\CMakeFiles\get_third_number.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\get_third_number.dir\
   TARGET_FILE = 1.intro\get_third_number.exe
   TARGET_IMPLIB = 1.intro\libget_third_number.dll.a
-  TARGET_PDB = 1.intro\get_third_number.pdb
+  TARGET_PDB = get_third_number.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_float
@@ -362,8 +341,6 @@ build 1.intro/CMakeFiles/test_float.dir/test_float.c.obj: C_COMPILER__test_float
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 1.intro\CMakeFiles\test_float.dir
   OBJECT_FILE_DIR = 1.intro\CMakeFiles\test_float.dir
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\test_float.dir\
-  TARGET_PDB = 1.intro\test_float.pdb
 
 
 # =============================================================================
@@ -379,10 +356,9 @@ build 1.intro/test_float.exe: C_EXECUTABLE_LINKER__test_float_Debug 1.intro/CMak
   OBJECT_DIR = 1.intro\CMakeFiles\test_float.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\test_float.dir\
   TARGET_FILE = 1.intro\test_float.exe
   TARGET_IMPLIB = 1.intro\libtest_float.dll.a
-  TARGET_PDB = 1.intro\test_float.pdb
+  TARGET_PDB = test_float.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target secret_two_add
@@ -398,8 +374,6 @@ build 1.intro/CMakeFiles/secret_two_add.dir/secret_two_add.c.obj: C_COMPILER__se
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 1.intro\CMakeFiles\secret_two_add.dir
   OBJECT_FILE_DIR = 1.intro\CMakeFiles\secret_two_add.dir
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\secret_two_add.dir\
-  TARGET_PDB = 1.intro\secret_two_add.pdb
 
 
 # =============================================================================
@@ -415,10 +389,9 @@ build 1.intro/secret_two_add.exe: C_EXECUTABLE_LINKER__secret_two_add_Debug 1.in
   OBJECT_DIR = 1.intro\CMakeFiles\secret_two_add.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\secret_two_add.dir\
   TARGET_FILE = 1.intro\secret_two_add.exe
   TARGET_IMPLIB = 1.intro\libsecret_two_add.dll.a
-  TARGET_PDB = 1.intro\secret_two_add.pdb
+  TARGET_PDB = secret_two_add.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target class_2
@@ -434,8 +407,6 @@ build 1.intro/CMakeFiles/class_2.dir/class_2.c.obj: C_COMPILER__class_2_Debug D$
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 1.intro\CMakeFiles\class_2.dir
   OBJECT_FILE_DIR = 1.intro\CMakeFiles\class_2.dir
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\class_2.dir\
-  TARGET_PDB = 1.intro\class_2.pdb
 
 
 # =============================================================================
@@ -451,10 +422,9 @@ build 1.intro/class_2.exe: C_EXECUTABLE_LINKER__class_2_Debug 1.intro/CMakeFiles
   OBJECT_DIR = 1.intro\CMakeFiles\class_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 1.intro\CMakeFiles\class_2.dir\
   TARGET_FILE = 1.intro\class_2.exe
   TARGET_IMPLIB = 1.intro\libclass_2.dll.a
-  TARGET_PDB = 1.intro\class_2.pdb
+  TARGET_PDB = class_2.exe.dbg
 
 
 #############################################
@@ -498,8 +468,6 @@ build 2.if/CMakeFiles/class.dir/class.c.obj: C_COMPILER__class_Debug D$:/codes/c
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 2.if\CMakeFiles\class.dir
   OBJECT_FILE_DIR = 2.if\CMakeFiles\class.dir
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\class.dir\
-  TARGET_PDB = 2.if\class.pdb
 
 
 # =============================================================================
@@ -515,10 +483,9 @@ build 2.if/class.exe: C_EXECUTABLE_LINKER__class_Debug 2.if/CMakeFiles/class.dir
   OBJECT_DIR = 2.if\CMakeFiles\class.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\class.dir\
   TARGET_FILE = 2.if\class.exe
   TARGET_IMPLIB = 2.if\libclass.dll.a
-  TARGET_PDB = 2.if\class.pdb
+  TARGET_PDB = class.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2homework
@@ -534,8 +501,6 @@ build 2.if/CMakeFiles/2homework.dir/2homework.c.obj: C_COMPILER__2homework_Debug
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 2.if\CMakeFiles\2homework.dir
   OBJECT_FILE_DIR = 2.if\CMakeFiles\2homework.dir
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\2homework.dir\
-  TARGET_PDB = 2.if\2homework.pdb
 
 
 # =============================================================================
@@ -551,10 +516,9 @@ build 2.if/2homework.exe: C_EXECUTABLE_LINKER__2homework_Debug 2.if/CMakeFiles/2
   OBJECT_DIR = 2.if\CMakeFiles\2homework.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\2homework.dir\
   TARGET_FILE = 2.if\2homework.exe
   TARGET_IMPLIB = 2.if\lib2homework.dll.a
-  TARGET_PDB = 2.if\2homework.pdb
+  TARGET_PDB = 2homework.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_2
@@ -570,8 +534,6 @@ build 2.if/CMakeFiles/test_2.dir/test_2.c.obj: C_COMPILER__test_2_Debug D$:/code
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 2.if\CMakeFiles\test_2.dir
   OBJECT_FILE_DIR = 2.if\CMakeFiles\test_2.dir
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\test_2.dir\
-  TARGET_PDB = 2.if\test_2.pdb
 
 
 # =============================================================================
@@ -587,10 +549,9 @@ build 2.if/test_2.exe: C_EXECUTABLE_LINKER__test_2_Debug 2.if/CMakeFiles/test_2.
   OBJECT_DIR = 2.if\CMakeFiles\test_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\test_2.dir\
   TARGET_FILE = 2.if\test_2.exe
   TARGET_IMPLIB = 2.if\libtest_2.dll.a
-  TARGET_PDB = 2.if\test_2.pdb
+  TARGET_PDB = test_2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target single_noarr
@@ -606,8 +567,6 @@ build 2.if/CMakeFiles/single_noarr.dir/single_noarr.c.obj: C_COMPILER__single_no
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 2.if\CMakeFiles\single_noarr.dir
   OBJECT_FILE_DIR = 2.if\CMakeFiles\single_noarr.dir
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\single_noarr.dir\
-  TARGET_PDB = 2.if\single_noarr.pdb
 
 
 # =============================================================================
@@ -623,10 +582,9 @@ build 2.if/single_noarr.exe: C_EXECUTABLE_LINKER__single_noarr_Debug 2.if/CMakeF
   OBJECT_DIR = 2.if\CMakeFiles\single_noarr.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\single_noarr.dir\
   TARGET_FILE = 2.if\single_noarr.exe
   TARGET_IMPLIB = 2.if\libsingle_noarr.dll.a
-  TARGET_PDB = 2.if\single_noarr.pdb
+  TARGET_PDB = single_noarr.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target factorial2
@@ -642,8 +600,6 @@ build 2.if/CMakeFiles/factorial2.dir/factorial2.c.obj: C_COMPILER__factorial2_De
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 2.if\CMakeFiles\factorial2.dir
   OBJECT_FILE_DIR = 2.if\CMakeFiles\factorial2.dir
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\factorial2.dir\
-  TARGET_PDB = 2.if\factorial2.pdb
 
 
 # =============================================================================
@@ -659,10 +615,9 @@ build 2.if/factorial2.exe: C_EXECUTABLE_LINKER__factorial2_Debug 2.if/CMakeFiles
   OBJECT_DIR = 2.if\CMakeFiles\factorial2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\factorial2.dir\
   TARGET_FILE = 2.if\factorial2.exe
   TARGET_IMPLIB = 2.if\libfactorial2.dll.a
-  TARGET_PDB = 2.if\factorial2.pdb
+  TARGET_PDB = factorial2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target e_gaojy
@@ -678,8 +633,6 @@ build 2.if/CMakeFiles/e_gaojy.dir/e_gaojy.c.obj: C_COMPILER__e_gaojy_Debug D$:/c
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 2.if\CMakeFiles\e_gaojy.dir
   OBJECT_FILE_DIR = 2.if\CMakeFiles\e_gaojy.dir
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\e_gaojy.dir\
-  TARGET_PDB = 2.if\e_gaojy.pdb
 
 
 # =============================================================================
@@ -695,10 +648,9 @@ build 2.if/e_gaojy.exe: C_EXECUTABLE_LINKER__e_gaojy_Debug 2.if/CMakeFiles/e_gao
   OBJECT_DIR = 2.if\CMakeFiles\e_gaojy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\e_gaojy.dir\
   TARGET_FILE = 2.if\e_gaojy.exe
   TARGET_IMPLIB = 2.if\libe_gaojy.dll.a
-  TARGET_PDB = 2.if\e_gaojy.pdb
+  TARGET_PDB = e_gaojy.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target obstacle_test
@@ -714,8 +666,6 @@ build 2.if/CMakeFiles/obstacle_test.dir/obstacle_test.c.obj: C_COMPILER__obstacl
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 2.if\CMakeFiles\obstacle_test.dir
   OBJECT_FILE_DIR = 2.if\CMakeFiles\obstacle_test.dir
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\obstacle_test.dir\
-  TARGET_PDB = 2.if\obstacle_test.pdb
 
 
 # =============================================================================
@@ -731,10 +681,9 @@ build 2.if/obstacle_test.exe: C_EXECUTABLE_LINKER__obstacle_test_Debug 2.if/CMak
   OBJECT_DIR = 2.if\CMakeFiles\obstacle_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 2.if\CMakeFiles\obstacle_test.dir\
   TARGET_FILE = 2.if\obstacle_test.exe
   TARGET_IMPLIB = 2.if\libobstacle_test.dll.a
-  TARGET_PDB = 2.if\obstacle_test.pdb
+  TARGET_PDB = obstacle_test.exe.dbg
 
 
 #############################################
@@ -778,8 +727,6 @@ build 3.swich/CMakeFiles/test3.dir/test3.c.obj: C_COMPILER__test3_Debug D$:/code
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\CMakeFiles\test3.dir
   OBJECT_FILE_DIR = 3.swich\CMakeFiles\test3.dir
-  TARGET_COMPILE_PDB = 3.swich\CMakeFiles\test3.dir\
-  TARGET_PDB = 3.swich\test3.pdb
 
 
 # =============================================================================
@@ -795,10 +742,9 @@ build 3.swich/test3.exe: C_EXECUTABLE_LINKER__test3_Debug 3.swich/CMakeFiles/tes
   OBJECT_DIR = 3.swich\CMakeFiles\test3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\CMakeFiles\test3.dir\
   TARGET_FILE = 3.swich\test3.exe
   TARGET_IMPLIB = 3.swich\libtest3.dll.a
-  TARGET_PDB = 3.swich\test3.pdb
+  TARGET_PDB = test3.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target class3
@@ -814,8 +760,6 @@ build 3.swich/CMakeFiles/class3.dir/class3.c.obj: C_COMPILER__class3_Debug D$:/c
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\CMakeFiles\class3.dir
   OBJECT_FILE_DIR = 3.swich\CMakeFiles\class3.dir
-  TARGET_COMPILE_PDB = 3.swich\CMakeFiles\class3.dir\
-  TARGET_PDB = 3.swich\class3.pdb
 
 
 # =============================================================================
@@ -831,10 +775,9 @@ build 3.swich/class3.exe: C_EXECUTABLE_LINKER__class3_Debug 3.swich/CMakeFiles/c
   OBJECT_DIR = 3.swich\CMakeFiles\class3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\CMakeFiles\class3.dir\
   TARGET_FILE = 3.swich\class3.exe
   TARGET_IMPLIB = 3.swich\libclass3.dll.a
-  TARGET_PDB = 3.swich\class3.pdb
+  TARGET_PDB = class3.exe.dbg
 
 
 #############################################
@@ -878,8 +821,6 @@ build 3.swich/homework3/CMakeFiles/flip.dir/flip.c.obj: C_COMPILER__flip_Debug D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\flip.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\flip.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\flip.dir\
-  TARGET_PDB = 3.swich\homework3\flip.pdb
 
 
 # =============================================================================
@@ -895,10 +836,9 @@ build 3.swich/homework3/flip.exe: C_EXECUTABLE_LINKER__flip_Debug 3.swich/homewo
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\flip.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\flip.dir\
   TARGET_FILE = 3.swich\homework3\flip.exe
   TARGET_IMPLIB = 3.swich\homework3\libflip.dll.a
-  TARGET_PDB = 3.swich\homework3\flip.pdb
+  TARGET_PDB = flip.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target statistic
@@ -914,8 +854,6 @@ build 3.swich/homework3/CMakeFiles/statistic.dir/statistic.c.obj: C_COMPILER__st
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\statistic.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\statistic.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\statistic.dir\
-  TARGET_PDB = 3.swich\homework3\statistic.pdb
 
 
 # =============================================================================
@@ -931,10 +869,9 @@ build 3.swich/homework3/statistic.exe: C_EXECUTABLE_LINKER__statistic_Debug 3.sw
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\statistic.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\statistic.dir\
   TARGET_FILE = 3.swich\homework3\statistic.exe
   TARGET_IMPLIB = 3.swich\homework3\libstatistic.dll.a
-  TARGET_PDB = 3.swich\homework3\statistic.pdb
+  TARGET_PDB = statistic.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target josephus
@@ -950,8 +887,6 @@ build 3.swich/homework3/CMakeFiles/josephus.dir/josephus.c.obj: C_COMPILER__jose
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\josephus.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\josephus.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\josephus.dir\
-  TARGET_PDB = 3.swich\homework3\josephus.pdb
 
 
 # =============================================================================
@@ -967,10 +902,9 @@ build 3.swich/homework3/josephus.exe: C_EXECUTABLE_LINKER__josephus_Debug 3.swic
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\josephus.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\josephus.dir\
   TARGET_FILE = 3.swich\homework3\josephus.exe
   TARGET_IMPLIB = 3.swich\homework3\libjosephus.dll.a
-  TARGET_PDB = 3.swich\homework3\josephus.pdb
+  TARGET_PDB = josephus.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target decimal
@@ -986,8 +920,6 @@ build 3.swich/homework3/CMakeFiles/decimal.dir/decimal.c.obj: C_COMPILER__decima
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\decimal.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\decimal.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\decimal.dir\
-  TARGET_PDB = 3.swich\homework3\decimal.pdb
 
 
 # =============================================================================
@@ -1003,10 +935,9 @@ build 3.swich/homework3/decimal.exe: C_EXECUTABLE_LINKER__decimal_Debug 3.swich/
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\decimal.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\decimal.dir\
   TARGET_FILE = 3.swich\homework3\decimal.exe
   TARGET_IMPLIB = 3.swich\homework3\libdecimal.dll.a
-  TARGET_PDB = 3.swich\homework3\decimal.pdb
+  TARGET_PDB = decimal.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target palindrome
@@ -1022,8 +953,6 @@ build 3.swich/homework3/CMakeFiles/palindrome.dir/palindrome.c.obj: C_COMPILER__
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\palindrome.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\palindrome.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\palindrome.dir\
-  TARGET_PDB = 3.swich\homework3\palindrome.pdb
 
 
 # =============================================================================
@@ -1039,10 +968,9 @@ build 3.swich/homework3/palindrome.exe: C_EXECUTABLE_LINKER__palindrome_Debug 3.
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\palindrome.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\palindrome.dir\
   TARGET_FILE = 3.swich\homework3\palindrome.exe
   TARGET_IMPLIB = 3.swich\homework3\libpalindrome.dll.a
-  TARGET_PDB = 3.swich\homework3\palindrome.pdb
+  TARGET_PDB = palindrome.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target quick_sort
@@ -1058,8 +986,6 @@ build 3.swich/homework3/CMakeFiles/quick_sort.dir/quick_sort.c.obj: C_COMPILER__
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\quick_sort.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\quick_sort.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\quick_sort.dir\
-  TARGET_PDB = 3.swich\homework3\quick_sort.pdb
 
 
 # =============================================================================
@@ -1075,10 +1001,9 @@ build 3.swich/homework3/quick_sort.exe: C_EXECUTABLE_LINKER__quick_sort_Debug 3.
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\quick_sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\quick_sort.dir\
   TARGET_FILE = 3.swich\homework3\quick_sort.exe
   TARGET_IMPLIB = 3.swich\homework3\libquick_sort.dll.a
-  TARGET_PDB = 3.swich\homework3\quick_sort.pdb
+  TARGET_PDB = quick_sort.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_qsort
@@ -1094,8 +1019,6 @@ build 3.swich/homework3/CMakeFiles/test_qsort.dir/test_qsort.c.obj: C_COMPILER__
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\test_qsort.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\test_qsort.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\test_qsort.dir\
-  TARGET_PDB = 3.swich\homework3\test_qsort.pdb
 
 
 # =============================================================================
@@ -1111,10 +1034,9 @@ build 3.swich/homework3/test_qsort.exe: C_EXECUTABLE_LINKER__test_qsort_Debug 3.
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\test_qsort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\test_qsort.dir\
   TARGET_FILE = 3.swich\homework3\test_qsort.exe
   TARGET_IMPLIB = 3.swich\homework3\libtest_qsort.dll.a
-  TARGET_PDB = 3.swich\homework3\test_qsort.pdb
+  TARGET_PDB = test_qsort.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lhy_last
@@ -1130,8 +1052,6 @@ build 3.swich/homework3/CMakeFiles/lhy_last.dir/lhy_last.c.obj: C_COMPILER__lhy_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\lhy_last.dir
   OBJECT_FILE_DIR = 3.swich\homework3\CMakeFiles\lhy_last.dir
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\lhy_last.dir\
-  TARGET_PDB = 3.swich\homework3\lhy_last.pdb
 
 
 # =============================================================================
@@ -1147,10 +1067,9 @@ build 3.swich/homework3/lhy_last.exe: C_EXECUTABLE_LINKER__lhy_last_Debug 3.swic
   OBJECT_DIR = 3.swich\homework3\CMakeFiles\lhy_last.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 3.swich\homework3\CMakeFiles\lhy_last.dir\
   TARGET_FILE = 3.swich\homework3\lhy_last.exe
   TARGET_IMPLIB = 3.swich\homework3\liblhy_last.dll.a
-  TARGET_PDB = 3.swich\homework3\lhy_last.pdb
+  TARGET_PDB = lhy_last.exe.dbg
 
 
 #############################################
@@ -1194,8 +1113,6 @@ build .culculation_c_homework/CMakeFiles/homework_6_20.dir/homework_6_20.c.obj: 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_20.dir
   OBJECT_FILE_DIR = .culculation_c_homework\CMakeFiles\homework_6_20.dir
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_20.dir\
-  TARGET_PDB = .culculation_c_homework\homework_6_20.pdb
 
 
 # =============================================================================
@@ -1211,10 +1128,9 @@ build .culculation_c_homework/homework_6_20.exe: C_EXECUTABLE_LINKER__homework_6
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_20.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_20.dir\
   TARGET_FILE = .culculation_c_homework\homework_6_20.exe
   TARGET_IMPLIB = .culculation_c_homework\libhomework_6_20.dll.a
-  TARGET_PDB = .culculation_c_homework\homework_6_20.pdb
+  TARGET_PDB = homework_6_20.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target homework_6_16
@@ -1230,8 +1146,6 @@ build .culculation_c_homework/CMakeFiles/homework_6_16.dir/homework_6_16.c.obj: 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_16.dir
   OBJECT_FILE_DIR = .culculation_c_homework\CMakeFiles\homework_6_16.dir
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_16.dir\
-  TARGET_PDB = .culculation_c_homework\homework_6_16.pdb
 
 
 # =============================================================================
@@ -1247,10 +1161,9 @@ build .culculation_c_homework/homework_6_16.exe: C_EXECUTABLE_LINKER__homework_6
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_16.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_16.dir\
   TARGET_FILE = .culculation_c_homework\homework_6_16.exe
   TARGET_IMPLIB = .culculation_c_homework\libhomework_6_16.dll.a
-  TARGET_PDB = .culculation_c_homework\homework_6_16.pdb
+  TARGET_PDB = homework_6_16.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target homework_6_other
@@ -1266,8 +1179,6 @@ build .culculation_c_homework/CMakeFiles/homework_6_other.dir/homework_6_other.c
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_other.dir
   OBJECT_FILE_DIR = .culculation_c_homework\CMakeFiles\homework_6_other.dir
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_other.dir\
-  TARGET_PDB = .culculation_c_homework\homework_6_other.pdb
 
 
 # =============================================================================
@@ -1283,10 +1194,9 @@ build .culculation_c_homework/homework_6_other.exe: C_EXECUTABLE_LINKER__homewor
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_other.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_other.dir\
   TARGET_FILE = .culculation_c_homework\homework_6_other.exe
   TARGET_IMPLIB = .culculation_c_homework\libhomework_6_other.dll.a
-  TARGET_PDB = .culculation_c_homework\homework_6_other.pdb
+  TARGET_PDB = homework_6_other.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target homework_6_18
@@ -1302,8 +1212,6 @@ build .culculation_c_homework/CMakeFiles/homework_6_18.dir/homework_6_18.c.obj: 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_18.dir
   OBJECT_FILE_DIR = .culculation_c_homework\CMakeFiles\homework_6_18.dir
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_18.dir\
-  TARGET_PDB = .culculation_c_homework\homework_6_18.pdb
 
 
 # =============================================================================
@@ -1319,10 +1227,9 @@ build .culculation_c_homework/homework_6_18.exe: C_EXECUTABLE_LINKER__homework_6
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_18.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_18.dir\
   TARGET_FILE = .culculation_c_homework\homework_6_18.exe
   TARGET_IMPLIB = .culculation_c_homework\libhomework_6_18.dll.a
-  TARGET_PDB = .culculation_c_homework\homework_6_18.pdb
+  TARGET_PDB = homework_6_18.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target homework_6_19
@@ -1338,8 +1245,6 @@ build .culculation_c_homework/CMakeFiles/homework_6_19.dir/homework_6_19.c.obj: 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_19.dir
   OBJECT_FILE_DIR = .culculation_c_homework\CMakeFiles\homework_6_19.dir
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_19.dir\
-  TARGET_PDB = .culculation_c_homework\homework_6_19.pdb
 
 
 # =============================================================================
@@ -1355,10 +1260,9 @@ build .culculation_c_homework/homework_6_19.exe: C_EXECUTABLE_LINKER__homework_6
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_6_19.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_6_19.dir\
   TARGET_FILE = .culculation_c_homework\homework_6_19.exe
   TARGET_IMPLIB = .culculation_c_homework\libhomework_6_19.dll.a
-  TARGET_PDB = .culculation_c_homework\homework_6_19.pdb
+  TARGET_PDB = homework_6_19.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target homework_7_17
@@ -1374,8 +1278,6 @@ build .culculation_c_homework/CMakeFiles/homework_7_17.dir/homework_7_17.c.obj: 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_7_17.dir
   OBJECT_FILE_DIR = .culculation_c_homework\CMakeFiles\homework_7_17.dir
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_7_17.dir\
-  TARGET_PDB = .culculation_c_homework\homework_7_17.pdb
 
 
 # =============================================================================
@@ -1391,10 +1293,9 @@ build .culculation_c_homework/homework_7_17.exe: C_EXECUTABLE_LINKER__homework_7
   OBJECT_DIR = .culculation_c_homework\CMakeFiles\homework_7_17.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = .culculation_c_homework\CMakeFiles\homework_7_17.dir\
   TARGET_FILE = .culculation_c_homework\homework_7_17.exe
   TARGET_IMPLIB = .culculation_c_homework\libhomework_7_17.dll.a
-  TARGET_PDB = .culculation_c_homework\homework_7_17.pdb
+  TARGET_PDB = homework_7_17.exe.dbg
 
 
 #############################################
@@ -1438,8 +1339,6 @@ build 4.loops/CMakeFiles/class4.dir/class4.c.obj: C_COMPILER__class4_Debug D$:/c
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\CMakeFiles\class4.dir
   OBJECT_FILE_DIR = 4.loops\CMakeFiles\class4.dir
-  TARGET_COMPILE_PDB = 4.loops\CMakeFiles\class4.dir\
-  TARGET_PDB = 4.loops\class4.pdb
 
 
 # =============================================================================
@@ -1455,10 +1354,9 @@ build 4.loops/class4.exe: C_EXECUTABLE_LINKER__class4_Debug 4.loops/CMakeFiles/c
   OBJECT_DIR = 4.loops\CMakeFiles\class4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\CMakeFiles\class4.dir\
   TARGET_FILE = 4.loops\class4.exe
   TARGET_IMPLIB = 4.loops\libclass4.dll.a
-  TARGET_PDB = 4.loops\class4.pdb
+  TARGET_PDB = class4.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test4
@@ -1474,8 +1372,6 @@ build 4.loops/CMakeFiles/test4.dir/test4.c.obj: C_COMPILER__test4_Debug D$:/code
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\CMakeFiles\test4.dir
   OBJECT_FILE_DIR = 4.loops\CMakeFiles\test4.dir
-  TARGET_COMPILE_PDB = 4.loops\CMakeFiles\test4.dir\
-  TARGET_PDB = 4.loops\test4.pdb
 
 
 # =============================================================================
@@ -1491,10 +1387,9 @@ build 4.loops/test4.exe: C_EXECUTABLE_LINKER__test4_Debug 4.loops/CMakeFiles/tes
   OBJECT_DIR = 4.loops\CMakeFiles\test4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\CMakeFiles\test4.dir\
   TARGET_FILE = 4.loops\test4.exe
   TARGET_IMPLIB = 4.loops\libtest4.dll.a
-  TARGET_PDB = 4.loops\test4.pdb
+  TARGET_PDB = test4.exe.dbg
 
 
 #############################################
@@ -1538,8 +1433,6 @@ build 4.loops/homework4/CMakeFiles/sudoku.dir/sudoku.c.obj: C_COMPILER__sudoku_D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\sudoku.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\sudoku.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\sudoku.dir\
-  TARGET_PDB = 4.loops\homework4\sudoku.pdb
 
 
 # =============================================================================
@@ -1555,10 +1448,9 @@ build 4.loops/homework4/sudoku.exe: C_EXECUTABLE_LINKER__sudoku_Debug 4.loops/ho
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\sudoku.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\sudoku.dir\
   TARGET_FILE = 4.loops\homework4\sudoku.exe
   TARGET_IMPLIB = 4.loops\homework4\libsudoku.dll.a
-  TARGET_PDB = 4.loops\homework4\sudoku.pdb
+  TARGET_PDB = sudoku.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_for_homework4
@@ -1574,8 +1466,6 @@ build 4.loops/homework4/CMakeFiles/test_for_homework4.dir/test_for_homework4.c.o
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\test_for_homework4.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\test_for_homework4.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\test_for_homework4.dir\
-  TARGET_PDB = 4.loops\homework4\test_for_homework4.pdb
 
 
 # =============================================================================
@@ -1591,10 +1481,9 @@ build 4.loops/homework4/test_for_homework4.exe: C_EXECUTABLE_LINKER__test_for_ho
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\test_for_homework4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\test_for_homework4.dir\
   TARGET_FILE = 4.loops\homework4\test_for_homework4.exe
   TARGET_IMPLIB = 4.loops\homework4\libtest_for_homework4.dll.a
-  TARGET_PDB = 4.loops\homework4\test_for_homework4.pdb
+  TARGET_PDB = test_for_homework4.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target mines
@@ -1610,8 +1499,6 @@ build 4.loops/homework4/CMakeFiles/mines.dir/mines.c.obj: C_COMPILER__mines_Debu
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\mines.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\mines.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\mines.dir\
-  TARGET_PDB = 4.loops\homework4\mines.pdb
 
 
 # =============================================================================
@@ -1627,10 +1514,9 @@ build 4.loops/homework4/mines.exe: C_EXECUTABLE_LINKER__mines_Debug 4.loops/home
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\mines.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\mines.dir\
   TARGET_FILE = 4.loops\homework4\mines.exe
   TARGET_IMPLIB = 4.loops\homework4\libmines.dll.a
-  TARGET_PDB = 4.loops\homework4\mines.pdb
+  TARGET_PDB = mines.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target trace
@@ -1646,8 +1532,6 @@ build 4.loops/homework4/CMakeFiles/trace.dir/trace.c.obj: C_COMPILER__trace_Debu
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\trace.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\trace.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\trace.dir\
-  TARGET_PDB = 4.loops\homework4\trace.pdb
 
 
 # =============================================================================
@@ -1663,10 +1547,9 @@ build 4.loops/homework4/trace.exe: C_EXECUTABLE_LINKER__trace_Debug 4.loops/home
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\trace.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\trace.dir\
   TARGET_FILE = 4.loops\homework4\trace.exe
   TARGET_IMPLIB = 4.loops\homework4\libtrace.dll.a
-  TARGET_PDB = 4.loops\homework4\trace.pdb
+  TARGET_PDB = trace.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target life
@@ -1682,8 +1565,6 @@ build 4.loops/homework4/CMakeFiles/life.dir/life.c.obj: C_COMPILER__life_Debug D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\life.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\life.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\life.dir\
-  TARGET_PDB = 4.loops\homework4\life.pdb
 
 
 # =============================================================================
@@ -1699,10 +1580,9 @@ build 4.loops/homework4/life.exe: C_EXECUTABLE_LINKER__life_Debug 4.loops/homewo
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\life.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\life.dir\
   TARGET_FILE = 4.loops\homework4\life.exe
   TARGET_IMPLIB = 4.loops\homework4\liblife.dll.a
-  TARGET_PDB = 4.loops\homework4\life.pdb
+  TARGET_PDB = life.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target matrix
@@ -1718,8 +1598,6 @@ build 4.loops/homework4/CMakeFiles/matrix.dir/matrix.c.obj: C_COMPILER__matrix_D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\matrix.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\matrix.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\matrix.dir\
-  TARGET_PDB = 4.loops\homework4\matrix.pdb
 
 
 # =============================================================================
@@ -1735,10 +1613,9 @@ build 4.loops/homework4/matrix.exe: C_EXECUTABLE_LINKER__matrix_Debug 4.loops/ho
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\matrix.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\matrix.dir\
   TARGET_FILE = 4.loops\homework4\matrix.exe
   TARGET_IMPLIB = 4.loops\homework4\libmatrix.dll.a
-  TARGET_PDB = 4.loops\homework4\matrix.pdb
+  TARGET_PDB = matrix.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target mine_test
@@ -1754,8 +1631,6 @@ build 4.loops/homework4/CMakeFiles/mine_test.dir/mine_test.c.obj: C_COMPILER__mi
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\mine_test.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\mine_test.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\mine_test.dir\
-  TARGET_PDB = 4.loops\homework4\mine_test.pdb
 
 
 # =============================================================================
@@ -1771,10 +1646,9 @@ build 4.loops/homework4/mine_test.exe: C_EXECUTABLE_LINKER__mine_test_Debug 4.lo
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\mine_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\mine_test.dir\
   TARGET_FILE = 4.loops\homework4\mine_test.exe
   TARGET_IMPLIB = 4.loops\homework4\libmine_test.dll.a
-  TARGET_PDB = 4.loops\homework4\mine_test.pdb
+  TARGET_PDB = mine_test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target mine_no_array
@@ -1790,8 +1664,6 @@ build 4.loops/homework4/CMakeFiles/mine_no_array.dir/mine_no_array.c.obj: C_COMP
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\mine_no_array.dir
   OBJECT_FILE_DIR = 4.loops\homework4\CMakeFiles\mine_no_array.dir
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\mine_no_array.dir\
-  TARGET_PDB = 4.loops\homework4\mine_no_array.pdb
 
 
 # =============================================================================
@@ -1807,10 +1679,9 @@ build 4.loops/homework4/mine_no_array.exe: C_EXECUTABLE_LINKER__mine_no_array_De
   OBJECT_DIR = 4.loops\homework4\CMakeFiles\mine_no_array.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 4.loops\homework4\CMakeFiles\mine_no_array.dir\
   TARGET_FILE = 4.loops\homework4\mine_no_array.exe
   TARGET_IMPLIB = 4.loops\homework4\libmine_no_array.dll.a
-  TARGET_PDB = 4.loops\homework4\mine_no_array.pdb
+  TARGET_PDB = mine_no_array.exe.dbg
 
 
 #############################################
@@ -1854,8 +1725,6 @@ build 5.function/CMakeFiles/class5.dir/class5.c.obj: C_COMPILER__class5_Debug D$
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\CMakeFiles\class5.dir
   OBJECT_FILE_DIR = 5.function\CMakeFiles\class5.dir
-  TARGET_COMPILE_PDB = 5.function\CMakeFiles\class5.dir\
-  TARGET_PDB = 5.function\class5.pdb
 
 
 # =============================================================================
@@ -1871,10 +1740,9 @@ build 5.function/class5.exe: C_EXECUTABLE_LINKER__class5_Debug 5.function/CMakeF
   OBJECT_DIR = 5.function\CMakeFiles\class5.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\CMakeFiles\class5.dir\
   TARGET_FILE = 5.function\class5.exe
   TARGET_IMPLIB = 5.function\libclass5.dll.a
-  TARGET_PDB = 5.function\class5.pdb
+  TARGET_PDB = class5.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test5
@@ -1890,8 +1758,6 @@ build 5.function/CMakeFiles/test5.dir/test5.c.obj: C_COMPILER__test5_Debug D$:/c
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\CMakeFiles\test5.dir
   OBJECT_FILE_DIR = 5.function\CMakeFiles\test5.dir
-  TARGET_COMPILE_PDB = 5.function\CMakeFiles\test5.dir\
-  TARGET_PDB = 5.function\test5.pdb
 
 
 # =============================================================================
@@ -1907,10 +1773,9 @@ build 5.function/test5.exe: C_EXECUTABLE_LINKER__test5_Debug 5.function/CMakeFil
   OBJECT_DIR = 5.function\CMakeFiles\test5.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\CMakeFiles\test5.dir\
   TARGET_FILE = 5.function\test5.exe
   TARGET_IMPLIB = 5.function\libtest5.dll.a
-  TARGET_PDB = 5.function\test5.pdb
+  TARGET_PDB = test5.exe.dbg
 
 
 #############################################
@@ -1954,8 +1819,6 @@ build 5.function/homework5/CMakeFiles/behaviors.dir/behaviors.c.obj: C_COMPILER_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\homework5\CMakeFiles\behaviors.dir
   OBJECT_FILE_DIR = 5.function\homework5\CMakeFiles\behaviors.dir
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\behaviors.dir\
-  TARGET_PDB = 5.function\homework5\behaviors.pdb
 
 
 # =============================================================================
@@ -1971,10 +1834,9 @@ build 5.function/homework5/behaviors.exe: C_EXECUTABLE_LINKER__behaviors_Debug 5
   OBJECT_DIR = 5.function\homework5\CMakeFiles\behaviors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\behaviors.dir\
   TARGET_FILE = 5.function\homework5\behaviors.exe
   TARGET_IMPLIB = 5.function\homework5\libbehaviors.dll.a
-  TARGET_PDB = 5.function\homework5\behaviors.pdb
+  TARGET_PDB = behaviors.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target sum
@@ -1990,8 +1852,6 @@ build 5.function/homework5/CMakeFiles/sum.dir/sum.c.obj: C_COMPILER__sum_Debug D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\homework5\CMakeFiles\sum.dir
   OBJECT_FILE_DIR = 5.function\homework5\CMakeFiles\sum.dir
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\sum.dir\
-  TARGET_PDB = 5.function\homework5\sum.pdb
 
 
 # =============================================================================
@@ -2007,10 +1867,9 @@ build 5.function/homework5/sum.exe: C_EXECUTABLE_LINKER__sum_Debug 5.function/ho
   OBJECT_DIR = 5.function\homework5\CMakeFiles\sum.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\sum.dir\
   TARGET_FILE = 5.function\homework5\sum.exe
   TARGET_IMPLIB = 5.function\homework5\libsum.dll.a
-  TARGET_PDB = 5.function\homework5\sum.pdb
+  TARGET_PDB = sum.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target absolute-prime
@@ -2026,8 +1885,6 @@ build 5.function/homework5/CMakeFiles/absolute-prime.dir/absolute-prime.c.obj: C
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\homework5\CMakeFiles\absolute-prime.dir
   OBJECT_FILE_DIR = 5.function\homework5\CMakeFiles\absolute-prime.dir
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\absolute-prime.dir\
-  TARGET_PDB = 5.function\homework5\absolute-prime.pdb
 
 
 # =============================================================================
@@ -2043,10 +1900,9 @@ build 5.function/homework5/absolute-prime.exe: C_EXECUTABLE_LINKER__absolute-pri
   OBJECT_DIR = 5.function\homework5\CMakeFiles\absolute-prime.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\absolute-prime.dir\
   TARGET_FILE = 5.function\homework5\absolute-prime.exe
   TARGET_IMPLIB = 5.function\homework5\libabsolute-prime.dll.a
-  TARGET_PDB = 5.function\homework5\absolute-prime.pdb
+  TARGET_PDB = absolute-prime.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target radix
@@ -2062,8 +1918,6 @@ build 5.function/homework5/CMakeFiles/radix.dir/radix.c.obj: C_COMPILER__radix_D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\homework5\CMakeFiles\radix.dir
   OBJECT_FILE_DIR = 5.function\homework5\CMakeFiles\radix.dir
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\radix.dir\
-  TARGET_PDB = 5.function\homework5\radix.pdb
 
 
 # =============================================================================
@@ -2079,10 +1933,9 @@ build 5.function/homework5/radix.exe: C_EXECUTABLE_LINKER__radix_Debug 5.functio
   OBJECT_DIR = 5.function\homework5\CMakeFiles\radix.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\radix.dir\
   TARGET_FILE = 5.function\homework5\radix.exe
   TARGET_IMPLIB = 5.function\homework5\libradix.dll.a
-  TARGET_PDB = 5.function\homework5\radix.pdb
+  TARGET_PDB = radix.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target next_permutation
@@ -2098,8 +1951,6 @@ build 5.function/homework5/CMakeFiles/next_permutation.dir/next_permutation.c.ob
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\homework5\CMakeFiles\next_permutation.dir
   OBJECT_FILE_DIR = 5.function\homework5\CMakeFiles\next_permutation.dir
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\next_permutation.dir\
-  TARGET_PDB = 5.function\homework5\next_permutation.pdb
 
 
 # =============================================================================
@@ -2115,10 +1966,9 @@ build 5.function/homework5/next_permutation.exe: C_EXECUTABLE_LINKER__next_permu
   OBJECT_DIR = 5.function\homework5\CMakeFiles\next_permutation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\next_permutation.dir\
   TARGET_FILE = 5.function\homework5\next_permutation.exe
   TARGET_IMPLIB = 5.function\homework5\libnext_permutation.dll.a
-  TARGET_PDB = 5.function\homework5\next_permutation.pdb
+  TARGET_PDB = next_permutation.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target magic_square
@@ -2134,8 +1984,6 @@ build 5.function/homework5/CMakeFiles/magic_square.dir/magic_square.c.obj: C_COM
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 5.function\homework5\CMakeFiles\magic_square.dir
   OBJECT_FILE_DIR = 5.function\homework5\CMakeFiles\magic_square.dir
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\magic_square.dir\
-  TARGET_PDB = 5.function\homework5\magic_square.pdb
 
 
 # =============================================================================
@@ -2151,10 +1999,9 @@ build 5.function/homework5/magic_square.exe: C_EXECUTABLE_LINKER__magic_square_D
   OBJECT_DIR = 5.function\homework5\CMakeFiles\magic_square.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 5.function\homework5\CMakeFiles\magic_square.dir\
   TARGET_FILE = 5.function\homework5\magic_square.exe
   TARGET_IMPLIB = 5.function\homework5\libmagic_square.dll.a
-  TARGET_PDB = 5.function\homework5\magic_square.pdb
+  TARGET_PDB = magic_square.exe.dbg
 
 
 #############################################
@@ -2198,8 +2045,6 @@ build lsa_competition/CMakeFiles/lsa_mistery.dir/lsa_mistery.c.obj: C_COMPILER__
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\lsa_mistery.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\lsa_mistery.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\lsa_mistery.dir\
-  TARGET_PDB = lsa_competition\lsa_mistery.pdb
 
 
 # =============================================================================
@@ -2215,10 +2060,9 @@ build lsa_competition/lsa_mistery.exe: C_EXECUTABLE_LINKER__lsa_mistery_Debug ls
   OBJECT_DIR = lsa_competition\CMakeFiles\lsa_mistery.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\lsa_mistery.dir\
   TARGET_FILE = lsa_competition\lsa_mistery.exe
   TARGET_IMPLIB = lsa_competition\liblsa_mistery.dll.a
-  TARGET_PDB = lsa_competition\lsa_mistery.pdb
+  TARGET_PDB = lsa_mistery.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_lsh
@@ -2234,8 +2078,6 @@ build lsa_competition/CMakeFiles/test_lsh.dir/test_lsh.c.obj: C_COMPILER__test_l
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\test_lsh.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\test_lsh.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\test_lsh.dir\
-  TARGET_PDB = lsa_competition\test_lsh.pdb
 
 
 # =============================================================================
@@ -2251,10 +2093,9 @@ build lsa_competition/test_lsh.exe: C_EXECUTABLE_LINKER__test_lsh_Debug lsa_comp
   OBJECT_DIR = lsa_competition\CMakeFiles\test_lsh.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\test_lsh.dir\
   TARGET_FILE = lsa_competition\test_lsh.exe
   TARGET_IMPLIB = lsa_competition\libtest_lsh.dll.a
-  TARGET_PDB = lsa_competition\test_lsh.pdb
+  TARGET_PDB = test_lsh.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target v_50
@@ -2270,8 +2111,6 @@ build lsa_competition/CMakeFiles/v_50.dir/v_50.c.obj: C_COMPILER__v_50_Debug D$:
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\v_50.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\v_50.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\v_50.dir\
-  TARGET_PDB = lsa_competition\v_50.pdb
 
 
 # =============================================================================
@@ -2287,10 +2126,9 @@ build lsa_competition/v_50.exe: C_EXECUTABLE_LINKER__v_50_Debug lsa_competition/
   OBJECT_DIR = lsa_competition\CMakeFiles\v_50.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\v_50.dir\
   TARGET_FILE = lsa_competition\v_50.exe
   TARGET_IMPLIB = lsa_competition\libv_50.dll.a
-  TARGET_PDB = lsa_competition\v_50.pdb
+  TARGET_PDB = v_50.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cake
@@ -2306,8 +2144,6 @@ build lsa_competition/CMakeFiles/cake.dir/cake.c.obj: C_COMPILER__cake_Debug D$:
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\cake.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\cake.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\cake.dir\
-  TARGET_PDB = lsa_competition\cake.pdb
 
 
 # =============================================================================
@@ -2323,10 +2159,9 @@ build lsa_competition/cake.exe: C_EXECUTABLE_LINKER__cake_Debug lsa_competition/
   OBJECT_DIR = lsa_competition\CMakeFiles\cake.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\cake.dir\
   TARGET_FILE = lsa_competition\cake.exe
   TARGET_IMPLIB = lsa_competition\libcake.dll.a
-  TARGET_PDB = lsa_competition\cake.pdb
+  TARGET_PDB = cake.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target loop_competition
@@ -2342,8 +2177,6 @@ build lsa_competition/CMakeFiles/loop_competition.dir/loop_competition.c.obj: C_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\loop_competition.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\loop_competition.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\loop_competition.dir\
-  TARGET_PDB = lsa_competition\loop_competition.pdb
 
 
 # =============================================================================
@@ -2359,10 +2192,9 @@ build lsa_competition/loop_competition.exe: C_EXECUTABLE_LINKER__loop_competitio
   OBJECT_DIR = lsa_competition\CMakeFiles\loop_competition.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\loop_competition.dir\
   TARGET_FILE = lsa_competition\loop_competition.exe
   TARGET_IMPLIB = lsa_competition\libloop_competition.dll.a
-  TARGET_PDB = lsa_competition\loop_competition.pdb
+  TARGET_PDB = loop_competition.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target floor
@@ -2378,8 +2210,6 @@ build lsa_competition/CMakeFiles/floor.dir/floor.c.obj: C_COMPILER__floor_Debug 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\floor.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\floor.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\floor.dir\
-  TARGET_PDB = lsa_competition\floor.pdb
 
 
 # =============================================================================
@@ -2395,10 +2225,9 @@ build lsa_competition/floor.exe: C_EXECUTABLE_LINKER__floor_Debug lsa_competitio
   OBJECT_DIR = lsa_competition\CMakeFiles\floor.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\floor.dir\
   TARGET_FILE = lsa_competition\floor.exe
   TARGET_IMPLIB = lsa_competition\libfloor.dll.a
-  TARGET_PDB = lsa_competition\floor.pdb
+  TARGET_PDB = floor.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lamp
@@ -2414,8 +2243,6 @@ build lsa_competition/CMakeFiles/lamp.dir/lamp.c.obj: C_COMPILER__lamp_Debug D$:
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\lamp.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\lamp.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\lamp.dir\
-  TARGET_PDB = lsa_competition\lamp.pdb
 
 
 # =============================================================================
@@ -2431,10 +2258,9 @@ build lsa_competition/lamp.exe: C_EXECUTABLE_LINKER__lamp_Debug lsa_competition/
   OBJECT_DIR = lsa_competition\CMakeFiles\lamp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\lamp.dir\
   TARGET_FILE = lsa_competition\lamp.exe
   TARGET_IMPLIB = lsa_competition\liblamp.dll.a
-  TARGET_PDB = lsa_competition\lamp.pdb
+  TARGET_PDB = lamp.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target branch
@@ -2450,8 +2276,6 @@ build lsa_competition/CMakeFiles/branch.dir/branch.c.obj: C_COMPILER__branch_Deb
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\branch.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\branch.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\branch.dir\
-  TARGET_PDB = lsa_competition\branch.pdb
 
 
 # =============================================================================
@@ -2467,10 +2291,9 @@ build lsa_competition/branch.exe: C_EXECUTABLE_LINKER__branch_Debug lsa_competit
   OBJECT_DIR = lsa_competition\CMakeFiles\branch.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\branch.dir\
   TARGET_FILE = lsa_competition\branch.exe
   TARGET_IMPLIB = lsa_competition\libbranch.dll.a
-  TARGET_PDB = lsa_competition\branch.pdb
+  TARGET_PDB = branch.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target way
@@ -2486,8 +2309,6 @@ build lsa_competition/CMakeFiles/way.dir/way.c.obj: C_COMPILER__way_Debug D$:/co
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = lsa_competition\CMakeFiles\way.dir
   OBJECT_FILE_DIR = lsa_competition\CMakeFiles\way.dir
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\way.dir\
-  TARGET_PDB = lsa_competition\way.pdb
 
 
 # =============================================================================
@@ -2503,10 +2324,9 @@ build lsa_competition/way.exe: C_EXECUTABLE_LINKER__way_Debug lsa_competition/CM
   OBJECT_DIR = lsa_competition\CMakeFiles\way.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = lsa_competition\CMakeFiles\way.dir\
   TARGET_FILE = lsa_competition\way.exe
   TARGET_IMPLIB = lsa_competition\libway.dll.a
-  TARGET_PDB = lsa_competition\way.pdb
+  TARGET_PDB = way.exe.dbg
 
 
 #############################################
@@ -2550,8 +2370,6 @@ build cpl_problemset/CMakeFiles/cantor_c.dir/cantor_c.c.obj: C_COMPILER__cantor_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\cantor_c.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\cantor_c.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\cantor_c.dir\
-  TARGET_PDB = cpl_problemset\cantor_c.pdb
 
 
 # =============================================================================
@@ -2567,10 +2385,9 @@ build cpl_problemset/cantor_c.exe: C_EXECUTABLE_LINKER__cantor_c_Debug cpl_probl
   OBJECT_DIR = cpl_problemset\CMakeFiles\cantor_c.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\cantor_c.dir\
   TARGET_FILE = cpl_problemset\cantor_c.exe
   TARGET_IMPLIB = cpl_problemset\libcantor_c.dll.a
-  TARGET_PDB = cpl_problemset\cantor_c.pdb
+  TARGET_PDB = cantor_c.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target angry_d
@@ -2586,8 +2403,6 @@ build cpl_problemset/CMakeFiles/angry_d.dir/angry_d.c.obj: C_COMPILER__angry_d_D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\angry_d.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\angry_d.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\angry_d.dir\
-  TARGET_PDB = cpl_problemset\angry_d.pdb
 
 
 # =============================================================================
@@ -2603,10 +2418,9 @@ build cpl_problemset/angry_d.exe: C_EXECUTABLE_LINKER__angry_d_Debug cpl_problem
   OBJECT_DIR = cpl_problemset\CMakeFiles\angry_d.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\angry_d.dir\
   TARGET_FILE = cpl_problemset\angry_d.exe
   TARGET_IMPLIB = cpl_problemset\libangry_d.dll.a
-  TARGET_PDB = cpl_problemset\angry_d.pdb
+  TARGET_PDB = angry_d.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target defense_e
@@ -2622,8 +2436,6 @@ build cpl_problemset/CMakeFiles/defense_e.dir/defense_e.c.obj: C_COMPILER__defen
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\defense_e.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\defense_e.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\defense_e.dir\
-  TARGET_PDB = cpl_problemset\defense_e.pdb
 
 
 # =============================================================================
@@ -2639,10 +2451,9 @@ build cpl_problemset/defense_e.exe: C_EXECUTABLE_LINKER__defense_e_Debug cpl_pro
   OBJECT_DIR = cpl_problemset\CMakeFiles\defense_e.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\defense_e.dir\
   TARGET_FILE = cpl_problemset\defense_e.exe
   TARGET_IMPLIB = cpl_problemset\libdefense_e.dll.a
-  TARGET_PDB = cpl_problemset\defense_e.pdb
+  TARGET_PDB = defense_e.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target instructional_nine_baka
@@ -2658,8 +2469,6 @@ build cpl_problemset/CMakeFiles/instructional_nine_baka.dir/instructional_nine_b
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\instructional_nine_baka.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\instructional_nine_baka.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\instructional_nine_baka.dir\
-  TARGET_PDB = cpl_problemset\instructional_nine_baka.pdb
 
 
 # =============================================================================
@@ -2675,10 +2484,9 @@ build cpl_problemset/instructional_nine_baka.exe: C_EXECUTABLE_LINKER__instructi
   OBJECT_DIR = cpl_problemset\CMakeFiles\instructional_nine_baka.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\instructional_nine_baka.dir\
   TARGET_FILE = cpl_problemset\instructional_nine_baka.exe
   TARGET_IMPLIB = cpl_problemset\libinstructional_nine_baka.dll.a
-  TARGET_PDB = cpl_problemset\instructional_nine_baka.pdb
+  TARGET_PDB = instructional_nine_baka.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bauklotze
@@ -2694,8 +2502,6 @@ build cpl_problemset/CMakeFiles/bauklotze.dir/bauklotze.c.obj: C_COMPILER__baukl
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\bauklotze.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\bauklotze.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\bauklotze.dir\
-  TARGET_PDB = cpl_problemset\bauklotze.pdb
 
 
 # =============================================================================
@@ -2711,10 +2517,9 @@ build cpl_problemset/bauklotze.exe: C_EXECUTABLE_LINKER__bauklotze_Debug cpl_pro
   OBJECT_DIR = cpl_problemset\CMakeFiles\bauklotze.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\bauklotze.dir\
   TARGET_FILE = cpl_problemset\bauklotze.exe
   TARGET_IMPLIB = cpl_problemset\libbauklotze.dll.a
-  TARGET_PDB = cpl_problemset\bauklotze.pdb
+  TARGET_PDB = bauklotze.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target toy
@@ -2730,8 +2535,6 @@ build cpl_problemset/CMakeFiles/toy.dir/toy.c.obj: C_COMPILER__toy_Debug D$:/cod
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\toy.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\toy.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\toy.dir\
-  TARGET_PDB = cpl_problemset\toy.pdb
 
 
 # =============================================================================
@@ -2747,10 +2550,9 @@ build cpl_problemset/toy.exe: C_EXECUTABLE_LINKER__toy_Debug cpl_problemset/CMak
   OBJECT_DIR = cpl_problemset\CMakeFiles\toy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\toy.dir\
   TARGET_FILE = cpl_problemset\toy.exe
   TARGET_IMPLIB = cpl_problemset\libtoy.dll.a
-  TARGET_PDB = cpl_problemset\toy.pdb
+  TARGET_PDB = toy.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target stack
@@ -2766,8 +2568,6 @@ build cpl_problemset/CMakeFiles/stack.dir/stack.c.obj: C_COMPILER__stack_Debug D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\stack.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\stack.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\stack.dir\
-  TARGET_PDB = cpl_problemset\stack.pdb
 
 
 # =============================================================================
@@ -2783,10 +2583,9 @@ build cpl_problemset/stack.exe: C_EXECUTABLE_LINKER__stack_Debug cpl_problemset/
   OBJECT_DIR = cpl_problemset\CMakeFiles\stack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\stack.dir\
   TARGET_FILE = cpl_problemset\stack.exe
   TARGET_IMPLIB = cpl_problemset\libstack.dll.a
-  TARGET_PDB = cpl_problemset\stack.pdb
+  TARGET_PDB = stack.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_problemset
@@ -2802,8 +2601,6 @@ build cpl_problemset/CMakeFiles/test_problemset.dir/test_problemset.c.obj: C_COM
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\test_problemset.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\test_problemset.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\test_problemset.dir\
-  TARGET_PDB = cpl_problemset\test_problemset.pdb
 
 
 # =============================================================================
@@ -2819,10 +2616,9 @@ build cpl_problemset/test_problemset.exe: C_EXECUTABLE_LINKER__test_problemset_D
   OBJECT_DIR = cpl_problemset\CMakeFiles\test_problemset.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\test_problemset.dir\
   TARGET_FILE = cpl_problemset\test_problemset.exe
   TARGET_IMPLIB = cpl_problemset\libtest_problemset.dll.a
-  TARGET_PDB = cpl_problemset\test_problemset.pdb
+  TARGET_PDB = test_problemset.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target split-sort
@@ -2838,8 +2634,6 @@ build cpl_problemset/CMakeFiles/split-sort.dir/split-sort.c.obj: C_COMPILER__spl
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_problemset\CMakeFiles\split-sort.dir
   OBJECT_FILE_DIR = cpl_problemset\CMakeFiles\split-sort.dir
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\split-sort.dir\
-  TARGET_PDB = cpl_problemset\split-sort.pdb
 
 
 # =============================================================================
@@ -2855,10 +2649,9 @@ build cpl_problemset/split-sort.exe: C_EXECUTABLE_LINKER__split-sort_Debug cpl_p
   OBJECT_DIR = cpl_problemset\CMakeFiles\split-sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_problemset\CMakeFiles\split-sort.dir\
   TARGET_FILE = cpl_problemset\split-sort.exe
   TARGET_IMPLIB = cpl_problemset\libsplit-sort.dll.a
-  TARGET_PDB = cpl_problemset\split-sort.pdb
+  TARGET_PDB = split-sort.exe.dbg
 
 
 #############################################
@@ -2902,8 +2695,6 @@ build 6.recursion/CMakeFiles/6test.dir/6test.c.obj: C_COMPILER__6test_Debug D$:/
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 6.recursion\CMakeFiles\6test.dir
   OBJECT_FILE_DIR = 6.recursion\CMakeFiles\6test.dir
-  TARGET_COMPILE_PDB = 6.recursion\CMakeFiles\6test.dir\
-  TARGET_PDB = 6.recursion\6test.pdb
 
 
 # =============================================================================
@@ -2919,10 +2710,9 @@ build 6.recursion/6test.exe: C_EXECUTABLE_LINKER__6test_Debug 6.recursion/CMakeF
   OBJECT_DIR = 6.recursion\CMakeFiles\6test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 6.recursion\CMakeFiles\6test.dir\
   TARGET_FILE = 6.recursion\6test.exe
   TARGET_IMPLIB = 6.recursion\lib6test.dll.a
-  TARGET_PDB = 6.recursion\6test.pdb
+  TARGET_PDB = 6test.exe.dbg
 
 
 #############################################
@@ -2966,8 +2756,6 @@ build 6.recursion/6homework/CMakeFiles/poi.dir/poi.c.obj: C_COMPILER__poi_Debug 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\poi.dir
   OBJECT_FILE_DIR = 6.recursion\6homework\CMakeFiles\poi.dir
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\poi.dir\
-  TARGET_PDB = 6.recursion\6homework\poi.pdb
 
 
 # =============================================================================
@@ -2983,10 +2771,9 @@ build 6.recursion/6homework/poi.exe: C_EXECUTABLE_LINKER__poi_Debug 6.recursion/
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\poi.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\poi.dir\
   TARGET_FILE = 6.recursion\6homework\poi.exe
   TARGET_IMPLIB = 6.recursion\6homework\libpoi.dll.a
-  TARGET_PDB = 6.recursion\6homework\poi.pdb
+  TARGET_PDB = poi.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target pascal
@@ -3002,8 +2789,6 @@ build 6.recursion/6homework/CMakeFiles/pascal.dir/pascal.c.obj: C_COMPILER__pasc
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\pascal.dir
   OBJECT_FILE_DIR = 6.recursion\6homework\CMakeFiles\pascal.dir
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\pascal.dir\
-  TARGET_PDB = 6.recursion\6homework\pascal.pdb
 
 
 # =============================================================================
@@ -3019,10 +2804,9 @@ build 6.recursion/6homework/pascal.exe: C_EXECUTABLE_LINKER__pascal_Debug 6.recu
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\pascal.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\pascal.dir\
   TARGET_FILE = 6.recursion\6homework\pascal.exe
   TARGET_IMPLIB = 6.recursion\6homework\libpascal.dll.a
-  TARGET_PDB = 6.recursion\6homework\pascal.pdb
+  TARGET_PDB = pascal.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target tiles
@@ -3038,8 +2822,6 @@ build 6.recursion/6homework/CMakeFiles/tiles.dir/tiles.c.obj: C_COMPILER__tiles_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\tiles.dir
   OBJECT_FILE_DIR = 6.recursion\6homework\CMakeFiles\tiles.dir
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\tiles.dir\
-  TARGET_PDB = 6.recursion\6homework\tiles.pdb
 
 
 # =============================================================================
@@ -3055,10 +2837,9 @@ build 6.recursion/6homework/tiles.exe: C_EXECUTABLE_LINKER__tiles_Debug 6.recurs
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\tiles.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\tiles.dir\
   TARGET_FILE = 6.recursion\6homework\tiles.exe
   TARGET_IMPLIB = 6.recursion\6homework\libtiles.dll.a
-  TARGET_PDB = 6.recursion\6homework\tiles.pdb
+  TARGET_PDB = tiles.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target max
@@ -3074,8 +2855,6 @@ build 6.recursion/6homework/CMakeFiles/max.dir/max.c.obj: C_COMPILER__max_Debug 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\max.dir
   OBJECT_FILE_DIR = 6.recursion\6homework\CMakeFiles\max.dir
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\max.dir\
-  TARGET_PDB = 6.recursion\6homework\max.pdb
 
 
 # =============================================================================
@@ -3091,10 +2870,9 @@ build 6.recursion/6homework/max.exe: C_EXECUTABLE_LINKER__max_Debug 6.recursion/
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\max.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\max.dir\
   TARGET_FILE = 6.recursion\6homework\max.exe
   TARGET_IMPLIB = 6.recursion\6homework\libmax.dll.a
-  TARGET_PDB = 6.recursion\6homework\max.pdb
+  TARGET_PDB = max.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target integration
@@ -3110,8 +2888,6 @@ build 6.recursion/6homework/CMakeFiles/integration.dir/integration.c.obj: C_COMP
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\integration.dir
   OBJECT_FILE_DIR = 6.recursion\6homework\CMakeFiles\integration.dir
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\integration.dir\
-  TARGET_PDB = 6.recursion\6homework\integration.pdb
 
 
 # =============================================================================
@@ -3127,10 +2903,9 @@ build 6.recursion/6homework/integration.exe: C_EXECUTABLE_LINKER__integration_De
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\integration.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\integration.dir\
   TARGET_FILE = 6.recursion\6homework\integration.exe
   TARGET_IMPLIB = 6.recursion\6homework\libintegration.dll.a
-  TARGET_PDB = 6.recursion\6homework\integration.pdb
+  TARGET_PDB = integration.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target triangle
@@ -3146,8 +2921,6 @@ build 6.recursion/6homework/CMakeFiles/triangle.dir/triangle.c.obj: C_COMPILER__
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\triangle.dir
   OBJECT_FILE_DIR = 6.recursion\6homework\CMakeFiles\triangle.dir
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\triangle.dir\
-  TARGET_PDB = 6.recursion\6homework\triangle.pdb
 
 
 # =============================================================================
@@ -3163,10 +2936,9 @@ build 6.recursion/6homework/triangle.exe: C_EXECUTABLE_LINKER__triangle_Debug 6.
   OBJECT_DIR = 6.recursion\6homework\CMakeFiles\triangle.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 6.recursion\6homework\CMakeFiles\triangle.dir\
   TARGET_FILE = 6.recursion\6homework\triangle.exe
   TARGET_IMPLIB = 6.recursion\6homework\libtriangle.dll.a
-  TARGET_PDB = 6.recursion\6homework\triangle.pdb
+  TARGET_PDB = triangle.exe.dbg
 
 
 #############################################
@@ -3210,8 +2982,6 @@ build 7.data-types/CMakeFiles/7class.dir/7class.c.obj: C_COMPILER__7class_Debug 
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\CMakeFiles\7class.dir
   OBJECT_FILE_DIR = 7.data-types\CMakeFiles\7class.dir
-  TARGET_COMPILE_PDB = 7.data-types\CMakeFiles\7class.dir\
-  TARGET_PDB = 7.data-types\7class.pdb
 
 
 # =============================================================================
@@ -3227,10 +2997,9 @@ build 7.data-types/7class.exe: C_EXECUTABLE_LINKER__7class_Debug 7.data-types/CM
   OBJECT_DIR = 7.data-types\CMakeFiles\7class.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\CMakeFiles\7class.dir\
   TARGET_FILE = 7.data-types\7class.exe
   TARGET_IMPLIB = 7.data-types\lib7class.dll.a
-  TARGET_PDB = 7.data-types\7class.pdb
+  TARGET_PDB = 7class.exe.dbg
 
 
 #############################################
@@ -3274,8 +3043,6 @@ build 7.data-types/homework7/CMakeFiles/wine.dir/wine.c.obj: C_COMPILER__wine_De
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\wine.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\wine.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\wine.dir\
-  TARGET_PDB = 7.data-types\homework7\wine.pdb
 
 
 # =============================================================================
@@ -3291,10 +3058,9 @@ build 7.data-types/homework7/wine.exe: C_EXECUTABLE_LINKER__wine_Debug 7.data-ty
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\wine.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\wine.dir\
   TARGET_FILE = 7.data-types\homework7\wine.exe
   TARGET_IMPLIB = 7.data-types\homework7\libwine.dll.a
-  TARGET_PDB = 7.data-types\homework7\wine.pdb
+  TARGET_PDB = wine.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cuboid
@@ -3310,8 +3076,6 @@ build 7.data-types/homework7/CMakeFiles/cuboid.dir/cuboid.c.obj: C_COMPILER__cub
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\cuboid.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\cuboid.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\cuboid.dir\
-  TARGET_PDB = 7.data-types\homework7\cuboid.pdb
 
 
 # =============================================================================
@@ -3327,10 +3091,9 @@ build 7.data-types/homework7/cuboid.exe: C_EXECUTABLE_LINKER__cuboid_Debug 7.dat
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\cuboid.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\cuboid.dir\
   TARGET_FILE = 7.data-types\homework7\cuboid.exe
   TARGET_IMPLIB = 7.data-types\homework7\libcuboid.dll.a
-  TARGET_PDB = 7.data-types\homework7\cuboid.pdb
+  TARGET_PDB = cuboid.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target pour
@@ -3346,8 +3109,6 @@ build 7.data-types/homework7/CMakeFiles/pour.dir/pour.c.obj: C_COMPILER__pour_De
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\pour.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\pour.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\pour.dir\
-  TARGET_PDB = 7.data-types\homework7\pour.pdb
 
 
 # =============================================================================
@@ -3363,10 +3124,9 @@ build 7.data-types/homework7/pour.exe: C_EXECUTABLE_LINKER__pour_Debug 7.data-ty
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\pour.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\pour.dir\
   TARGET_FILE = 7.data-types\homework7\pour.exe
   TARGET_IMPLIB = 7.data-types\homework7\libpour.dll.a
-  TARGET_PDB = 7.data-types\homework7\pour.pdb
+  TARGET_PDB = pour.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target buddy
@@ -3382,8 +3142,6 @@ build 7.data-types/homework7/CMakeFiles/buddy.dir/buddy.c.obj: C_COMPILER__buddy
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\buddy.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\buddy.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\buddy.dir\
-  TARGET_PDB = 7.data-types\homework7\buddy.pdb
 
 
 # =============================================================================
@@ -3399,10 +3157,9 @@ build 7.data-types/homework7/buddy.exe: C_EXECUTABLE_LINKER__buddy_Debug 7.data-
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\buddy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\buddy.dir\
   TARGET_FILE = 7.data-types\homework7\buddy.exe
   TARGET_IMPLIB = 7.data-types\homework7\libbuddy.dll.a
-  TARGET_PDB = 7.data-types\homework7\buddy.pdb
+  TARGET_PDB = buddy.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test7
@@ -3418,8 +3175,6 @@ build 7.data-types/homework7/CMakeFiles/test7.dir/test7.c.obj: C_COMPILER__test7
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\test7.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\test7.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\test7.dir\
-  TARGET_PDB = 7.data-types\homework7\test7.pdb
 
 
 # =============================================================================
@@ -3435,10 +3190,9 @@ build 7.data-types/homework7/test7.exe: C_EXECUTABLE_LINKER__test7_Debug 7.data-
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\test7.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\test7.dir\
   TARGET_FILE = 7.data-types\homework7\test7.exe
   TARGET_IMPLIB = 7.data-types\homework7\libtest7.dll.a
-  TARGET_PDB = 7.data-types\homework7\test7.pdb
+  TARGET_PDB = test7.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target rotate
@@ -3454,8 +3208,6 @@ build 7.data-types/homework7/CMakeFiles/rotate.dir/rotate.c.obj: C_COMPILER__rot
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\rotate.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\rotate.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\rotate.dir\
-  TARGET_PDB = 7.data-types\homework7\rotate.pdb
 
 
 # =============================================================================
@@ -3471,10 +3223,9 @@ build 7.data-types/homework7/rotate.exe: C_EXECUTABLE_LINKER__rotate_Debug 7.dat
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\rotate.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\rotate.dir\
   TARGET_FILE = 7.data-types\homework7\rotate.exe
   TARGET_IMPLIB = 7.data-types\homework7\librotate.dll.a
-  TARGET_PDB = 7.data-types\homework7\rotate.pdb
+  TARGET_PDB = rotate.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target brackets
@@ -3490,8 +3241,6 @@ build 7.data-types/homework7/CMakeFiles/brackets.dir/brackets.c.obj: C_COMPILER_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\brackets.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\brackets.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\brackets.dir\
-  TARGET_PDB = 7.data-types\homework7\brackets.pdb
 
 
 # =============================================================================
@@ -3507,10 +3256,9 @@ build 7.data-types/homework7/brackets.exe: C_EXECUTABLE_LINKER__brackets_Debug 7
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\brackets.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\brackets.dir\
   TARGET_FILE = 7.data-types\homework7\brackets.exe
   TARGET_IMPLIB = 7.data-types\homework7\libbrackets.dll.a
-  TARGET_PDB = 7.data-types\homework7\brackets.pdb
+  TARGET_PDB = brackets.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target pour_help
@@ -3526,8 +3274,6 @@ build 7.data-types/homework7/CMakeFiles/pour_help.dir/pour_help.c.obj: C_COMPILE
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\pour_help.dir
   OBJECT_FILE_DIR = 7.data-types\homework7\CMakeFiles\pour_help.dir
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\pour_help.dir\
-  TARGET_PDB = 7.data-types\homework7\pour_help.pdb
 
 
 # =============================================================================
@@ -3543,10 +3289,9 @@ build 7.data-types/homework7/pour_help.exe: C_EXECUTABLE_LINKER__pour_help_Debug
   OBJECT_DIR = 7.data-types\homework7\CMakeFiles\pour_help.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 7.data-types\homework7\CMakeFiles\pour_help.dir\
   TARGET_FILE = 7.data-types\homework7\pour_help.exe
   TARGET_IMPLIB = 7.data-types\homework7\libpour_help.dll.a
-  TARGET_PDB = 7.data-types\homework7\pour_help.pdb
+  TARGET_PDB = pour_help.exe.dbg
 
 
 #############################################
@@ -3618,8 +3363,6 @@ build others/CMakeFiles/other_test.dir/other_test.c.obj: C_COMPILER__other_test_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = others\CMakeFiles\other_test.dir
   OBJECT_FILE_DIR = others\CMakeFiles\other_test.dir
-  TARGET_COMPILE_PDB = others\CMakeFiles\other_test.dir\
-  TARGET_PDB = others\other_test.pdb
 
 
 # =============================================================================
@@ -3635,10 +3378,9 @@ build others/other_test.exe: C_EXECUTABLE_LINKER__other_test_Debug others/CMakeF
   OBJECT_DIR = others\CMakeFiles\other_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = others\CMakeFiles\other_test.dir\
   TARGET_FILE = others\other_test.exe
   TARGET_IMPLIB = others\libother_test.dll.a
-  TARGET_PDB = others\other_test.pdb
+  TARGET_PDB = other_test.exe.dbg
 
 
 #############################################
@@ -3682,8 +3424,6 @@ build 8.pointer-1/CMakeFiles/8class.dir/8class.c.obj: C_COMPILER__8class_Debug D
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 8.pointer-1\CMakeFiles\8class.dir
   OBJECT_FILE_DIR = 8.pointer-1\CMakeFiles\8class.dir
-  TARGET_COMPILE_PDB = 8.pointer-1\CMakeFiles\8class.dir\
-  TARGET_PDB = 8.pointer-1\8class.pdb
 
 
 # =============================================================================
@@ -3699,10 +3439,9 @@ build 8.pointer-1/8class.exe: C_EXECUTABLE_LINKER__8class_Debug 8.pointer-1/CMak
   OBJECT_DIR = 8.pointer-1\CMakeFiles\8class.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 8.pointer-1\CMakeFiles\8class.dir\
   TARGET_FILE = 8.pointer-1\8class.exe
   TARGET_IMPLIB = 8.pointer-1\lib8class.dll.a
-  TARGET_PDB = 8.pointer-1\8class.pdb
+  TARGET_PDB = 8class.exe.dbg
 
 
 #############################################
@@ -3746,8 +3485,6 @@ build 8.pointer-1/8homework/CMakeFiles/interpreter.dir/interpreter.c.obj: C_COMP
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\interpreter.dir
   OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\interpreter.dir
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\interpreter.dir\
-  TARGET_PDB = 8.pointer-1\8homework\interpreter.pdb
 
 
 # =============================================================================
@@ -3763,10 +3500,9 @@ build 8.pointer-1/8homework/interpreter.exe: C_EXECUTABLE_LINKER__interpreter_De
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\interpreter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\interpreter.dir\
   TARGET_FILE = 8.pointer-1\8homework\interpreter.exe
   TARGET_IMPLIB = 8.pointer-1\8homework\libinterpreter.dll.a
-  TARGET_PDB = 8.pointer-1\8homework\interpreter.pdb
+  TARGET_PDB = interpreter.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test8
@@ -3782,8 +3518,6 @@ build 8.pointer-1/8homework/CMakeFiles/test8.dir/test8.c.obj: C_COMPILER__test8_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\test8.dir
   OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\test8.dir
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\test8.dir\
-  TARGET_PDB = 8.pointer-1\8homework\test8.pdb
 
 
 # =============================================================================
@@ -3799,10 +3533,9 @@ build 8.pointer-1/8homework/test8.exe: C_EXECUTABLE_LINKER__test8_Debug 8.pointe
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\test8.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\test8.dir\
   TARGET_FILE = 8.pointer-1\8homework\test8.exe
   TARGET_IMPLIB = 8.pointer-1\8homework\libtest8.dll.a
-  TARGET_PDB = 8.pointer-1\8homework\test8.pdb
+  TARGET_PDB = test8.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target substr
@@ -3818,8 +3551,6 @@ build 8.pointer-1/8homework/CMakeFiles/substr.dir/substr.c.obj: C_COMPILER__subs
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\substr.dir
   OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\substr.dir
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\substr.dir\
-  TARGET_PDB = 8.pointer-1\8homework\substr.pdb
 
 
 # =============================================================================
@@ -3835,10 +3566,9 @@ build 8.pointer-1/8homework/substr.exe: C_EXECUTABLE_LINKER__substr_Debug 8.poin
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\substr.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\substr.dir\
   TARGET_FILE = 8.pointer-1\8homework\substr.exe
   TARGET_IMPLIB = 8.pointer-1\8homework\libsubstr.dll.a
-  TARGET_PDB = 8.pointer-1\8homework\substr.pdb
+  TARGET_PDB = substr.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target title
@@ -3854,8 +3584,6 @@ build 8.pointer-1/8homework/CMakeFiles/title.dir/title.c.obj: C_COMPILER__title_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\title.dir
   OBJECT_FILE_DIR = 8.pointer-1\8homework\CMakeFiles\title.dir
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\title.dir\
-  TARGET_PDB = 8.pointer-1\8homework\title.pdb
 
 
 # =============================================================================
@@ -3871,10 +3599,9 @@ build 8.pointer-1/8homework/title.exe: C_EXECUTABLE_LINKER__title_Debug 8.pointe
   OBJECT_DIR = 8.pointer-1\8homework\CMakeFiles\title.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = 8.pointer-1\8homework\CMakeFiles\title.dir\
   TARGET_FILE = 8.pointer-1\8homework\title.exe
   TARGET_IMPLIB = 8.pointer-1\8homework\libtitle.dll.a
-  TARGET_PDB = 8.pointer-1\8homework\title.pdb
+  TARGET_PDB = title.exe.dbg
 
 
 #############################################
@@ -3918,8 +3645,6 @@ build mlg_question/CMakeFiles/railroad.dir/railroad.c.obj: C_COMPILER__railroad_
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = mlg_question\CMakeFiles\railroad.dir
   OBJECT_FILE_DIR = mlg_question\CMakeFiles\railroad.dir
-  TARGET_COMPILE_PDB = mlg_question\CMakeFiles\railroad.dir\
-  TARGET_PDB = mlg_question\railroad.pdb
 
 
 # =============================================================================
@@ -3935,10 +3660,9 @@ build mlg_question/railroad.exe: C_EXECUTABLE_LINKER__railroad_Debug mlg_questio
   OBJECT_DIR = mlg_question\CMakeFiles\railroad.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = mlg_question\CMakeFiles\railroad.dir\
   TARGET_FILE = mlg_question\railroad.exe
   TARGET_IMPLIB = mlg_question\librailroad.dll.a
-  TARGET_PDB = mlg_question\railroad.pdb
+  TARGET_PDB = railroad.exe.dbg
 
 
 #############################################
@@ -3982,8 +3706,6 @@ build cpl_plus_problems/CMakeFiles/magic_cubic.dir/magic_cubic.c.obj: C_COMPILER
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_plus_problems\CMakeFiles\magic_cubic.dir
   OBJECT_FILE_DIR = cpl_plus_problems\CMakeFiles\magic_cubic.dir
-  TARGET_COMPILE_PDB = cpl_plus_problems\CMakeFiles\magic_cubic.dir\
-  TARGET_PDB = cpl_plus_problems\magic_cubic.pdb
 
 
 # =============================================================================
@@ -3999,10 +3721,9 @@ build cpl_plus_problems/magic_cubic.exe: C_EXECUTABLE_LINKER__magic_cubic_Debug 
   OBJECT_DIR = cpl_plus_problems\CMakeFiles\magic_cubic.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_plus_problems\CMakeFiles\magic_cubic.dir\
   TARGET_FILE = cpl_plus_problems\magic_cubic.exe
   TARGET_IMPLIB = cpl_plus_problems\libmagic_cubic.dll.a
-  TARGET_PDB = cpl_plus_problems\magic_cubic.pdb
+  TARGET_PDB = magic_cubic.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target sa_er_hao
@@ -4018,8 +3739,6 @@ build cpl_plus_problems/CMakeFiles/sa_er_hao.dir/sa_er_hao.c.obj: C_COMPILER__sa
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = cpl_plus_problems\CMakeFiles\sa_er_hao.dir
   OBJECT_FILE_DIR = cpl_plus_problems\CMakeFiles\sa_er_hao.dir
-  TARGET_COMPILE_PDB = cpl_plus_problems\CMakeFiles\sa_er_hao.dir\
-  TARGET_PDB = cpl_plus_problems\sa_er_hao.pdb
 
 
 # =============================================================================
@@ -4035,10 +3754,9 @@ build cpl_plus_problems/sa_er_hao.exe: C_EXECUTABLE_LINKER__sa_er_hao_Debug cpl_
   OBJECT_DIR = cpl_plus_problems\CMakeFiles\sa_er_hao.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = cpl_plus_problems\CMakeFiles\sa_er_hao.dir\
   TARGET_FILE = cpl_plus_problems\sa_er_hao.exe
   TARGET_IMPLIB = cpl_plus_problems\libsa_er_hao.dll.a
-  TARGET_PDB = cpl_plus_problems\sa_er_hao.pdb
+  TARGET_PDB = sa_er_hao.exe.dbg
 
 
 #############################################
@@ -4110,8 +3828,6 @@ build ruangong_competition/duikang/CMakeFiles/four_zi_competition.dir/four_zi_co
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir
   OBJECT_FILE_DIR = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir
-  TARGET_COMPILE_PDB = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir\
-  TARGET_PDB = ruangong_competition\duikang\four_zi_competition.pdb
 
 
 # =============================================================================
@@ -4127,10 +3843,9 @@ build ruangong_competition/duikang/four_zi_competition.exe: C_EXECUTABLE_LINKER_
   OBJECT_DIR = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = ruangong_competition\duikang\CMakeFiles\four_zi_competition.dir\
   TARGET_FILE = ruangong_competition\duikang\four_zi_competition.exe
   TARGET_IMPLIB = ruangong_competition\duikang\libfour_zi_competition.dll.a
-  TARGET_PDB = ruangong_competition\duikang\four_zi_competition.pdb
+  TARGET_PDB = four_zi_competition.exe.dbg
 
 
 #############################################
@@ -4174,8 +3889,6 @@ build ruangong_competition/jingsai/CMakeFiles/test_none.dir/test_none.c.obj: C_C
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = ruangong_competition\jingsai\CMakeFiles\test_none.dir
   OBJECT_FILE_DIR = ruangong_competition\jingsai\CMakeFiles\test_none.dir
-  TARGET_COMPILE_PDB = ruangong_competition\jingsai\CMakeFiles\test_none.dir\
-  TARGET_PDB = ruangong_competition\jingsai\test_none.pdb
 
 
 # =============================================================================
@@ -4191,10 +3904,9 @@ build ruangong_competition/jingsai/test_none.exe: C_EXECUTABLE_LINKER__test_none
   OBJECT_DIR = ruangong_competition\jingsai\CMakeFiles\test_none.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = ruangong_competition\jingsai\CMakeFiles\test_none.dir\
   TARGET_FILE = ruangong_competition\jingsai\test_none.exe
   TARGET_IMPLIB = ruangong_competition\jingsai\libtest_none.dll.a
-  TARGET_PDB = ruangong_competition\jingsai\test_none.pdb
+  TARGET_PDB = test_none.exe.dbg
 
 
 #############################################
@@ -4798,14 +4510,14 @@ build ruangong_competition/jingsai/all: phony ruangong_competition/jingsai/test_
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCCompiler.cmake.in C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystem.cmake.in C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestRCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCCompiler.cmake.in C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystem.cmake.in C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestRCCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt: phony
+build C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt: phony
 
 
 #############################################

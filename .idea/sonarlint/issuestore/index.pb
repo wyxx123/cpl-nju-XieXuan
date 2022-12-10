@@ -137,16 +137,10 @@ B
 5.function/test5.c,c\e\ced8199eec1894efd702e7c400cf204ef3d7d9b9
 I
 1.intro/class2_homework.c,6\4\649c169dcea1a314ab6247f4abfc595ff0acdb32
-S
-#8.pointer-1/8homework/interpreter.c,e\b\ebf93ef1cab169873bd55e24f6af35896e4ca3c7
-Q
-!7.data-types/homework7/brackets.c,8\d\8d929f526b811eb79ef26e217a634f6170ba2473
 M
 7.data-types/homework7/wine.c,b\a\baf8197133092f57955f3932b2d5107fc2f49c0e
 N
 8.pointer-1/8homework/substr.c,9\1\9154e338cbb605eb75c6fa9a9eafd02a47f2d722
-M
-8.pointer-1/8homework/test8.c,0\6\06fb103850be27f57c2cef1b238908a73760bd56
 C
 others/other_test.c,7\9\79a4827aa78116de08fff168ea827181af81a1d7
 O
