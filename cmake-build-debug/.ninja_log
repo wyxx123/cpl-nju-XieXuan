@@ -32,7 +32,7 @@
 229	546	6868327981994789	1.intro/test_float.exe	e55dbddddac1bb49
 3	165	6864902522687990	1.intro/CMakeFiles/secret_two_add.dir/secret_two_add.c.obj	d556b1835d496d96
 1	167	6871832611996341	2.if/CMakeFiles/single_noarr.dir/single_noarr.c.obj	c3d8502d76f4c6de
-1	564	6923438572087242	build.ninja	fe5836b31738e7bb
+1	564	6933037840027182	build.ninja	fe5836b31738e7bb
 195	303	6868332605461473	2.if/class.exe	e05e47176ab4eeb4
 200	536	6897878218348288	0/GetThreeNumber.exe	ba0ffd50454531cd
 2	68	6874650341697354	3.swich/homework3/CMakeFiles/decimal.dir/decimal.c.obj	cf89de378309d596
@@ -51,7 +51,7 @@
 0	43	6874497485040635	3.swich/homework3/CMakeFiles/flip.dir/flip.c.obj	f456f142452203c8
 1	110	6881091252492918	4.loops/homework4/CMakeFiles/matrix.dir/matrix.c.obj	791f7388d60e613e
 2	62	6874621012254005	3.swich/homework3/CMakeFiles/josephus.dir/josephus.c.obj	46d115b6e9ad1786
-1	506	6923434835642170	modified__test/CMakeFiles/gobang.dir/gobang.c.obj	b2337b2d99f420ea
+2	651	6923441597765157	modified__test/CMakeFiles/gobang.dir/gobang.c.obj	b2337b2d99f420ea
 43	98	6874497485575284	3.swich/homework3/flip.exe	2547885027d5c2e
 89	186	6874597714372536	3.swich/homework3/statistic.exe	7cac047adca25ead
 62	143	6874621013034162	3.swich/homework3/josephus.exe	7b88f1a92afdd2e4
@@ -60,10 +60,10 @@
 3501	4022	6896778751380042	3.swich/homework3/palindrome.exe	a4896192bd6bfdba
 42	88	6875011370040262	3.swich/homework3/quick_sort.exe	d3c93fcdeb27d716
 38	83	6875011704006729	3.swich/homework3/test_qsort.exe	ebca5ea453a831ff
-86	196	6877121830532270	.culculation_c_homework/homework_6_18.exe	e840244de331c7b5
 1	3494	6891645286018383	cpl_problemset/CMakeFiles/angry_d.dir/angry_d.c.obj	62efb179e4f3cfa5
-1	217	6910017513558388	cpl_problemset/CMakeFiles/split-sort.dir/split-sort.c.obj	738c578cf228fa13
+86	196	6877121830532270	.culculation_c_homework/homework_6_18.exe	e840244de331c7b5
 1	44	6875298018148200	3.swich/CMakeFiles/test3.dir/test3.c.obj	f0526395a8c03646
+1	217	6910017513558388	cpl_problemset/CMakeFiles/split-sort.dir/split-sort.c.obj	738c578cf228fa13
 44	100	6875298018693632	3.swich/test3.exe	99b006484317e8f8
 0	217	6903730952849919	5.function/CMakeFiles/test5.dir/test5.c.obj	aea19cdda1307750
 1	39	6875303299021163	culculation_c_homework/CMakeFiles/homework_6_20.dir/homework_6_20.c.obj	142e42ee526aabaa
@@ -156,6 +156,7 @@
 0	205	6894309591641222	cpl_problemset/CMakeFiles/bauklotze.dir/bauklotze.c.obj	64998c5f93479984
 205	343	6894309592983972	cpl_problemset/bauklotze.exe	9b01e26588cd12c1
 211	354	6897879119855436	0/GuessTheNumber.exe	642ab92f91f9a57a
+408	767	6923440756658479	modified__test/dalao1_dobang.exe	eecf16b5127ba1da
 4305	4679	6898518338502090	0/test.exe	d1b4fc1f68ff93f4
 1	230	6898694363611591	7.data-types/homework7/CMakeFiles/wine.dir/wine.c.obj	f1d647b63fb8e755
 1	328	6910094714792121	4.loops/homework4/CMakeFiles/mine_no_array.dir/mine_no_array.c.obj	4537563d95d7aa72
@@ -190,7 +191,7 @@
 210	495	6907355460626254	cpl_plus_problems/magic_cubic.exe	76e9a49f195f9c67
 217	359	6910017514938898	cpl_problemset/split-sort.exe	c12b5d2fa92d80a2
 329	1015	6910094721623693	4.loops/homework4/mine_no_array.exe	1a59c39df55d592a
-509	972	6923434840206444	modified__test/gobang.exe	c3ddd0fcd8e13ad7
+652	988	6923441601055398	modified__test/gobang.exe	c3ddd0fcd8e13ad7
 656	1054	6911506180687940	cpl_midterms/pre_testing.exe	c445725e40491130
 1	233	6911602975111383	cpl_midterms/calculator/CMakeFiles/learn.dir/learn.c.obj	277d1a011c556721
 11	515	6922034418417403	cpl_midterms/calculator/CMakeFiles/calculator.dir/calculator.c.obj	53bd48d33f0a5b93
@@ -221,6 +222,3 @@
 1	340	6923400230694339	modified__test/CMakeFiles/bsearch.dir/bsearch.c.obj	ff43c771d64f9282
 341	625	6923400233517574	modified__test/bsearch.exe	419d8a757a457d4d
 1	406	6923440753116311	modified__test/CMakeFiles/dalao1_dobang.dir/dalao1_dobang.c.obj	605329de97cb616d
-408	767	6923440756658479	modified__test/dalao1_dobang.exe	eecf16b5127ba1da
-2	651	6923441597765157	modified__test/CMakeFiles/gobang.dir/gobang.c.obj	b2337b2d99f420ea
-652	988	6923441601055398	modified__test/gobang.exe	c3ddd0fcd8e13ad7
