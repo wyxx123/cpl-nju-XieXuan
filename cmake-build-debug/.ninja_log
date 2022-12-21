@@ -32,7 +32,7 @@
 229	546	6868327981994789	1.intro/test_float.exe	e55dbddddac1bb49
 3	165	6864902522687990	1.intro/CMakeFiles/secret_two_add.dir/secret_two_add.c.obj	d556b1835d496d96
 1	167	6871832611996341	2.if/CMakeFiles/single_noarr.dir/single_noarr.c.obj	c3d8502d76f4c6de
-1	564	6923454171160460	build.ninja	fe5836b31738e7bb
+1	564	6930513601558566	build.ninja	fe5836b31738e7bb
 195	303	6868332605461473	2.if/class.exe	e05e47176ab4eeb4
 200	536	6897878218348288	0/GetThreeNumber.exe	ba0ffd50454531cd
 2	68	6874650341697354	3.swich/homework3/CMakeFiles/decimal.dir/decimal.c.obj	cf89de378309d596
@@ -134,7 +134,7 @@
 336	651	6923385020630945	11-struct/11homework/file-menagement.exe	b07b1c441eb9e389
 1	145	6891762155986517	cpl_problemset/CMakeFiles/defense_e.dir/defense_e.c.obj	c8b27af7ea3cc6a1
 146	283	6891762157327117	cpl_problemset/defense_e.exe	f7cbd35615ad44d8
-480	1028	6914301492391757	9-more-pointers/9homework/tokenizer.exe	679d5717ea3c1c63
+667	1001	6925557810838054	9-more-pointers/9homework/tokenizer.exe	8ca22916667bd566
 1	181	6892639515018661	6.recursion/6homework/CMakeFiles/poi.dir/poi.c.obj	f57c04f48049fed2
 182	315	6892639516328575	6.recursion/6homework/poi.exe	b48e424d7d959bca
 0	190	6892644419311154	6.recursion/6homework/CMakeFiles/pascal.dir/pascal.c.obj	49cb1905407b3d0c
@@ -174,9 +174,9 @@
 0	180	6900094884253341	cpl_problemset/CMakeFiles/stack.dir/stack.c.obj	396c681ad9634ed3
 181	457	6900094886991584	cpl_problemset/stack.exe	f9e75badddeae867
 200	482	6901440898866984	cpl_problemset/toy.exe	e38a76e38f08a6cf
-1	355	6922731390578550	others/CMakeFiles/other_test.dir/other_test.c.obj	b204eefd8c6070b8
+1	312	6925589666194862	others/CMakeFiles/other_test.dir/other_test.c.obj	b204eefd8c6070b8
 1	186	6914346690067030	9-more-pointers/9homework/CMakeFiles/9test.dir/9test.c.obj	94c92b3f6260c80b
-356	629	6922731393277199	others/other_test.exe	32430082f10216de
+313	591	6925589668954403	others/other_test.exe	32430082f10216de
 218	517	6903730955815840	5.function/test5.exe	16d7a36ef8347a6c
 1	185	6904740473455836	8.pointer-1/8homework/CMakeFiles/test8.dir/test8.c.obj	bd0cf3dca98d61a
 186	329	6904740474868324	8.pointer-1/8homework/test8.exe	84948699b1502b4
@@ -193,13 +193,14 @@
 329	1015	6910094721623693	4.loops/homework4/mine_no_array.exe	1a59c39df55d592a
 652	988	6923441601055398	modified__test/gobang.exe	c3ddd0fcd8e13ad7
 656	1054	6911506180687940	cpl_midterms/pre_testing.exe	c445725e40491130
+486	830	6929881386363490	12-linklist/12homework/new_buddy.exe	a7bde621a934ba9f
 1	233	6911602975111383	cpl_midterms/calculator/CMakeFiles/learn.dir/learn.c.obj	277d1a011c556721
 11	515	6922034418417403	cpl_midterms/calculator/CMakeFiles/calculator.dir/calculator.c.obj	53bd48d33f0a5b93
 516	780	6922034421053688	cpl_midterms/calculator/calculator.exe	1f3ec7ddf5cec47e
 1	657	6922027221146706	cpl_midterms/calculator/CMakeFiles/mlg_calculator.dir/mlg_calculator.c.obj	24aa4c81b973313a
 1	308	6912495408996637	cpl_midterms/calculator/CMakeFiles/test_calculator.dir/test_calculator.c.obj	98a489cea21ba30
 309	490	6912495410761950	cpl_midterms/calculator/test_calculator.exe	900d92a4e5036f7
-1	479	6914301486930271	9-more-pointers/9homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj	4ae0e921edf050c
+9	666	6925557807514374	9-more-pointers/9homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj	1315d6e8d9f17bb5
 1	298	6915986125371787	9-more-pointers/9homework/CMakeFiles/stringcat.dir/stringcat.c.obj	6dcd576159511145
 299	682	6915986129187340	9-more-pointers/9homework/stringcat.exe	b88577286a0250d0
 1	302	6915972036500502	9-more-pointers/9homework/CMakeFiles/parse.dir/parse.c.obj	43ba6a842a771a53
@@ -222,3 +223,6 @@
 1	340	6923400230694339	modified__test/CMakeFiles/bsearch.dir/bsearch.c.obj	ff43c771d64f9282
 341	625	6923400233517574	modified__test/bsearch.exe	419d8a757a457d4d
 1	406	6923440753116311	modified__test/CMakeFiles/dalao1_dobang.dir/dalao1_dobang.c.obj	605329de97cb616d
+1	458	6929730209661316	12-linklist/12homework/CMakeFiles/string-hash.dir/string-hash.c.obj	666e42b80bded508
+459	713	6929730212199501	12-linklist/12homework/string-hash.exe	4853fdd59bcc17a5
+2	485	6929881382950515	12-linklist/12homework/CMakeFiles/new_buddy.dir/new_buddy.c.obj	4e2f58e08e1905c7

@@ -13,30 +13,25 @@
 
 
 
-
-#include <stdio.h>
 #include <stdlib.h>
 
-#define ROW 10
-#define COL 10
-
-int main(void)
+int CompareInt(const void* num1, const void* num2)
 {
-	int* array1 = malloc(ROW * COL * sizeof(*array1));
-	int(* array2)[COL] = malloc(ROW * COL * sizeof(**array2));
-	int(* array3)[COL] = malloc(ROW * sizeof(*array3));
-
-	array3[10][10] = 0;
-	printf("%d\n", array3[10][10]);
-
-	free(array1);
-	free(array2);
-	free(array3);
-	return 0;
+	return *(const int*)num1 - *(const int*)num2;
 }
 
+int missingNumber(int* nums, int numsSize)
+{
+	qsort(nums, numsSize, sizeof *nums, CompareInt);
 
-
+	int i = 0;
+	for (i = 0; i < numsSize; i++)
+	{
+		if (i != nums[i])
+			return i;
+	}
+	return i;
+}
 
 
 

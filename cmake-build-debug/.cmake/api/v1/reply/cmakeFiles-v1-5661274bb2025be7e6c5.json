@@ -202,6 +202,15 @@
 		},
 		{
 			"path" : "modified__test/CMakeLists.txt"
+		},
+		{
+			"path" : "12-linklist/CMakeLists.txt"
+		},
+		{
+			"path" : "12-linklist/12homework/CMakeLists.txt"
+		},
+		{
+			"path" : "structure-and-algorithm/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

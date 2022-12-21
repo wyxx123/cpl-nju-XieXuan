@@ -84,8 +84,102 @@ int main(void)
 * ### vector向量 + 边界检测
 
 ## 特别注意：某些 ***常用设置***：
+
 1. 设置-外观与行为-外观-dark
 2. 外观-字体大小-16
 3. 代码-代码格式化操作-重新格式化代码-alt+x
 4. 运行代码已改变成 shift + F10 快捷键
 5. 编辑器-代码样式-C/C++-设置自定义-Microsoft
+
+## 关于一些字符串操作函数：
+
+* strstr:
+
+````c
+char * strstr ( const char *, const char * );
+
+/*
+
+  Returns a pointer to the first occurrence of str2 in str1,
+or a null pointer if str2 is not part of str1.
+
+  The matching process does not include 
+the terminating null-characters, but it stops there.
+
+ */
+
+char *operators = " + - * / < > = == >= <= != "; // why there is space?
+char *tmp = malloc(4096);
+sprintf(tmp, " %s ", s); // add space in the front and rear of s
+if (strstr(operators, tmp)) return true; // !!
+return false;
+````
+
+* sprintf();
+
+````c
+int sprintf ( char * str, const char * format, ... );
+/*
+
+  sprintf
+Write formatted data to string
+Composes a string with the same text that would be printed if format was used on printf
+, but instead of being printed, the content is stored as a C string in the buffer pointed by str.
+
+ 
+  return value:
+
+  On success, the total number of characters written is returned. 
+This count does not include the additional null-character automatically 
+appended at the end of the string.
+  On failure, a negative number is returned.
+ 
+*/
+````
+
+* strchr();
+
+  Locate first occurrence of character in string
+  Returns a pointer to the first occurrence of character in the C string str.
+
+  The terminating null-character is considered part of the C string. Therefore, it can also be located in order to
+  retrieve a pointer to the end of a string.
+
+````c
+//e.g.
+char *semi = strchr(s, ';'); // find position of semicolon
+if (semi)
+{ // strchr() returns NULL if there's no semicolon
+*semi = '\0';
+process(s);
+process(semi + 1); // what's after semicolon is another part
+}
+else
+process(s);
+````
+
+* isdigit();
+  Check if character is decimal digit
+  Checks whether c is a decimal digit character.
+
+  Return: 0-false, !0-true
+
+* strcat();
+  Appends a copy of the source string to the destination string. The terminating null character in destination is
+  overwritten
+  by the first character of source, and a null-character is included at the end of the new string formed by the
+  concatenation of both in destination.
+
+  Return Value:
+  destination is returned.
+
+````c
+char * strcat ( char * destination, const char * source );
+
+````
+
+## 一些常见的exit codes：
+
+1. 0xC0000005 (越界访问)
+2. 0xC00000FD (stack overflow)
+3. 0xC0000374 (堆已损坏 -- overflow)

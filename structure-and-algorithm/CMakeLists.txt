@@ -1,0 +1,1 @@
+add_executable(practice_20221218 practice_20221218.c)
