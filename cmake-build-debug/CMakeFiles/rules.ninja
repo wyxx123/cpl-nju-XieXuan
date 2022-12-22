@@ -2352,6 +2352,7 @@ rule C_COMPILER__dalao1_dobang_Debug
 
 rule C_EXECUTABLE_LINKER__dalao1_dobang_Debug
   command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+<<<<<<< HEAD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2371,6 +2372,8 @@ rule C_COMPILER__lineup_Debug
 
 rule C_EXECUTABLE_LINKER__lineup_Debug
   command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+=======
+>>>>>>> dev
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2428,6 +2431,7 @@ rule C_COMPILER__practice_20221218_Debug
 
 rule C_EXECUTABLE_LINKER__practice_20221218_Debug
   command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+<<<<<<< HEAD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2466,6 +2470,8 @@ rule C_COMPILER__Seqlist_Debug
 
 rule C_EXECUTABLE_LINKER__Seqlist_Debug
   command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+=======
+>>>>>>> dev
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 

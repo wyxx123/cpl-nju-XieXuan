@@ -32,7 +32,11 @@
 229	546	6868327981994789	1.intro/test_float.exe	e55dbddddac1bb49
 3	165	6864902522687990	1.intro/CMakeFiles/secret_two_add.dir/secret_two_add.c.obj	d556b1835d496d96
 1	167	6871832611996341	2.if/CMakeFiles/single_noarr.dir/single_noarr.c.obj	c3d8502d76f4c6de
+<<<<<<< HEAD
 1	564	6934237786063365	build.ninja	fe5836b31738e7bb
+=======
+1	564	6934236924372944	build.ninja	fe5836b31738e7bb
+>>>>>>> dev
 195	303	6868332605461473	2.if/class.exe	e05e47176ab4eeb4
 200	536	6897878218348288	0/GetThreeNumber.exe	ba0ffd50454531cd
 2	68	6874650341697354	3.swich/homework3/CMakeFiles/decimal.dir/decimal.c.obj	cf89de378309d596
