@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -33,7 +33,7 @@ rule C_COMPILER__test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -44,7 +44,7 @@ rule C_EXECUTABLE_LINKER__test_Debug
 rule C_COMPILER__plus_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -52,7 +52,7 @@ rule C_COMPILER__plus_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__plus_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -63,7 +63,7 @@ rule C_EXECUTABLE_LINKER__plus_Debug
 rule C_COMPILER__GuessTheNumber_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -71,7 +71,7 @@ rule C_COMPILER__GuessTheNumber_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__GuessTheNumber_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -82,7 +82,7 @@ rule C_EXECUTABLE_LINKER__GuessTheNumber_Debug
 rule C_COMPILER__GetThreeNumber_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -90,7 +90,7 @@ rule C_COMPILER__GetThreeNumber_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__GetThreeNumber_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -101,7 +101,7 @@ rule C_EXECUTABLE_LINKER__GetThreeNumber_Debug
 rule C_COMPILER__class2_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -109,7 +109,7 @@ rule C_COMPILER__class2_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class2_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -120,7 +120,7 @@ rule C_EXECUTABLE_LINKER__class2_Debug
 rule C_COMPILER__class2_homework_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -128,7 +128,7 @@ rule C_COMPILER__class2_homework_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class2_homework_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -139,7 +139,7 @@ rule C_EXECUTABLE_LINKER__class2_homework_Debug
 rule C_COMPILER__get_third_number_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -147,7 +147,7 @@ rule C_COMPILER__get_third_number_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__get_third_number_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -158,7 +158,7 @@ rule C_EXECUTABLE_LINKER__get_third_number_Debug
 rule C_COMPILER__test_float_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -166,7 +166,7 @@ rule C_COMPILER__test_float_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_float_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -177,7 +177,7 @@ rule C_EXECUTABLE_LINKER__test_float_Debug
 rule C_COMPILER__secret_two_add_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -185,7 +185,7 @@ rule C_COMPILER__secret_two_add_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__secret_two_add_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -196,7 +196,7 @@ rule C_EXECUTABLE_LINKER__secret_two_add_Debug
 rule C_COMPILER__class_2_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -204,7 +204,7 @@ rule C_COMPILER__class_2_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class_2_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -215,7 +215,7 @@ rule C_EXECUTABLE_LINKER__class_2_Debug
 rule C_COMPILER__class_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -223,7 +223,7 @@ rule C_COMPILER__class_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -234,7 +234,7 @@ rule C_EXECUTABLE_LINKER__class_Debug
 rule C_COMPILER__2homework_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -242,7 +242,7 @@ rule C_COMPILER__2homework_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__2homework_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -253,7 +253,7 @@ rule C_EXECUTABLE_LINKER__2homework_Debug
 rule C_COMPILER__test_2_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -261,7 +261,7 @@ rule C_COMPILER__test_2_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_2_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -272,7 +272,7 @@ rule C_EXECUTABLE_LINKER__test_2_Debug
 rule C_COMPILER__single_noarr_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -280,7 +280,7 @@ rule C_COMPILER__single_noarr_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__single_noarr_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -291,7 +291,7 @@ rule C_EXECUTABLE_LINKER__single_noarr_Debug
 rule C_COMPILER__factorial2_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -299,7 +299,7 @@ rule C_COMPILER__factorial2_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__factorial2_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -310,7 +310,7 @@ rule C_EXECUTABLE_LINKER__factorial2_Debug
 rule C_COMPILER__e_gaojy_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -318,7 +318,7 @@ rule C_COMPILER__e_gaojy_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__e_gaojy_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -329,7 +329,7 @@ rule C_EXECUTABLE_LINKER__e_gaojy_Debug
 rule C_COMPILER__obstacle_test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -337,7 +337,7 @@ rule C_COMPILER__obstacle_test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__obstacle_test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -348,7 +348,7 @@ rule C_EXECUTABLE_LINKER__obstacle_test_Debug
 rule C_COMPILER__test3_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -356,7 +356,7 @@ rule C_COMPILER__test3_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test3_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -367,7 +367,7 @@ rule C_EXECUTABLE_LINKER__test3_Debug
 rule C_COMPILER__class3_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -375,7 +375,7 @@ rule C_COMPILER__class3_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class3_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -386,7 +386,7 @@ rule C_EXECUTABLE_LINKER__class3_Debug
 rule C_COMPILER__flip_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -394,7 +394,7 @@ rule C_COMPILER__flip_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__flip_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -405,7 +405,7 @@ rule C_EXECUTABLE_LINKER__flip_Debug
 rule C_COMPILER__statistic_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -413,7 +413,7 @@ rule C_COMPILER__statistic_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__statistic_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -424,7 +424,7 @@ rule C_EXECUTABLE_LINKER__statistic_Debug
 rule C_COMPILER__josephus_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -432,7 +432,7 @@ rule C_COMPILER__josephus_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__josephus_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -443,7 +443,7 @@ rule C_EXECUTABLE_LINKER__josephus_Debug
 rule C_COMPILER__decimal_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -451,7 +451,7 @@ rule C_COMPILER__decimal_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__decimal_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -462,7 +462,7 @@ rule C_EXECUTABLE_LINKER__decimal_Debug
 rule C_COMPILER__palindrome_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -470,7 +470,7 @@ rule C_COMPILER__palindrome_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__palindrome_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -481,7 +481,7 @@ rule C_EXECUTABLE_LINKER__palindrome_Debug
 rule C_COMPILER__quick_sort_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -489,7 +489,7 @@ rule C_COMPILER__quick_sort_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__quick_sort_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -500,7 +500,7 @@ rule C_EXECUTABLE_LINKER__quick_sort_Debug
 rule C_COMPILER__test_qsort_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -508,7 +508,7 @@ rule C_COMPILER__test_qsort_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_qsort_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -519,7 +519,7 @@ rule C_EXECUTABLE_LINKER__test_qsort_Debug
 rule C_COMPILER__lhy_last_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -527,7 +527,7 @@ rule C_COMPILER__lhy_last_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__lhy_last_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -538,7 +538,7 @@ rule C_EXECUTABLE_LINKER__lhy_last_Debug
 rule C_COMPILER__homework_6_20_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -546,7 +546,7 @@ rule C_COMPILER__homework_6_20_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__homework_6_20_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -557,7 +557,7 @@ rule C_EXECUTABLE_LINKER__homework_6_20_Debug
 rule C_COMPILER__homework_6_16_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -565,7 +565,7 @@ rule C_COMPILER__homework_6_16_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__homework_6_16_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -576,7 +576,7 @@ rule C_EXECUTABLE_LINKER__homework_6_16_Debug
 rule C_COMPILER__homework_6_other_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -584,7 +584,7 @@ rule C_COMPILER__homework_6_other_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__homework_6_other_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -595,7 +595,7 @@ rule C_EXECUTABLE_LINKER__homework_6_other_Debug
 rule C_COMPILER__homework_6_18_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -603,7 +603,7 @@ rule C_COMPILER__homework_6_18_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__homework_6_18_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -614,7 +614,7 @@ rule C_EXECUTABLE_LINKER__homework_6_18_Debug
 rule C_COMPILER__homework_6_19_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -622,7 +622,7 @@ rule C_COMPILER__homework_6_19_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__homework_6_19_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -633,7 +633,7 @@ rule C_EXECUTABLE_LINKER__homework_6_19_Debug
 rule C_COMPILER__homework_7_17_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -641,7 +641,7 @@ rule C_COMPILER__homework_7_17_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__homework_7_17_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -652,7 +652,7 @@ rule C_EXECUTABLE_LINKER__homework_7_17_Debug
 rule C_COMPILER__test_culculation_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -660,7 +660,7 @@ rule C_COMPILER__test_culculation_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_culculation_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -671,7 +671,7 @@ rule C_EXECUTABLE_LINKER__test_culculation_Debug
 rule C_COMPILER__class4_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -679,7 +679,7 @@ rule C_COMPILER__class4_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class4_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -690,7 +690,7 @@ rule C_EXECUTABLE_LINKER__class4_Debug
 rule C_COMPILER__test4_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -698,7 +698,7 @@ rule C_COMPILER__test4_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test4_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -709,7 +709,7 @@ rule C_EXECUTABLE_LINKER__test4_Debug
 rule C_COMPILER__sudoku_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -717,7 +717,7 @@ rule C_COMPILER__sudoku_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sudoku_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -728,7 +728,7 @@ rule C_EXECUTABLE_LINKER__sudoku_Debug
 rule C_COMPILER__test_for_homework4_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -736,7 +736,7 @@ rule C_COMPILER__test_for_homework4_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_for_homework4_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -747,7 +747,7 @@ rule C_EXECUTABLE_LINKER__test_for_homework4_Debug
 rule C_COMPILER__mines_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -755,7 +755,7 @@ rule C_COMPILER__mines_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__mines_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -766,7 +766,7 @@ rule C_EXECUTABLE_LINKER__mines_Debug
 rule C_COMPILER__trace_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -774,7 +774,7 @@ rule C_COMPILER__trace_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__trace_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -785,7 +785,7 @@ rule C_EXECUTABLE_LINKER__trace_Debug
 rule C_COMPILER__life_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -793,7 +793,7 @@ rule C_COMPILER__life_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__life_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -804,7 +804,7 @@ rule C_EXECUTABLE_LINKER__life_Debug
 rule C_COMPILER__matrix_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -812,7 +812,7 @@ rule C_COMPILER__matrix_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__matrix_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -823,7 +823,7 @@ rule C_EXECUTABLE_LINKER__matrix_Debug
 rule C_COMPILER__mine_test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -831,7 +831,7 @@ rule C_COMPILER__mine_test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__mine_test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -842,7 +842,7 @@ rule C_EXECUTABLE_LINKER__mine_test_Debug
 rule C_COMPILER__mine_no_array_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -850,7 +850,7 @@ rule C_COMPILER__mine_no_array_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__mine_no_array_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -861,7 +861,7 @@ rule C_EXECUTABLE_LINKER__mine_no_array_Debug
 rule C_COMPILER__class5_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -869,7 +869,7 @@ rule C_COMPILER__class5_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class5_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -880,7 +880,7 @@ rule C_EXECUTABLE_LINKER__class5_Debug
 rule C_COMPILER__test5_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -888,7 +888,7 @@ rule C_COMPILER__test5_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test5_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -899,7 +899,7 @@ rule C_EXECUTABLE_LINKER__test5_Debug
 rule C_COMPILER__behaviors_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -907,7 +907,7 @@ rule C_COMPILER__behaviors_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__behaviors_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -918,7 +918,7 @@ rule C_EXECUTABLE_LINKER__behaviors_Debug
 rule C_COMPILER__sum_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -926,7 +926,7 @@ rule C_COMPILER__sum_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sum_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -937,7 +937,7 @@ rule C_EXECUTABLE_LINKER__sum_Debug
 rule C_COMPILER__absolute-prime_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -945,7 +945,7 @@ rule C_COMPILER__absolute-prime_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__absolute-prime_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -956,7 +956,7 @@ rule C_EXECUTABLE_LINKER__absolute-prime_Debug
 rule C_COMPILER__radix_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -964,7 +964,7 @@ rule C_COMPILER__radix_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__radix_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -975,7 +975,7 @@ rule C_EXECUTABLE_LINKER__radix_Debug
 rule C_COMPILER__next_permutation_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -983,7 +983,7 @@ rule C_COMPILER__next_permutation_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__next_permutation_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -994,7 +994,7 @@ rule C_EXECUTABLE_LINKER__next_permutation_Debug
 rule C_COMPILER__magic_square_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1002,7 +1002,7 @@ rule C_COMPILER__magic_square_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__magic_square_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1013,7 +1013,7 @@ rule C_EXECUTABLE_LINKER__magic_square_Debug
 rule C_COMPILER__lsa_mistery_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1021,7 +1021,7 @@ rule C_COMPILER__lsa_mistery_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__lsa_mistery_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1032,7 +1032,7 @@ rule C_EXECUTABLE_LINKER__lsa_mistery_Debug
 rule C_COMPILER__test_lsh_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1040,7 +1040,7 @@ rule C_COMPILER__test_lsh_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_lsh_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1051,7 +1051,7 @@ rule C_EXECUTABLE_LINKER__test_lsh_Debug
 rule C_COMPILER__v_50_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1059,7 +1059,7 @@ rule C_COMPILER__v_50_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__v_50_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1070,7 +1070,7 @@ rule C_EXECUTABLE_LINKER__v_50_Debug
 rule C_COMPILER__cake_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1078,7 +1078,7 @@ rule C_COMPILER__cake_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__cake_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1089,7 +1089,7 @@ rule C_EXECUTABLE_LINKER__cake_Debug
 rule C_COMPILER__loop_competition_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1097,7 +1097,7 @@ rule C_COMPILER__loop_competition_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__loop_competition_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1108,7 +1108,7 @@ rule C_EXECUTABLE_LINKER__loop_competition_Debug
 rule C_COMPILER__floor_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1116,7 +1116,7 @@ rule C_COMPILER__floor_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__floor_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1127,7 +1127,7 @@ rule C_EXECUTABLE_LINKER__floor_Debug
 rule C_COMPILER__lamp_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1135,7 +1135,7 @@ rule C_COMPILER__lamp_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__lamp_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1146,7 +1146,7 @@ rule C_EXECUTABLE_LINKER__lamp_Debug
 rule C_COMPILER__branch_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1154,7 +1154,7 @@ rule C_COMPILER__branch_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__branch_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1165,7 +1165,7 @@ rule C_EXECUTABLE_LINKER__branch_Debug
 rule C_COMPILER__way_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1173,7 +1173,7 @@ rule C_COMPILER__way_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__way_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1184,7 +1184,7 @@ rule C_EXECUTABLE_LINKER__way_Debug
 rule C_COMPILER__cantor_c_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1192,7 +1192,7 @@ rule C_COMPILER__cantor_c_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__cantor_c_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1203,7 +1203,7 @@ rule C_EXECUTABLE_LINKER__cantor_c_Debug
 rule C_COMPILER__angry_d_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1211,7 +1211,7 @@ rule C_COMPILER__angry_d_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__angry_d_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1222,7 +1222,7 @@ rule C_EXECUTABLE_LINKER__angry_d_Debug
 rule C_COMPILER__defense_e_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1230,7 +1230,7 @@ rule C_COMPILER__defense_e_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__defense_e_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1241,7 +1241,7 @@ rule C_EXECUTABLE_LINKER__defense_e_Debug
 rule C_COMPILER__instructional_nine_baka_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1249,7 +1249,7 @@ rule C_COMPILER__instructional_nine_baka_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__instructional_nine_baka_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1260,7 +1260,7 @@ rule C_EXECUTABLE_LINKER__instructional_nine_baka_Debug
 rule C_COMPILER__bauklotze_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1268,7 +1268,7 @@ rule C_COMPILER__bauklotze_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__bauklotze_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1279,7 +1279,7 @@ rule C_EXECUTABLE_LINKER__bauklotze_Debug
 rule C_COMPILER__toy_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1287,7 +1287,7 @@ rule C_COMPILER__toy_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__toy_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1298,7 +1298,7 @@ rule C_EXECUTABLE_LINKER__toy_Debug
 rule C_COMPILER__stack_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1306,7 +1306,7 @@ rule C_COMPILER__stack_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__stack_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1317,7 +1317,7 @@ rule C_EXECUTABLE_LINKER__stack_Debug
 rule C_COMPILER__test_problemset_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1325,7 +1325,7 @@ rule C_COMPILER__test_problemset_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_problemset_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1336,7 +1336,7 @@ rule C_EXECUTABLE_LINKER__test_problemset_Debug
 rule C_COMPILER__split-sort_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1344,7 +1344,7 @@ rule C_COMPILER__split-sort_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__split-sort_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1355,7 +1355,7 @@ rule C_EXECUTABLE_LINKER__split-sort_Debug
 rule C_COMPILER__6test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1363,7 +1363,7 @@ rule C_COMPILER__6test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__6test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1374,7 +1374,7 @@ rule C_EXECUTABLE_LINKER__6test_Debug
 rule C_COMPILER__poi_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1382,7 +1382,7 @@ rule C_COMPILER__poi_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__poi_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1393,7 +1393,7 @@ rule C_EXECUTABLE_LINKER__poi_Debug
 rule C_COMPILER__pascal_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1401,7 +1401,7 @@ rule C_COMPILER__pascal_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__pascal_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1412,7 +1412,7 @@ rule C_EXECUTABLE_LINKER__pascal_Debug
 rule C_COMPILER__tiles_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1420,7 +1420,7 @@ rule C_COMPILER__tiles_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__tiles_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1431,7 +1431,7 @@ rule C_EXECUTABLE_LINKER__tiles_Debug
 rule C_COMPILER__max_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1439,7 +1439,7 @@ rule C_COMPILER__max_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__max_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1450,7 +1450,7 @@ rule C_EXECUTABLE_LINKER__max_Debug
 rule C_COMPILER__integration_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1458,7 +1458,7 @@ rule C_COMPILER__integration_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__integration_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1469,7 +1469,7 @@ rule C_EXECUTABLE_LINKER__integration_Debug
 rule C_COMPILER__triangle_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1477,7 +1477,7 @@ rule C_COMPILER__triangle_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__triangle_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1488,7 +1488,7 @@ rule C_EXECUTABLE_LINKER__triangle_Debug
 rule C_COMPILER__7class_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1496,7 +1496,7 @@ rule C_COMPILER__7class_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__7class_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1507,7 +1507,7 @@ rule C_EXECUTABLE_LINKER__7class_Debug
 rule C_COMPILER__wine_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1515,7 +1515,7 @@ rule C_COMPILER__wine_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__wine_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1526,7 +1526,7 @@ rule C_EXECUTABLE_LINKER__wine_Debug
 rule C_COMPILER__cuboid_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1534,7 +1534,7 @@ rule C_COMPILER__cuboid_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__cuboid_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1545,7 +1545,7 @@ rule C_EXECUTABLE_LINKER__cuboid_Debug
 rule C_COMPILER__pour_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1553,7 +1553,7 @@ rule C_COMPILER__pour_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__pour_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1564,7 +1564,7 @@ rule C_EXECUTABLE_LINKER__pour_Debug
 rule C_COMPILER__buddy_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1572,7 +1572,7 @@ rule C_COMPILER__buddy_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__buddy_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1583,7 +1583,7 @@ rule C_EXECUTABLE_LINKER__buddy_Debug
 rule C_COMPILER__test7_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1591,7 +1591,7 @@ rule C_COMPILER__test7_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test7_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1602,7 +1602,7 @@ rule C_EXECUTABLE_LINKER__test7_Debug
 rule C_COMPILER__rotate_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1610,7 +1610,7 @@ rule C_COMPILER__rotate_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__rotate_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1621,7 +1621,7 @@ rule C_EXECUTABLE_LINKER__rotate_Debug
 rule C_COMPILER__brackets_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1629,7 +1629,7 @@ rule C_COMPILER__brackets_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__brackets_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1640,7 +1640,7 @@ rule C_EXECUTABLE_LINKER__brackets_Debug
 rule C_COMPILER__pour_help_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1648,7 +1648,7 @@ rule C_COMPILER__pour_help_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__pour_help_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1659,7 +1659,7 @@ rule C_EXECUTABLE_LINKER__pour_help_Debug
 rule C_COMPILER__other_test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1667,7 +1667,7 @@ rule C_COMPILER__other_test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__other_test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1678,7 +1678,7 @@ rule C_EXECUTABLE_LINKER__other_test_Debug
 rule C_COMPILER__8class_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1686,7 +1686,7 @@ rule C_COMPILER__8class_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__8class_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1697,7 +1697,7 @@ rule C_EXECUTABLE_LINKER__8class_Debug
 rule C_COMPILER__interpreter_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1705,7 +1705,7 @@ rule C_COMPILER__interpreter_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__interpreter_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1716,7 +1716,7 @@ rule C_EXECUTABLE_LINKER__interpreter_Debug
 rule C_COMPILER__test8_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1724,7 +1724,7 @@ rule C_COMPILER__test8_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test8_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1735,7 +1735,7 @@ rule C_EXECUTABLE_LINKER__test8_Debug
 rule C_COMPILER__substr_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1743,7 +1743,7 @@ rule C_COMPILER__substr_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__substr_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1754,7 +1754,7 @@ rule C_EXECUTABLE_LINKER__substr_Debug
 rule C_COMPILER__title_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1762,7 +1762,7 @@ rule C_COMPILER__title_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__title_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1773,7 +1773,7 @@ rule C_EXECUTABLE_LINKER__title_Debug
 rule C_COMPILER__railroad_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1781,7 +1781,7 @@ rule C_COMPILER__railroad_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__railroad_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1792,7 +1792,7 @@ rule C_EXECUTABLE_LINKER__railroad_Debug
 rule C_COMPILER__magic_cubic_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1800,7 +1800,7 @@ rule C_COMPILER__magic_cubic_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__magic_cubic_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1811,7 +1811,7 @@ rule C_EXECUTABLE_LINKER__magic_cubic_Debug
 rule C_COMPILER__sa_er_hao_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1819,7 +1819,7 @@ rule C_COMPILER__sa_er_hao_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sa_er_hao_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1830,7 +1830,7 @@ rule C_EXECUTABLE_LINKER__sa_er_hao_Debug
 rule C_COMPILER__four_zi_competition_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1838,7 +1838,7 @@ rule C_COMPILER__four_zi_competition_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__four_zi_competition_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1849,7 +1849,7 @@ rule C_EXECUTABLE_LINKER__four_zi_competition_Debug
 rule C_COMPILER__test_none_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1857,7 +1857,7 @@ rule C_COMPILER__test_none_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_none_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1868,7 +1868,7 @@ rule C_EXECUTABLE_LINKER__test_none_Debug
 rule C_COMPILER__jump_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1876,7 +1876,7 @@ rule C_COMPILER__jump_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__jump_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1887,7 +1887,7 @@ rule C_EXECUTABLE_LINKER__jump_Debug
 rule C_COMPILER__sheet_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1895,7 +1895,7 @@ rule C_COMPILER__sheet_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sheet_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1906,7 +1906,7 @@ rule C_EXECUTABLE_LINKER__sheet_Debug
 rule C_COMPILER__team_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1914,7 +1914,7 @@ rule C_COMPILER__team_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__team_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1925,7 +1925,7 @@ rule C_EXECUTABLE_LINKER__team_Debug
 rule C_COMPILER__ant_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1933,7 +1933,7 @@ rule C_COMPILER__ant_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__ant_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1944,7 +1944,7 @@ rule C_EXECUTABLE_LINKER__ant_Debug
 rule C_COMPILER__other_ant_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1952,7 +1952,7 @@ rule C_COMPILER__other_ant_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__other_ant_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1963,7 +1963,7 @@ rule C_EXECUTABLE_LINKER__other_ant_Debug
 rule C_COMPILER__standard_jump_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1971,7 +1971,7 @@ rule C_COMPILER__standard_jump_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__standard_jump_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1982,7 +1982,7 @@ rule C_EXECUTABLE_LINKER__standard_jump_Debug
 rule C_COMPILER__class9_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -1990,7 +1990,7 @@ rule C_COMPILER__class9_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class9_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2001,7 +2001,7 @@ rule C_EXECUTABLE_LINKER__class9_Debug
 rule C_COMPILER__9test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2009,7 +2009,7 @@ rule C_COMPILER__9test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__9test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2020,7 +2020,7 @@ rule C_EXECUTABLE_LINKER__9test_Debug
 rule C_COMPILER__tokenizer_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2028,7 +2028,7 @@ rule C_COMPILER__tokenizer_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__tokenizer_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2039,7 +2039,7 @@ rule C_EXECUTABLE_LINKER__tokenizer_Debug
 rule C_COMPILER__stringcat_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2047,7 +2047,7 @@ rule C_COMPILER__stringcat_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__stringcat_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2058,7 +2058,7 @@ rule C_EXECUTABLE_LINKER__stringcat_Debug
 rule C_COMPILER__parse_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2066,7 +2066,7 @@ rule C_COMPILER__parse_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__parse_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2077,7 +2077,7 @@ rule C_EXECUTABLE_LINKER__parse_Debug
 rule C_COMPILER__pre_testing_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2085,7 +2085,7 @@ rule C_COMPILER__pre_testing_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__pre_testing_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2096,7 +2096,7 @@ rule C_EXECUTABLE_LINKER__pre_testing_Debug
 rule C_COMPILER__calculator_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2104,7 +2104,7 @@ rule C_COMPILER__calculator_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__calculator_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2115,7 +2115,7 @@ rule C_EXECUTABLE_LINKER__calculator_Debug
 rule C_COMPILER__test_calculator_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2123,7 +2123,7 @@ rule C_COMPILER__test_calculator_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test_calculator_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2134,7 +2134,7 @@ rule C_EXECUTABLE_LINKER__test_calculator_Debug
 rule C_COMPILER__mlg_calculator_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2142,7 +2142,7 @@ rule C_COMPILER__mlg_calculator_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__mlg_calculator_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2153,7 +2153,7 @@ rule C_EXECUTABLE_LINKER__mlg_calculator_Debug
 rule C_COMPILER__class10_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2161,7 +2161,7 @@ rule C_COMPILER__class10_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__class10_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2172,7 +2172,7 @@ rule C_EXECUTABLE_LINKER__class10_Debug
 rule C_COMPILER__10homework_test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2180,7 +2180,7 @@ rule C_COMPILER__10homework_test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__10homework_test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2191,7 +2191,7 @@ rule C_EXECUTABLE_LINKER__10homework_test_Debug
 rule C_COMPILER__11class_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2199,7 +2199,7 @@ rule C_COMPILER__11class_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__11class_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2210,7 +2210,7 @@ rule C_EXECUTABLE_LINKER__11class_Debug
 rule C_COMPILER__fifa_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2218,7 +2218,7 @@ rule C_COMPILER__fifa_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__fifa_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2229,7 +2229,7 @@ rule C_EXECUTABLE_LINKER__fifa_Debug
 rule C_COMPILER__polynlist_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2237,7 +2237,7 @@ rule C_COMPILER__polynlist_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__polynlist_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2248,7 +2248,7 @@ rule C_EXECUTABLE_LINKER__polynlist_Debug
 rule C_COMPILER__file-menagement_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2256,7 +2256,7 @@ rule C_COMPILER__file-menagement_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__file-menagement_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2267,7 +2267,7 @@ rule C_EXECUTABLE_LINKER__file-menagement_Debug
 rule C_COMPILER__test11_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2275,7 +2275,7 @@ rule C_COMPILER__test11_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__test11_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2286,7 +2286,7 @@ rule C_EXECUTABLE_LINKER__test11_Debug
 rule C_COMPILER__sort_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2294,7 +2294,7 @@ rule C_COMPILER__sort_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sort_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2305,7 +2305,7 @@ rule C_EXECUTABLE_LINKER__sort_Debug
 rule C_COMPILER__bsearch_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2313,7 +2313,7 @@ rule C_COMPILER__bsearch_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__bsearch_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2324,7 +2324,7 @@ rule C_EXECUTABLE_LINKER__bsearch_Debug
 rule C_COMPILER__gobang_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2332,7 +2332,7 @@ rule C_COMPILER__gobang_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__gobang_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2343,7 +2343,7 @@ rule C_EXECUTABLE_LINKER__gobang_Debug
 rule C_COMPILER__dalao1_dobang_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2351,7 +2351,7 @@ rule C_COMPILER__dalao1_dobang_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__dalao1_dobang_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2362,7 +2362,7 @@ rule C_EXECUTABLE_LINKER__dalao1_dobang_Debug
 rule C_COMPILER__string-hash_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2370,7 +2370,7 @@ rule C_COMPILER__string-hash_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__string-hash_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2381,7 +2381,7 @@ rule C_EXECUTABLE_LINKER__string-hash_Debug
 rule C_COMPILER__new_buddy_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2389,7 +2389,7 @@ rule C_COMPILER__new_buddy_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__new_buddy_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2400,7 +2400,7 @@ rule C_EXECUTABLE_LINKER__new_buddy_Debug
 rule C_COMPILER__practice_20221218_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -2408,7 +2408,7 @@ rule C_COMPILER__practice_20221218_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__practice_20221218_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2417,7 +2417,7 @@ rule C_EXECUTABLE_LINKER__practice_20221218_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -2426,7 +2426,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\ninja\win\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\ninja\win\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -2434,6 +2434,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\ninja\win\ninja.exe -t targets
+  command = C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\ninja\win\ninja.exe -t targets
   description = All primary targets available:
 

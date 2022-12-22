@@ -32,7 +32,7 @@
 229	546	6868327981994789	1.intro/test_float.exe	e55dbddddac1bb49
 3	165	6864902522687990	1.intro/CMakeFiles/secret_two_add.dir/secret_two_add.c.obj	d556b1835d496d96
 1	167	6871832611996341	2.if/CMakeFiles/single_noarr.dir/single_noarr.c.obj	c3d8502d76f4c6de
-1	564	6930513601558566	build.ninja	fe5836b31738e7bb
+1	564	6934236924372944	build.ninja	fe5836b31738e7bb
 195	303	6868332605461473	2.if/class.exe	e05e47176ab4eeb4
 200	536	6897878218348288	0/GetThreeNumber.exe	ba0ffd50454531cd
 2	68	6874650341697354	3.swich/homework3/CMakeFiles/decimal.dir/decimal.c.obj	cf89de378309d596
@@ -60,10 +60,10 @@
 3501	4022	6896778751380042	3.swich/homework3/palindrome.exe	a4896192bd6bfdba
 42	88	6875011370040262	3.swich/homework3/quick_sort.exe	d3c93fcdeb27d716
 38	83	6875011704006729	3.swich/homework3/test_qsort.exe	ebca5ea453a831ff
-1	3494	6891645286018383	cpl_problemset/CMakeFiles/angry_d.dir/angry_d.c.obj	62efb179e4f3cfa5
 86	196	6877121830532270	.culculation_c_homework/homework_6_18.exe	e840244de331c7b5
-1	44	6875298018148200	3.swich/CMakeFiles/test3.dir/test3.c.obj	f0526395a8c03646
+1	3494	6891645286018383	cpl_problemset/CMakeFiles/angry_d.dir/angry_d.c.obj	62efb179e4f3cfa5
 1	217	6910017513558388	cpl_problemset/CMakeFiles/split-sort.dir/split-sort.c.obj	738c578cf228fa13
+1	44	6875298018148200	3.swich/CMakeFiles/test3.dir/test3.c.obj	f0526395a8c03646
 44	100	6875298018693632	3.swich/test3.exe	99b006484317e8f8
 0	217	6903730952849919	5.function/CMakeFiles/test5.dir/test5.c.obj	aea19cdda1307750
 1	39	6875303299021163	culculation_c_homework/CMakeFiles/homework_6_20.dir/homework_6_20.c.obj	142e42ee526aabaa
