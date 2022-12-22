@@ -135,6 +135,7 @@ bool JudgeColNotTie(int i, int j, char input_board[BOARD_WIDTH][BOARD_WIDTH])
 	return true;
 }
 
+// '/'
 bool JudgeRUNotTie(int i, int j, char input_board[BOARD_WIDTH][BOARD_WIDTH])
 {
 	char judged_side = input_board[i][j];
@@ -147,6 +148,7 @@ bool JudgeRUNotTie(int i, int j, char input_board[BOARD_WIDTH][BOARD_WIDTH])
 	return true;
 }
 
+// '\'
 bool JudgeRDNotTie(int i, int j, char input_board[BOARD_WIDTH][BOARD_WIDTH])
 {
 	char judged_side = input_board[i][j];

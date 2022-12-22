@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "structure-and-algorithm/Seqlist-20221222",
+		"source" : "structure-and-algorithm/Seqlist-20221222"
+	}
+}

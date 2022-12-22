@@ -1,0 +1,4 @@
+add_subdirectory(Seqlist-20221222)
+
+add_executable(practice_20221218 practice_20221218.c)
+add_executable(practice_20221222 practice_20221222.c)

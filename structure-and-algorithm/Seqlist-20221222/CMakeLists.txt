@@ -1,0 +1,1 @@
+add_executable(Seqlist Seqlist.c test.c)
