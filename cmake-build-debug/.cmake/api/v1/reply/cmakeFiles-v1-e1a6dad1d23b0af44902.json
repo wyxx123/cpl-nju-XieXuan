@@ -1,0 +1,230 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "0/CMakeLists.txt"
+		},
+		{
+			"path" : "1.intro/CMakeLists.txt"
+		},
+		{
+			"path" : "2.if/CMakeLists.txt"
+		},
+		{
+			"path" : "3.swich/CMakeLists.txt"
+		},
+		{
+			"path" : "3.swich/homework3/CMakeLists.txt"
+		},
+		{
+			"path" : ".culculation_c_homework/CMakeLists.txt"
+		},
+		{
+			"path" : "4.loops/CMakeLists.txt"
+		},
+		{
+			"path" : "4.loops/homework4/CMakeLists.txt"
+		},
+		{
+			"path" : "5.function/CMakeLists.txt"
+		},
+		{
+			"path" : "5.function/homework5/CMakeLists.txt"
+		},
+		{
+			"path" : "lsa_competition/CMakeLists.txt"
+		},
+		{
+			"path" : "cpl_problemset/CMakeLists.txt"
+		},
+		{
+			"path" : "6.recursion/CMakeLists.txt"
+		},
+		{
+			"path" : "6.recursion/6homework/CMakeLists.txt"
+		},
+		{
+			"path" : "7.data-types/CMakeLists.txt"
+		},
+		{
+			"path" : "7.data-types/homework7/CMakeLists.txt"
+		},
+		{
+			"path" : "c_net_selflearning/CMakeLists.txt"
+		},
+		{
+			"path" : "others/CMakeLists.txt"
+		},
+		{
+			"path" : "8.pointer-1/CMakeLists.txt"
+		},
+		{
+			"path" : "8.pointer-1/8homework/CMakeLists.txt"
+		},
+		{
+			"path" : "mlg_question/CMakeLists.txt"
+		},
+		{
+			"path" : "cpl_plus_problems/CMakeLists.txt"
+		},
+		{
+			"path" : "ruangong_competition/CMakeLists.txt"
+		},
+		{
+			"path" : "ruangong_competition/duikang/CMakeLists.txt"
+		},
+		{
+			"path" : "ruangong_competition/jingsai/CMakeLists.txt"
+		},
+		{
+			"path" : "9-more-pointers/CMakeLists.txt"
+		},
+		{
+			"path" : "9-more-pointers/9homework/CMakeLists.txt"
+		},
+		{
+			"path" : "cpl_midterms/CMakeLists.txt"
+		},
+		{
+			"path" : "cpl_midterms/calculator/CMakeLists.txt"
+		},
+		{
+			"path" : "10-double-pointers/CMakeLists.txt"
+		},
+		{
+			"path" : "10-double-pointers/10homework/CMakeLists.txt"
+		},
+		{
+			"path" : "11-struct/CMakeLists.txt"
+		},
+		{
+			"path" : "11-struct/11homework/CMakeLists.txt"
+		},
+		{
+			"path" : "modified__test/CMakeLists.txt"
+		},
+		{
+			"path" : "12-linklist/CMakeLists.txt"
+		},
+		{
+			"path" : "12-linklist/12homework/CMakeLists.txt"
+		},
+		{
+			"path" : "structure-and-algorithm/CMakeLists.txt"
+		},
+		{
+			"path" : "structure-and-algorithm/Seqlist-20221222/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/codes/c/cpl-nju-XieXuan/cmake-build-debug",
+		"source" : "D:/codes/c/cpl-nju-XieXuan"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
