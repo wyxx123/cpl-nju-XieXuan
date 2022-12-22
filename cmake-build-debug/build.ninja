@@ -5051,6 +5051,39 @@ build modified__test/dalao1_dobang.exe: C_EXECUTABLE_LINKER__dalao1_dobang_Debug
   TARGET_IMPLIB = modified__test\libdalao1_dobang.dll.a
   TARGET_PDB = dalao1_dobang.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lineup
+
+
+#############################################
+# Order-only phony target for lineup
+
+build cmake_object_order_depends_target_lineup: phony || modified__test/CMakeFiles/lineup.dir
+
+build modified__test/CMakeFiles/lineup.dir/lineup.c.obj: C_COMPILER__lineup_Debug D$:/codes/c/cpl-nju-XieXuan/modified__test/lineup.c || cmake_object_order_depends_target_lineup
+  DEP_FILE = modified__test\CMakeFiles\lineup.dir\lineup.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = modified__test\CMakeFiles\lineup.dir
+  OBJECT_FILE_DIR = modified__test\CMakeFiles\lineup.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lineup
+
+
+#############################################
+# Link the executable modified__test\lineup.exe
+
+build modified__test/lineup.exe: C_EXECUTABLE_LINKER__lineup_Debug modified__test/CMakeFiles/lineup.dir/lineup.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = modified__test\CMakeFiles\lineup.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = modified__test\lineup.exe
+  TARGET_IMPLIB = modified__test\liblineup.dll.a
+  TARGET_PDB = lineup.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -5234,6 +5267,39 @@ build structure-and-algorithm/practice_20221218.exe: C_EXECUTABLE_LINKER__practi
   TARGET_IMPLIB = structure-and-algorithm\libpractice_20221218.dll.a
   TARGET_PDB = practice_20221218.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target practice_20221222
+
+
+#############################################
+# Order-only phony target for practice_20221222
+
+build cmake_object_order_depends_target_practice_20221222: phony || structure-and-algorithm/CMakeFiles/practice_20221222.dir
+
+build structure-and-algorithm/CMakeFiles/practice_20221222.dir/practice_20221222.c.obj: C_COMPILER__practice_20221222_Debug D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/practice_20221222.c || cmake_object_order_depends_target_practice_20221222
+  DEP_FILE = structure-and-algorithm\CMakeFiles\practice_20221222.dir\practice_20221222.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = structure-and-algorithm\CMakeFiles\practice_20221222.dir
+  OBJECT_FILE_DIR = structure-and-algorithm\CMakeFiles\practice_20221222.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target practice_20221222
+
+
+#############################################
+# Link the executable structure-and-algorithm\practice_20221222.exe
+
+build structure-and-algorithm/practice_20221222.exe: C_EXECUTABLE_LINKER__practice_20221222_Debug structure-and-algorithm/CMakeFiles/practice_20221222.dir/practice_20221222.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = structure-and-algorithm\CMakeFiles\practice_20221222.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = structure-and-algorithm\practice_20221222.exe
+  TARGET_IMPLIB = structure-and-algorithm\libpractice_20221222.dll.a
+  TARGET_PDB = practice_20221222.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -5256,6 +5322,73 @@ build structure-and-algorithm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build structure-and-algorithm/rebuild_cache: phony structure-and-algorithm/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Seqlist
+
+
+#############################################
+# Order-only phony target for Seqlist
+
+build cmake_object_order_depends_target_Seqlist: phony || structure-and-algorithm/Seqlist-20221222/CMakeFiles/Seqlist.dir
+
+build structure-and-algorithm/Seqlist-20221222/CMakeFiles/Seqlist.dir/Seqlist.c.obj: C_COMPILER__Seqlist_Debug D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/Seqlist-20221222/Seqlist.c || cmake_object_order_depends_target_Seqlist
+  DEP_FILE = structure-and-algorithm\Seqlist-20221222\CMakeFiles\Seqlist.dir\Seqlist.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = structure-and-algorithm\Seqlist-20221222\CMakeFiles\Seqlist.dir
+  OBJECT_FILE_DIR = structure-and-algorithm\Seqlist-20221222\CMakeFiles\Seqlist.dir
+
+build structure-and-algorithm/Seqlist-20221222/CMakeFiles/Seqlist.dir/test.c.obj: C_COMPILER__Seqlist_Debug D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/Seqlist-20221222/test.c || cmake_object_order_depends_target_Seqlist
+  DEP_FILE = structure-and-algorithm\Seqlist-20221222\CMakeFiles\Seqlist.dir\test.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = structure-and-algorithm\Seqlist-20221222\CMakeFiles\Seqlist.dir
+  OBJECT_FILE_DIR = structure-and-algorithm\Seqlist-20221222\CMakeFiles\Seqlist.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Seqlist
+
+
+#############################################
+# Link the executable structure-and-algorithm\Seqlist-20221222\Seqlist.exe
+
+build structure-and-algorithm/Seqlist-20221222/Seqlist.exe: C_EXECUTABLE_LINKER__Seqlist_Debug structure-and-algorithm/Seqlist-20221222/CMakeFiles/Seqlist.dir/Seqlist.c.obj structure-and-algorithm/Seqlist-20221222/CMakeFiles/Seqlist.dir/test.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = structure-and-algorithm\Seqlist-20221222\CMakeFiles\Seqlist.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = structure-and-algorithm\Seqlist-20221222\Seqlist.exe
+  TARGET_IMPLIB = structure-and-algorithm\Seqlist-20221222\libSeqlist.dll.a
+  TARGET_PDB = Seqlist.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build structure-and-algorithm/Seqlist-20221222/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\structure-and-algorithm\Seqlist-20221222 && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build structure-and-algorithm/Seqlist-20221222/edit_cache: phony structure-and-algorithm/Seqlist-20221222/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build structure-and-algorithm/Seqlist-20221222/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\c\cpl-nju-XieXuan\cmake-build-debug\structure-and-algorithm\Seqlist-20221222 && C:\Users\xiexu\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\codes\c\cpl-nju-XieXuan -BD:\codes\c\cpl-nju-XieXuan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build structure-and-algorithm/Seqlist-20221222/rebuild_cache: phony structure-and-algorithm/Seqlist-20221222/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -5295,6 +5428,10 @@ build GetThreeNumber.exe: phony 0/GetThreeNumber.exe
 build GuessTheNumber: phony 0/GuessTheNumber.exe
 
 build GuessTheNumber.exe: phony 0/GuessTheNumber.exe
+
+build Seqlist: phony structure-and-algorithm/Seqlist-20221222/Seqlist.exe
+
+build Seqlist.exe: phony structure-and-algorithm/Seqlist-20221222/Seqlist.exe
 
 build absolute-prime: phony 5.function/homework5/absolute-prime.exe
 
@@ -5488,6 +5625,10 @@ build life: phony 4.loops/homework4/life.exe
 
 build life.exe: phony 4.loops/homework4/life.exe
 
+build lineup: phony modified__test/lineup.exe
+
+build lineup.exe: phony modified__test/lineup.exe
+
 build loop_competition: phony lsa_competition/loop_competition.exe
 
 build loop_competition.exe: phony lsa_competition/loop_competition.exe
@@ -5583,6 +5724,10 @@ build pour_help.exe: phony 7.data-types/homework7/pour_help.exe
 build practice_20221218: phony structure-and-algorithm/practice_20221218.exe
 
 build practice_20221218.exe: phony structure-and-algorithm/practice_20221218.exe
+
+build practice_20221222: phony structure-and-algorithm/practice_20221222.exe
+
+build practice_20221222.exe: phony structure-and-algorithm/practice_20221222.exe
 
 build pre_testing: phony cpl_midterms/pre_testing.exe
 
@@ -5996,7 +6141,7 @@ build mlg_question/all: phony mlg_question/railroad.exe
 #############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/modified__test
 
-build modified__test/all: phony modified__test/sort.exe modified__test/bsearch.exe modified__test/gobang.exe modified__test/dalao1_dobang.exe
+build modified__test/all: phony modified__test/sort.exe modified__test/bsearch.exe modified__test/gobang.exe modified__test/dalao1_dobang.exe modified__test/lineup.exe
 
 # =============================================================================
 
@@ -6031,7 +6176,14 @@ build ruangong_competition/jingsai/all: phony ruangong_competition/jingsai/test_
 #############################################
 # Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/structure-and-algorithm
 
-build structure-and-algorithm/all: phony structure-and-algorithm/practice_20221218.exe
+build structure-and-algorithm/all: phony structure-and-algorithm/practice_20221218.exe structure-and-algorithm/practice_20221222.exe structure-and-algorithm/Seqlist-20221222/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/structure-and-algorithm/Seqlist-20221222
+
+build structure-and-algorithm/Seqlist-20221222/all: phony structure-and-algorithm/Seqlist-20221222/Seqlist.exe
 
 # =============================================================================
 # Built-in targets
@@ -6040,14 +6192,14 @@ build structure-and-algorithm/all: phony structure-and-algorithm/practice_202212
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/10homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/11homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/12homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/9homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/calculator/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/modified__test/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/10homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/11homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/12homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/9homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/calculator/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/modified__test/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/Seqlist-20221222/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/10homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/11homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/12homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/9homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/calculator/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/modified__test/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/CMakeLists.txt: phony
+build C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/codes/c/cpl-nju-XieXuan/.culculation_c_homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/0/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/1.intro/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/10homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/10-double-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/11homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/11-struct/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/12homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/12-linklist/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/2.if/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/3.swich/homework3/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/4.loops/homework4/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/5.function/homework5/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/6homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/6.recursion/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/7.data-types/homework7/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/8homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/8.pointer-1/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/9homework/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/9-more-pointers/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/c_net_selflearning/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_midterms/calculator/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_plus_problems/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/cpl_problemset/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/lsa_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/mlg_question/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/modified__test/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/others/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/duikang/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/ruangong_competition/jingsai/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/CMakeLists.txt D$:/codes/c/cpl-nju-XieXuan/structure-and-algorithm/Seqlist-20221222/CMakeLists.txt: phony
 
 
 #############################################

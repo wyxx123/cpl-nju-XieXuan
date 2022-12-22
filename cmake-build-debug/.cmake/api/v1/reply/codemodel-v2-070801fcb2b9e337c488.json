@@ -55,8 +55,8 @@
 					[
 						7,
 						8,
-						75,
-						101
+						77,
+						104
 					]
 				},
 				{
@@ -71,12 +71,12 @@
 					"source" : "1.intro",
 					"targetIndexes" : 
 					[
-						23,
 						24,
-						29,
-						41,
-						87,
-						111
+						25,
+						30,
+						42,
+						90,
+						114
 					]
 				},
 				{
@@ -92,12 +92,12 @@
 					"targetIndexes" : 
 					[
 						2,
-						21,
-						34,
+						22,
 						35,
-						69,
-						89,
-						108
+						36,
+						71,
+						92,
+						111
 					]
 				},
 				{
@@ -116,8 +116,8 @@
 					"source" : "3.swich",
 					"targetIndexes" : 
 					[
-						25,
-						103
+						26,
+						106
 					]
 				},
 				{
@@ -132,14 +132,14 @@
 					"source" : "3.swich/homework3",
 					"targetIndexes" : 
 					[
-						32,
-						38,
-						52,
-						55,
-						72,
-						82,
-						94,
-						116
+						33,
+						39,
+						53,
+						56,
+						74,
+						85,
+						97,
+						119
 					]
 				},
 				{
@@ -154,13 +154,13 @@
 					"source" : ".culculation_c_homework",
 					"targetIndexes" : 
 					[
-						43,
 						44,
 						45,
 						46,
 						47,
 						48,
-						110
+						49,
+						113
 					]
 				},
 				{
@@ -179,8 +179,8 @@
 					"source" : "4.loops",
 					"targetIndexes" : 
 					[
-						26,
-						104
+						27,
+						107
 					]
 				},
 				{
@@ -195,14 +195,14 @@
 					"source" : "4.loops/homework4",
 					"targetIndexes" : 
 					[
-						56,
-						61,
+						57,
 						63,
-						64,
 						65,
-						98,
-						112,
-						121
+						66,
+						67,
+						101,
+						115,
+						124
 					]
 				},
 				{
@@ -221,8 +221,8 @@
 					"source" : "5.function",
 					"targetIndexes" : 
 					[
-						27,
-						105
+						28,
+						108
 					]
 				},
 				{
@@ -237,12 +237,12 @@
 					"source" : "5.function/homework5",
 					"targetIndexes" : 
 					[
-						9,
-						13,
-						60,
-						68,
-						83,
-						99
+						10,
+						14,
+						62,
+						70,
+						86,
+						102
 					]
 				},
 				{
@@ -257,15 +257,15 @@
 					"source" : "lsa_competition",
 					"targetIndexes" : 
 					[
-						15,
-						18,
-						39,
-						54,
-						57,
-						58,
-						113,
-						123,
-						124
+						16,
+						19,
+						40,
+						55,
+						59,
+						60,
+						116,
+						126,
+						127
 					]
 				},
 				{
@@ -280,15 +280,15 @@
 					"source" : "cpl_problemset",
 					"targetIndexes" : 
 					[
-						10,
-						12,
-						20,
-						33,
-						49,
-						91,
-						92,
-						115,
-						120
+						11,
+						13,
+						21,
+						34,
+						50,
+						94,
+						95,
+						118,
+						123
 					]
 				},
 				{
@@ -322,12 +322,12 @@
 					"source" : "6.recursion/6homework",
 					"targetIndexes" : 
 					[
-						50,
-						62,
-						74,
+						51,
+						64,
 						76,
-						117,
-						122
+						78,
+						120,
+						125
 					]
 				},
 				{
@@ -361,14 +361,14 @@
 					"source" : "7.data-types/homework7",
 					"targetIndexes" : 
 					[
-						14,
-						17,
-						30,
-						78,
-						79,
-						85,
-						106,
-						125
+						15,
+						18,
+						31,
+						80,
+						81,
+						88,
+						109,
+						128
 					]
 				},
 				{
@@ -394,7 +394,7 @@
 					"source" : "others",
 					"targetIndexes" : 
 					[
-						71
+						73
 					]
 				},
 				{
@@ -428,10 +428,10 @@
 					"source" : "8.pointer-1/8homework",
 					"targetIndexes" : 
 					[
-						51,
-						97,
-						107,
-						118
+						52,
+						100,
+						110,
+						121
 					]
 				},
 				{
@@ -446,7 +446,7 @@
 					"source" : "mlg_question",
 					"targetIndexes" : 
 					[
-						84
+						87
 					]
 				},
 				{
@@ -461,8 +461,8 @@
 					"source" : "cpl_plus_problems",
 					"targetIndexes" : 
 					[
-						59,
-						86
+						61,
+						89
 					]
 				},
 				{
@@ -493,7 +493,7 @@
 					"source" : "ruangong_competition/duikang",
 					"targetIndexes" : 
 					[
-						40
+						41
 					]
 				},
 				{
@@ -508,13 +508,13 @@
 					"source" : "ruangong_competition/jingsai",
 					"targetIndexes" : 
 					[
-						11,
-						53,
-						70,
-						88,
-						93,
-						100,
-						114
+						12,
+						54,
+						72,
+						91,
+						96,
+						103,
+						117
 					]
 				},
 				{
@@ -533,7 +533,7 @@
 					"source" : "9-more-pointers",
 					"targetIndexes" : 
 					[
-						28
+						29
 					]
 				},
 				{
@@ -549,9 +549,9 @@
 					"targetIndexes" : 
 					[
 						6,
-						73,
-						96,
-						119
+						75,
+						99,
+						122
 					]
 				},
 				{
@@ -570,7 +570,7 @@
 					"source" : "cpl_midterms",
 					"targetIndexes" : 
 					[
-						81
+						84
 					]
 				},
 				{
@@ -585,9 +585,9 @@
 					"source" : "cpl_midterms/calculator",
 					"targetIndexes" : 
 					[
-						19,
-						66,
-						109
+						20,
+						68,
+						112
 					]
 				},
 				{
@@ -606,7 +606,7 @@
 					"source" : "10-double-pointers",
 					"targetIndexes" : 
 					[
-						22
+						23
 					]
 				},
 				{
@@ -655,10 +655,10 @@
 					"source" : "11-struct/11homework",
 					"targetIndexes" : 
 					[
-						36,
 						37,
-						77,
-						102
+						38,
+						79,
+						105
 					]
 				},
 				{
@@ -673,10 +673,11 @@
 					"source" : "modified__test",
 					"targetIndexes" : 
 					[
-						16,
-						31,
-						42,
-						90
+						17,
+						32,
+						43,
+						58,
+						93
 					]
 				},
 				{
@@ -706,12 +707,16 @@
 					"source" : "12-linklist/12homework",
 					"targetIndexes" : 
 					[
-						67,
-						95
+						69,
+						98
 					]
 				},
 				{
 					"build" : "structure-and-algorithm",
+					"childIndexes" : 
+					[
+						38
+					],
 					"jsonFile" : "directory-structure-and-algorithm-Debug-ce80baf74a0803eaf5f7.json",
 					"minimumCMakeVersion" : 
 					{
@@ -722,7 +727,23 @@
 					"source" : "structure-and-algorithm",
 					"targetIndexes" : 
 					[
-						80
+						82,
+						83
+					]
+				},
+				{
+					"build" : "structure-and-algorithm/Seqlist-20221222",
+					"jsonFile" : "directory-structure-and-algorithm.Seqlist-20221222-Debug-ecc050ff1b7497fbf482.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 37,
+					"projectIndex" : 0,
+					"source" : "structure-and-algorithm/Seqlist-20221222",
+					"targetIndexes" : 
+					[
+						9
 					]
 				}
 			],
@@ -769,7 +790,8 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38
 					],
 					"name" : "cpl_nju_XieXuan",
 					"targetIndexes" : 
@@ -899,7 +921,10 @@
 						122,
 						123,
 						124,
-						125
+						125,
+						126,
+						127,
+						128
 					]
 				}
 			],
@@ -966,6 +991,13 @@
 					"id" : "GuessTheNumber::@f9e2eaaa42d9fe9e558a",
 					"jsonFile" : "target-GuessTheNumber-Debug-fb336231fdf19abdc56c.json",
 					"name" : "GuessTheNumber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "Seqlist::@a5540fb10543cb34c013",
+					"jsonFile" : "target-Seqlist-Debug-83147e61a3d61c850675.json",
+					"name" : "Seqlist",
 					"projectIndex" : 0
 				},
 				{
@@ -1305,6 +1337,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 34,
+					"id" : "lineup::@0469d60835838ec708e2",
+					"jsonFile" : "target-lineup-Debug-c6d390c0e2c1bdb400e5.json",
+					"name" : "lineup",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 11,
 					"id" : "loop_competition::@b04b4d653b8e17a99be4",
 					"jsonFile" : "target-loop_competition-Debug-91b651fc25d7fc2b5a5c.json",
@@ -1468,8 +1507,15 @@
 				{
 					"directoryIndex" : 37,
 					"id" : "practice_20221218::@e1ca42eb1f20da2b768b",
-					"jsonFile" : "target-practice_20221218-Debug-0bc04c4f0435e740ce71.json",
+					"jsonFile" : "target-practice_20221218-Debug-68b2e8d08140e8b7ef26.json",
 					"name" : "practice_20221218",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "practice_20221222::@e1ca42eb1f20da2b768b",
+					"jsonFile" : "target-practice_20221222-Debug-3ec9a68ee54bd6fffa06.json",
+					"name" : "practice_20221222",
 					"projectIndex" : 0
 				},
 				{

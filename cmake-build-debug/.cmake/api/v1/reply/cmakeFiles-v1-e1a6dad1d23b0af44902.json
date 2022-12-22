@@ -211,6 +211,9 @@
 		},
 		{
 			"path" : "structure-and-algorithm/CMakeLists.txt"
+		},
+		{
+			"path" : "structure-and-algorithm/Seqlist-20221222/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

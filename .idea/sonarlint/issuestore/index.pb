@@ -205,5 +205,13 @@ T
 $12-linklist/12homework/string-hash.c,2\1\21fb6fd5a981fe16228a1c6c222833960db81dea
 R
 "12-linklist/12homework/new_buddy.c,2\e\2ebbb77e5e883879198863ff2d01c533c9a627c5
+O
+7.data-types/homework7/rotate.c,4\1\4137e8cd13cf45d93ca4e74b6bbdaec71e1b1ecc
 C
 others/other_test.c,7\9\79a4827aa78116de08fff168ea827181af81a1d7
+M
+7.data-types/homework7/wine.c,b\a\baf8197133092f57955f3932b2d5107fc2f49c0e
+G
+modified__test/lineup.c,e\0\e056a16c6d9dfa36809558a0e968e8b3e4763776
+[
++structure-and-algorithm/practice_20221218.c,5\d\5d14993f7ba0130b81d32c8a4b9667a5299ae3e5

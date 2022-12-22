@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "structure-and-algorithm/practice_20221218.exe"
+			"path" : "structure-and-algorithm/practice_20221222.exe"
 		},
 		{
-			"path" : "structure-and-algorithm/practice_20221218.pdb"
+			"path" : "structure-and-algorithm/practice_20221222.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 4,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "practice_20221218::@e1ca42eb1f20da2b768b",
+	"id" : "practice_20221222::@e1ca42eb1f20da2b768b",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "practice_20221218",
-	"nameOnDisk" : "practice_20221218.exe",
+	"name" : "practice_20221222",
+	"nameOnDisk" : "practice_20221222.exe",
 	"paths" : 
 	{
 		"build" : "structure-and-algorithm",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "structure-and-algorithm/practice_20221218.c",
+			"path" : "structure-and-algorithm/practice_20221222.c",
 			"sourceGroupIndex" : 0
 		}
 	],
