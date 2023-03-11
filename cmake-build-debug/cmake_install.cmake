@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/c/cpl-nju-XieXuan
+# Install script for directory: D:/.useful/codes/c/cpl-nju-XieXuan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,92 +34,92 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/0/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/0/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/1.intro/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/1.intro/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/2.if/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/2.if/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/3.swich/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/3.swich/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/.culculation_c_homework/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/.culculation_c_homework/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/4.loops/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/4.loops/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/5.function/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/5.function/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/lsa_competition/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/lsa_competition/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/cpl_problemset/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/cpl_problemset/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/6.recursion/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/6.recursion/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/7.data-types/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/c_net_selflearning/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/c_net_selflearning/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/others/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/others/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/8.pointer-1/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/8.pointer-1/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/mlg_question/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/mlg_question/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/cpl_plus_problems/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/cpl_plus_problems/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/ruangong_competition/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/ruangong_competition/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -130,5 +130,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

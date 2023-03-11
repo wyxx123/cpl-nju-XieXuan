@@ -141,8 +141,6 @@ M
 7.data-types/homework7/wine.c,b\a\baf8197133092f57955f3932b2d5107fc2f49c0e
 N
 8.pointer-1/8homework/substr.c,9\1\9154e338cbb605eb75c6fa9a9eafd02a47f2d722
-C
-others/other_test.c,7\9\79a4827aa78116de08fff168ea827181af81a1d7
 O
 cpl_plus_problems/magic_cubic.c,f\b\fb1fe5afd786eeeb6184c01f28127407644aaec7
 M

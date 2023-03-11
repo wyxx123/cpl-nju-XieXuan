@@ -1319,8 +1319,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/codes/c/cpl-nju-XieXuan/cmake-build-debug",
-		"source" : "D:/codes/c/cpl-nju-XieXuan"
+		"build" : "D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug",
+		"source" : "D:/.useful/codes/c/cpl-nju-XieXuan"
 	},
 	"version" : 
 	{
