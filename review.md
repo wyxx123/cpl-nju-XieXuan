@@ -197,4 +197,16 @@ char * strcat ( char * destination, const char * source );
 
 * 归并排序：归并排序是建立在归并操作上的一种有效，稳定的排序算法，该算法是采用分治法（Divide and
   Conquer）的一个非常典型的应用。将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。若将两个有序表合并成一个有序表，称为二路归并。
-
+  
+  
+  # 插件：
+  1. ai代码：aixcoder / tabnine ai
+  2. rainbow brackets(要钱qwq, 但是免费版配上后面的也差不多) / rainbow
+  3. indent rainbow
+  4. vim -- 在期中后建议再使用
+  5. wakatime
+  6. comments highlighter
+  7. fast-scrolling
+  8. codeglance pro
+  9. 中文语音包
+  10. 整活向： rainbow fart,  active-power-mode-x
