@@ -1,0 +1,39 @@
+
+Dc:S878\"&possible misuse of comma operator here(›é¶‚ûÿÿÿÿ8‰¡²Ï0
+Ec:S878À"&possible misuse of comma operator here(òÏùóıÿÿÿÿ8¶á¾Ï0
+@c:S878Á"&possible misuse of comma operator here(¼ë‘Ì8·á¾Ï0
+@c:S878Å"&possible misuse of comma operator here(²¶È8·á¾Ï0
+Ec:S878Æ"&possible misuse of comma operator here(şËÆûÿÿÿÿ8·á¾Ï0
+Ec:S878Í"&possible misuse of comma operator here(‹ä±Éüÿÿÿÿ8¸á¾Ï0
+@c:S878Î"&possible misuse of comma operator here(Ü¬¾ô8¸á¾Ï0
+Ec:S878Ò"&possible misuse of comma operator here(Ôºçıÿÿÿÿ8¸á¾Ï0
+?c:S878Ó"&possible misuse of comma operator here(Èùê\8¸á¾Ï0
+@c:S878Ú"&possible misuse of comma operator here(¹‡Ş 8¹á¾Ï0
+@c:S878Û"&possible misuse of comma operator here(ß½ºÖ8¹á¾Ï0
+@c:S878ß"&possible misuse of comma operator here(òÍ˜ü8¹á¾Ï0
+@c:S878à"&possible misuse of comma operator here(É ¡±8ºá¾Ï0
+Ec:S878ç"&possible misuse of comma operator here(ÒÌÍÿÿÿÿÿ8ºá¾Ï0
+Ec:S878è"&possible misuse of comma operator here(¡Õ©èùÿÿÿÿ8ºá¾Ï0
+?c:S878ì"&possible misuse of comma operator here(¡©–"8ºá¾Ï0
+@c:S878í"&possible misuse of comma operator here(•¾ßŒ8»á¾Ï0
+?c:S878¥"&possible misuse of comma operator here(”Ó8»á¾Ï0
+8c:S125Á"Remove the commented out code.(×ÀÒ 8Œ¡²Ï0
+\c:S5276Õ"<implicit conversion loses integer precision: 'int' to 'char'(¯Î€áıÿÿÿÿ8Œ¡²Ï0
+ec:S5276É"Jimplicit conversion loses integer precision: 'unsigned long long' to 'int'(ß‘¢ß8¡¤¾Ï0
+Pc:S1659™"0Define each identifier in a dedicated statement.(±†­ùÿÿÿÿ8Àá¾Ï0
+Kc:S1659›"0Define each identifier in a dedicated statement.(ˆ°À«8¡²Ï0
+Pc:S1659ü"0Define each identifier in a dedicated statement.(¿¡¯ëşÿÿÿÿ8Àá¾Ï0
+Jc:S1659ı"0Define each identifier in a dedicated statement.(ÈáE8¡²Ï0
+rc:S9955"YMake the type of this parameter a pointer-to-const. The current type of "st" is "char *".(åŠ’8úƒÀÏ0
+rc:S9955"YMake the type of this parameter a pointer-to-const. The current type of "ed" is "char *".(åŠ’8úƒÀÏ0
+xc:S53507"YMake the type of this variable a pointer-to-const. The current type of "now" is "char *".(´„øƒşÿÿÿÿ8úƒÀÏ0
+Oc:S1659X"0Define each identifier in a dedicated statement.(ÂãÊùÿÿÿÿ8Âá¾Ï0
+Rc:S5825"8Define the type with "typedef" instead of using a macro.(—€Öú8Ãá¾Ï0
+tc:S3776²"TRefactor this function to reduce its Cognitive Complexity from 54 to the 25 allowed.(­™¾úÿÿÿÿ8Äá¾Ï0
+oc:S3776ÿ"TRefactor this function to reduce its Cognitive Complexity from 39 to the 25 allowed.(ÚÑ–ğ8“¡²Ï0
+gc:S134‰"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(İ®µ8”¡²Ï0
+Kc:S1659"0Define each identifier in a dedicated statement.(ìÙü¯8”¡²Ï0
+Kc:S1066¥"1Merge this "if" statement with the enclosing one.(”Ó8”¡²Ï0
+tc:S3776¿"TRefactor this function to reduce its Cognitive Complexity from 38 to the 25 allowed.(ó©åøÿÿÿÿ8•¡²Ï0
+lc:S134Û"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(‰§„‘úÿÿÿÿ8•¡²Ï0
+Pc:S1079Ç"5Add a field width specifier to this "%s" placeholder.(ƒà¬8•¡²Ï0

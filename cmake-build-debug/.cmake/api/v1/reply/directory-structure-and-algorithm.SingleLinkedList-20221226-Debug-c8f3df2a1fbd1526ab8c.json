@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "structure-and-algorithm/SingleLinkedList-20221226",
+		"source" : "structure-and-algorithm/SingleLinkedList-20221226"
+	}
+}

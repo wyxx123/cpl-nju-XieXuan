@@ -1,0 +1,3 @@
+D:/.useful/codes/c/ll_ramf/cmake-build-debug/CMakeFiles/ramf.dir
+D:/.useful/codes/c/ll_ramf/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/.useful/codes/c/ll_ramf/cmake-build-debug/CMakeFiles/rebuild_cache.dir

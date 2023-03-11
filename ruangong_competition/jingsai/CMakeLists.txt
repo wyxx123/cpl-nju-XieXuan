@@ -1,1 +1,7 @@
 add_executable(test_none test_none.c)
+add_executable(jump jump.c)
+add_executable(sheet sheet.c)
+add_executable(team team.c)
+add_executable(ant ant.c)
+add_executable(other_ant other_ant.c)
+add_executable(standard_jump standard_jump.c)

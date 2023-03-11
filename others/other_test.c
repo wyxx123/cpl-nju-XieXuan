@@ -1,30 +1,22 @@
-//#define 一只最强的9 0
-//#define ⑨ void
-
-//
-// Created by ⑨ on 9999/99/99.
-//
 #include <stdio.h>
-//
-//int main(⑨)
-//{
-//	printf("%s\n","⑨是最强的！！！");
-//	return 一只最强的9;
-//}
+#include <string.h>
 
-
-
-#include <stdio.h>
+int ack(int m, int n)
+{
+	while (m != 0)
+	{
+		if (n == 0) n = 1;
+		else
+		{
+			n = ack(m, n - 1);
+		}
+		m--;
+	}
+	return n + 1;
+}
 
 int main(void)
 {
-
-	scanf("%*d\n");
-
+	printf("%d\n", ack(3, 10));
 	return 0;
 }
-
-
-
-
-
