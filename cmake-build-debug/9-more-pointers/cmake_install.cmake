@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/c/cpl-nju-XieXuan/9-more-pointers
+# Install script for directory: D:/.useful/codes/c/cpl-nju-XieXuan/9-more-pointers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/xiexu/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/c/cpl-nju-XieXuan/cmake-build-debug/9-more-pointers/9homework/cmake_install.cmake")
+  include("D:/.useful/codes/c/cpl-nju-XieXuan/cmake-build-debug/9-more-pointers/9homework/cmake_install.cmake")
 endif()
 

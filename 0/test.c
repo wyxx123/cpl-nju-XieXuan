@@ -26,10 +26,6 @@
 
 int main(void)
 {
-	printf("what?\??\?\?ddddyyyyy\n");
-
-	int a = 012345;
-	int b = 0x123;
-	int b1 = 0xf12fff3;
+	printf("%d\n", (int)sizeof(long));
 	return 0;
 }

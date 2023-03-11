@@ -1,0 +1,5 @@
+add_executable(mlg_t2 mlg_t2.c)
+add_executable(mlg_t3 mlg_t3.c)
+add_executable(whac-a-mole whac-a-mole.c)
+add_executable(unrolled_easy unrolled_easy.c)
+add_executable(unrolled-linked-list unrolled-linked-list.c)

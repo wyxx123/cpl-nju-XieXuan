@@ -1,0 +1,14 @@
+
+uc:S995
+"\Make the type of this parameter a pointer-to-const. The current type of "delim" is "char *".(Å¥¸ó8ÄæÇè0
+uc:S5350"[Make the type of this variable a pointer-to-const. The current type of "token" is "char *".(ÇºÇ²8ÄæÇè0
+kc:S1912"QReplace this call to the non reentrant function "strtok" by a call to "strtok_r".(ü“Ô«8ÄæÇè0
+pc:S1912$"QReplace this call to the non reentrant function "strtok" by a call to "strtok_r".(˜¼Æûÿÿÿÿ8ÄæÇè0
+Hc:S5955.")Declare the variable "i" inside the loop.(ˆ•Â°ûÿÿÿÿ8’ÄæÇè0
+Hc:S59550")Declare the variable "j" inside the loop.(…òò½úÿÿÿÿ8’ÄæÇè0
+Oc:S1659+"0Define each identifier in a dedicated statement.(¦¢Éëùÿÿÿÿ8’ÄæÇè0
+Hc:S5955Z")Declare the variable "i" inside the loop.(Ü¿ôŞüÿÿÿÿ8’ÄæÇè0
+Oc:S1079F"5Add a field width specifier to this "%s" placeholder.(±ÇãÇ8’ÄæÇè0
+Oc:S1079H"5Add a field width specifier to this "%s" placeholder.(İúä²8“ÄæÇè0
+Fc:S3584",Potential leak of memory pointed to by 'res'(ÿ˜Ãï8¹ÄæÇè0
+Ic:S836R"+The left operand of '!=' is a garbage value(Ê¡”ıÿÿÿÿ8ºÄæÇè0

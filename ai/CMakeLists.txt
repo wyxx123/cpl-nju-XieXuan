@@ -1,0 +1,1 @@
+add_executable(split-sort-ai split-sort-ai.c)

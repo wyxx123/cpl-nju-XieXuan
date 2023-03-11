@@ -17,11 +17,11 @@
 char board[5][9] = { 0 };
 int s_vector[S_MOVEMENT_MAX][2] = {{ -1, 0 }, { 0, 1 }, { 0, -1 }};
 int h_vector[H_MOVEMENT_MAX][2] =
-	{{ -2, 1 }, { -2, -1 }, { 2, 1 }, { 2, -1 }, { -1, 2 }, { -1, -2 }, { 1, 2 }, { 1, -2 }};
+		{{ -2, 1 }, { -2, -1 }, { 2, 1 }, { 2, -1 }, { -1, 2 }, { -1, -2 }, { 1, 2 }, { 1, -2 }};
 int reversed_judge_unmovable_h_vector[H_MOVEMENT_MAX][2] =
-	{{ -1, 1 }, { -1, -1 }, { 1, 1 }, { 1, -1 }, { -1, 1 }, { -1, -1 }, { 1, 1 }, { 1, -1 }};
+		{{ -1, 1 }, { -1, -1 }, { 1, 1 }, { 1, -1 }, { -1, 1 }, { -1, -1 }, { 1, 1 }, { 1, -1 }};
 int judge_unmovable_h_vector[H_MOVEMENT_MAX][2] =
-	{{ -1, 0 }, { -1, 0 }, { 1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 }, { 0, 1 }, { 0, -1 }};
+		{{ -1, 0 }, { -1, 0 }, { 1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 }, { 0, 1 }, { 0, -1 }};
 int k_vector[K_MOVEMENT_MAX][2] = {{ -1, 0 }, { 0, 1 }, { 0, -1 }, { 1, 0 }};
 int e_vector[E_MOVEMENT_MAX][2] = {{ -2, -2 }, { -2, 2 }, { 2, -2 }, { 2, 2 }};
 
@@ -69,7 +69,7 @@ int main(void)
 			for (int k = 0; k < 9; k++)
 			{
 				if (board[j][k] == 'h' || board[j][k] == 'c'
-					|| board[j][k] == 'g' || board[j][k] == 's')
+						|| board[j][k] == 'g' || board[j][k] == 's')
 				{
 					bool is_c_win_this_condition = AntMove(board[j][k], j, k);
 					if (is_c_win_this_condition == false)
@@ -118,8 +118,8 @@ bool AntMove(char type_of_move, int i, int j)
 			int new_j = j + s_vector[k][1];
 
 			if (NotOutOfBoard(new_i, new_j) == false
-				|| board[new_i][new_j] == 'h' || board[new_i][new_j] == 'c'
-				|| board[new_i][new_j] == 'g' || board[new_i][new_j] == 's')
+					|| board[new_i][new_j] == 'h' || board[new_i][new_j] == 'c'
+					|| board[new_i][new_j] == 'g' || board[new_i][new_j] == 's')
 				continue;
 
 			moved_board[i][j] = '#';
@@ -143,9 +143,9 @@ bool AntMove(char type_of_move, int i, int j)
 			int j_unmovable = j + judge_unmovable_h_vector[k][1];
 
 			if (NotOutOfBoard(new_i, new_j) == false
-				|| board[new_i][new_j] == 'h' || board[new_i][new_j] == 'c'
-				|| board[new_i][new_j] == 'g' || board[new_i][new_j] == 's'
-				|| board[i_unmovable][j_unmovable] != '#')
+					|| board[new_i][new_j] == 'h' || board[new_i][new_j] == 'c'
+					|| board[new_i][new_j] == 'g' || board[new_i][new_j] == 's'
+					|| board[i_unmovable][j_unmovable] != '#')
 				continue;
 
 			moved_board[i][j] = '#';
@@ -176,7 +176,7 @@ bool AntMove(char type_of_move, int i, int j)
 		{
 			for (k += 1; i + k <= 4 && board[i + k][j] == '#'; k++);
 			if (i + k <= 4 && (board[i + k][j] == 'e'
-				|| board[i + k][j] == 'k' || board[i + k][j] == 'b'))
+					|| board[i + k][j] == 'k' || board[i + k][j] == 'b'))
 			{
 				strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -205,7 +205,7 @@ bool AntMove(char type_of_move, int i, int j)
 		{
 			for (k += 1; i - k >= 0 && board[i - k][j] == '#'; k++);
 			if (i - k >= 0 && (board[i - k][j] == 'e'
-				|| board[i - k][j] == 'k' || board[i - k][j] == 'b'))
+					|| board[i - k][j] == 'k' || board[i - k][j] == 'b'))
 			{
 				strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -234,7 +234,7 @@ bool AntMove(char type_of_move, int i, int j)
 		{
 			for (k += 1; j + k <= 8 && board[i][j + k] == '#'; k++);
 			if (j + k <= 8 && (board[i][j + k] == 'e'
-				|| board[i][j + k] == 'k' || board[i][j + k] == 'b'))
+					|| board[i][j + k] == 'k' || board[i][j + k] == 'b'))
 			{
 				strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -263,7 +263,7 @@ bool AntMove(char type_of_move, int i, int j)
 		{
 			for (k += 1; j - k >= 0 && board[i][j - k] == '#'; k++);
 			if (j - k >= 0 && (board[i][j - k] == 'e'
-				|| board[i][j - k] == 'k' || board[i][j - k] == 'b'))
+					|| board[i][j - k] == 'k' || board[i][j - k] == 'b'))
 			{
 				strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -294,10 +294,10 @@ bool AntMove(char type_of_move, int i, int j)
 		if (is_ant_win == false)
 		{
 			if (k + i <= 4
-				&& board[k + i][j] != 'c'
-				&& board[k + i][j] != 'h'
-				&& board[k + i][j] != 'g'
-				&& board[k + i][j] != 's')
+					&& board[k + i][j] != 'c'
+					&& board[k + i][j] != 'h'
+					&& board[k + i][j] != 'g'
+					&& board[k + i][j] != 's')
 			{
 				strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -325,10 +325,10 @@ bool AntMove(char type_of_move, int i, int j)
 		if (is_ant_win == false)
 		{
 			if (i - k >= 0
-				&& board[i - k][j] != 'c'
-				&& board[i - k][j] != 'h'
-				&& board[i - k][j] != 'g'
-				&& board[i - k][j] != 's')
+					&& board[i - k][j] != 'c'
+					&& board[i - k][j] != 'h'
+					&& board[i - k][j] != 'g'
+					&& board[i - k][j] != 's')
 			{
 				strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -356,10 +356,10 @@ bool AntMove(char type_of_move, int i, int j)
 		if (is_ant_win == false)
 		{
 			if (j + k <= 8
-				&& board[i][j + k] != 'c'
-				&& board[i][j + k] != 'h'
-				&& board[i][j + k] != 'g'
-				&& board[i][j + k] != 's')
+					&& board[i][j + k] != 'c'
+					&& board[i][j + k] != 'h'
+					&& board[i][j + k] != 'g'
+					&& board[i][j + k] != 's')
 			{
 				strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -386,10 +386,10 @@ bool AntMove(char type_of_move, int i, int j)
 		}
 
 		if (is_ant_win == false && j - k >= 0
-			&& board[i][j - k] != 'c'
-			&& board[i][j - k] != 'h'
-			&& board[i][j - k] != 'g'
-			&& board[i][j - k] != 's')
+				&& board[i][j - k] != 'c'
+				&& board[i][j - k] != 'h'
+				&& board[i][j - k] != 'g'
+				&& board[i][j - k] != 's')
 		{
 			strncpy((char*)moved_board, (char*)board, SIZE_OF_BOARD);
 
@@ -639,8 +639,8 @@ bool CMove(char moved_board[5][9])
 				break;
 
 			if (moved_board[i][j] == 'k'
-				|| moved_board[i][j] == 'e'
-				|| moved_board[i][j] == 'b')
+					|| moved_board[i][j] == 'e'
+					|| moved_board[i][j] == 'b')
 			{
 				is_ant_win = CMoveType(i, j, moved_board[i][j], moved_board);
 			}
@@ -675,8 +675,8 @@ bool CMoveType(int i, int j, char type, char moved_board[5][9])
 			int new_j = j + k_vector[k][1];
 
 			if (new_i >= 0 && new_i <= 2 && new_j >= 3 && new_j <= 5
-				&& moved_board[new_i][new_j] != 'b'
-				&& moved_board[new_i][new_j] != 'e')
+					&& moved_board[new_i][new_j] != 'b'
+					&& moved_board[new_i][new_j] != 'e')
 			{
 				strncpy((char*)double_moved_board, (char*)moved_board, SIZE_OF_BOARD);
 
@@ -704,10 +704,10 @@ bool CMoveType(int i, int j, char type, char moved_board[5][9])
 			int judge_j = j + e_vector[k][1] / 2;
 
 			if (new_i >= 0 && new_i <= 4 && new_j >= 0 && new_j <= 8
-				&& double_moved_board[new_i][new_j] != 'k'
-				&& double_moved_board[new_i][new_j] != 'e'
-				&& double_moved_board[new_i][new_j] != 'b'
-				&& double_moved_board[judge_i][judge_j] == '#')
+					&& double_moved_board[new_i][new_j] != 'k'
+					&& double_moved_board[new_i][new_j] != 'e'
+					&& double_moved_board[new_i][new_j] != 'b'
+					&& double_moved_board[judge_i][judge_j] == '#')
 			{
 				strncpy((char*)double_moved_board, (char*)moved_board, SIZE_OF_BOARD);
 
@@ -731,9 +731,9 @@ bool CMoveType(int i, int j, char type, char moved_board[5][9])
 			int new_j = j + e_vector[k][1] / 2;
 
 			if (new_i >= 0 && new_i <= 2 && new_j >= 3 && new_j <= 5
-				&& moved_board[new_i][new_j] != 'b'
-				&& moved_board[new_i][new_j] != 'e'
-				&& moved_board[new_i][new_j] != 'k')
+					&& moved_board[new_i][new_j] != 'b'
+					&& moved_board[new_i][new_j] != 'e'
+					&& moved_board[new_i][new_j] != 'k')
 			{
 				strncpy((char*)double_moved_board, (char*)moved_board, SIZE_OF_BOARD);
 

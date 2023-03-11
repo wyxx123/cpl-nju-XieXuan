@@ -1,34 +1,22 @@
-//#define 一只最强的9 0
-//#define ⑨ void
+#include <stdio.h>
+#include <string.h>
 
-//
-// Created by ⑨ on 9999/99/99.
-//
-//
-//int main(⑨)
-//{
-//	printf("%s\n","⑨是最强的！！！");
-//	return 一只最强的9;
-//}
-
-
-
-#include <stdlib.h>
-
-int CompareInt(const void* num1, const void* num2)
+int ack(int m, int n)
 {
-	return *(const int*)num1 - *(const int*)num2;
+	while (m != 0)
+	{
+		if (n == 0) n = 1;
+		else
+		{
+			n = ack(m, n - 1);
+		}
+		m--;
+	}
+	return n + 1;
 }
 
-int missingNumber(int* nums, int numsSize)
+int main(void)
 {
-	qsort(nums, numsSize, sizeof *nums, CompareInt);
-
-	int i = 0;
-	for (i = 0; i < numsSize; i++)
-	{
-		if (i != nums[i])
-			return i;
-	}
-	return i;
+	printf("%d\n", ack(3, 10));
+	return 0;
 }

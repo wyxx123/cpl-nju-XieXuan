@@ -1,0 +1,1 @@
+add_executable(test-20221226 test-20221226.c SLinkedList.c)
